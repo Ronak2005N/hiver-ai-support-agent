@@ -31,12 +31,12 @@ Please do the action for order or refund my payment.",refund_return,ESCALATE,har
 
 205-5647747-5889146",order_status,ESCALATE,easy,,true,order_status
 26,@AmazonHelp @AmazonHelp and what  about this one 👉order id #4__credit_card__,billing_payment,ESCALATE,easy,,true,order_status
-27,"@AmazonHelp I sent an email to cust service. It's beyond the 30 day return window, another item I ordered from you guys was faulty. Spent a few weeks replacing and reordering only to find out that yet another item is DOA. Someone is replacing this or my credit card company will deal with it.",order_status,AUTO_HANDLE,hard,,false,order_status
+27,"@AmazonHelp I sent an email to cust service. It's beyond the 30 day return window, another item I ordered from you guys was faulty. Spent a few weeks replacing and reordering only to find out that yet another item is DOA. Someone is replacing this or my credit card company will deal with it.",refund_return,ESCALATE,hard,,true,order_status
 28,"@AmazonHelp Look at above screen shot how many times does a customer will contact for a single order?
-Don't you value our time? 3 times i contacted to u",order_status,AUTO_HANDLE,hard,,false,order_status
-29,@AmazonHelp Three times for the same order???? And I’ve already been refunded for the original charge.  I’m still out 51.98. When will these reverse?,refund_return,AUTO_HANDLE,hard,,false,refund_return
-30,Yay score one for me heaven smiled I got my refund. Thank you @115821 @AmazonHelp for making it right.,refund_return,AUTO_HANDLE,easy,,false,refund_return
-31,@AmazonHelp when my issue is likely to get closed 3 refunds are pending,refund_return,AUTO_HANDLE,easy,,false,refund_return
+Don't you value our time? 3 times i contacted to u",complaint_frustration,ESCALATE,hard,,true,order_status
+29,@AmazonHelp Three times for the same order???? And I’ve already been refunded for the original charge.  I’m still out 51.98. When will these reverse?,billing_payment,ESCALATE,hard,,true,refund_return
+30,Yay score one for me heaven smiled I got my refund. Thank you @115821 @AmazonHelp for making it right.,refund_return,AUTO_HANDLE,easy,,true,refund_return
+31,@AmazonHelp when my issue is likely to get closed 3 refunds are pending,refund_return,ESCALATE,easy,,true,refund_return
 32,"@AmazonHelp So juicer was due 4 del Mon 27th then Sat 25th, then Mon again, then tues, then Wed &amp; now today.  Whats the betting I don't get it today? Are Amzn going to refund me 4 all the fruit &amp;veg that I had bought especially? Seems like being a prime cust doesnt count 4 much",refund_return,AUTO_HANDLE,hard,,false,refund_return
 33,@AmazonHelp @115850 @115821 So Amazon india has cheated me and now not providing me the refund. Bloody idiots @123288,refund_return,AUTO_HANDLE,easy,,false,refund_return
 34,"@AmazonHelp My order was picked up, then the refund was put on halt as youll said, you have empty box, and now after 20 days, I am been told, I did not send correct product. This is clear fraud, and I need someone to look into this.",refund_return,AUTO_HANDLE,hard,,false,refund_return
