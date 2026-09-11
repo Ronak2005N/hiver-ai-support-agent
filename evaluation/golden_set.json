@@ -1,0 +1,1962 @@
+[
+  {
+    "id": 1,
+    "text": "@AmazonHelp Your cc says we can't do anything as d packages are delivered.U delivered it to wrong person.U r @ fault.I have nothng to gift my relatives",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 2,
+    "text": "@AmazonHelp Order No 408-7356679-2151563 dt-6/10/17 Received broken wall clock.",
+    "intent": "order_status",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 3,
+    "text": "@AmazonHelp I was just notified that my package was lost in shipping. How Can I get a refund for my order?",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 4,
+    "text": "@AmazonHelp Ghatia ...your courier facility manager disconnected my call witjout listening to my issue and delivery boy is refusing to deliver my order",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Legal terminology",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 5,
+    "text": "@AmazonHelp Just that there was a problem and our order was cancelled. As we thought we had tickets we stopped trying so have ended up with none now which is very annoying.",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 6,
+    "text": "@AmazonHelp Order# 407-8082045-4793950\nArriving:\nThursday, November 16 - \nMonday, November 20",
+    "intent": "order_status",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 7,
+    "text": "@AmazonHelp I have still not got the exact location and the confirmed delivery date of my package!!! Terrible u guys are!!",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 8,
+    "text": "Hey @AmazonHelp, who\u2019s the carrier on my order tracking, listed as \u201cAMZL\u201d?",
+    "intent": "order_status",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 9,
+    "text": "@AmazonHelp Earlier today my package said it would be arriving today by 8pm. I checked later and it said sorry it wasn't delivered. Nothing else.",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 10,
+    "text": "@AmazonHelp I have 2 orders that have been on the brink of delivery (out for delivery)  for 3 days and in the local area for 4 days.  Wondering what the problem is in Niagara Falls NY.",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 11,
+    "text": "@AmazonHelp As usual @AmazonHelp quickly solved my issue but the question remains why is this always an issue? The packages can be left unattened at my door at 8:45p but not at 4:00p. Makes no sense but truly appreciate the quick response.  Guess the system is a work in progress...",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Legal terminology",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 12,
+    "text": "@AmazonHelp packages a month.  I went to the cops and there is nothing to file.  A crime has to happen to file a police report.  Y'all delivering a",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 13,
+    "text": "@AmazonHelp Not that you are interested, but after chasing again I've been told my order isnt coming today, but asap tomorrow...  \ud83d\ude44\ud83d\ude44\ud83d\ude44",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 14,
+    "text": "@AmazonHelp So then your customer support lied when they promised delivery by tomorrow? Could I just get a clear answer instead of 5 different ones?",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 15,
+    "text": "Ordered 2kg...received oni 1kg..Amazon#diwalisale#cheated#worst diwali gift ever from amazon.disappointed \ud83d\ude21@115821 @AmazonHelp @74901 https://t.co/rrlILXtSGS",
+    "intent": "order_status",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 16,
+    "text": "@AmazonHelp when u  pre-order a game and it says it won\u2019t arrive until a week after the release date but amazon take the money for it anyway https://t.co/so4dsBX5Pd",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 17,
+    "text": "@AmazonHelp Yeah received an email for three items to be refunded all processed on the same day. One refund has already been received (received over the weekend). Stuff still states delivery date of November 9 but provides option to start a refund or cancellation.",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 18,
+    "text": "@AmazonHelp we have no any call receive from your end for my order\nPlease do the action for order or refund my payment.",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 19,
+    "text": "@AmazonHelp The thing is i had recieved the refund but the order has not been picked up what to do with the stuff should i keep it? Or what to do?",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 20,
+    "text": "@AmazonHelp Placed order 2/11 prime for delivery 3/11 says it went to wrong courier centre &amp; now MAY not arrive till 8/11 that's not next day delivery!",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 21,
+    "text": "@AmazonHelp Have now placed my order for a new battery to arrive at my designated delivery address. What does Standard Delivery mean in the UK?",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 22,
+    "text": "@AmazonHelp The order should have arrived on the 18th.  Package has been sitting in Seattle for two days.  Seattle is only 15 minutes away.",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 23,
+    "text": "@AmazonHelp  I wanted to order phone with another address , but I forgot to mentioned that address and ordered ..Could u help me to Change order ? It will be great if u can do ..I spoke to cc but they said not available now change",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 24,
+    "text": "@AmazonHelp I paid for express delivery and my item not only has not arrived, but DPD driver said refused and returned to depot while I was home waiting",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 25,
+    "text": "@AmazonHelp Still waiting on my orders 026-1188582-3067513\n\n205-5647747-5889146",
+    "intent": "order_status",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 26,
+    "text": "@AmazonHelp @AmazonHelp and what  about this one \ud83d\udc49order id #4__credit_card__",
+    "intent": "order_status",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 27,
+    "text": "@AmazonHelp I sent an email to cust service. It's beyond the 30 day return window, another item I ordered from you guys was faulty. Spent a few weeks replacing and reordering only to find out that yet another item is DOA. Someone is replacing this or my credit card company will deal with it.",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 28,
+    "text": "@AmazonHelp Look at above screen shot how many times does a customer will contact for a single order?\nDon't you value our time? 3 times i contacted to u",
+    "intent": "order_status",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 29,
+    "text": "@AmazonHelp Three times for the same order???? And I\u2019ve already been refunded for the original charge.  I\u2019m still out 51.98. When will these reverse?",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 30,
+    "text": "Yay score one for me heaven smiled I got my refund. Thank you @115821 @AmazonHelp for making it right.",
+    "intent": "refund_return",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 31,
+    "text": "@AmazonHelp when my issue is likely to get closed 3 refunds are pending",
+    "intent": "refund_return",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Legal terminology",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 32,
+    "text": "@AmazonHelp So juicer was due 4 del Mon 27th then Sat 25th, then Mon again, then tues, then Wed &amp; now today.  Whats the betting I don't get it today? Are Amzn going to refund me 4 all the fruit &amp;veg that I had bought especially? Seems like being a prime cust doesnt count 4 much",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 33,
+    "text": "@AmazonHelp @115850 @115821 So Amazon india has cheated me and now not providing me the refund. Bloody idiots @123288",
+    "intent": "refund_return",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 34,
+    "text": "@AmazonHelp My order was picked up, then the refund was put on halt as youll said, you have empty box, and now after 20 days, I am been told, I did not send correct product. This is clear fraud, and I need someone to look into this.",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 35,
+    "text": "@AmazonHelp I've called 7 times since Sunday. Your ppl just offer apologies, no explanations, and offer a refund. I didn't want a refund, I wanted my stuff. A refund is useless if the item I need to buy is no longer available.",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 36,
+    "text": "@AmazonHelp One already shows refund processing; the other USPS...but I think all were the same.",
+    "intent": "refund_return",
+    "difficulty": "medium",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 37,
+    "text": "@115830 @AmazonHelp Live Chat has to be the worst customer service I have ever received! Item hasn\u2019t turned up after weeks now they have refunded the wrong amount! Seriously!? \ud83d\ude48\ud83d\ude48\ud83d\ude48",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 38,
+    "text": "@AmazonHelp Basically , y\u2019all haven\u2019t refunded my money yet and im pissed so that\u2019s that .",
+    "intent": "refund_return",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 39,
+    "text": "@AmazonHelp my order has been picked since 24th and the product has still not reached your warehouse and because of that your team is not refunding my money. Its been 18 days now and the service is just pathetic, i am just given fake dates.",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 40,
+    "text": "@AmazonHelp Okeydokie. Will do. *fingers crossed* Tomorrow makes 9 days since I returned the items...",
+    "intent": "refund_return",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 41,
+    "text": "@AmazonHelp Thanks. The associate processed the refund anyway. I appreciate it. Next time, I'd prefer to get a receipt when I drop off the item!",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 42,
+    "text": "@AmazonHelp I need missing part tomorrow - can't afford to wait until you've received this one to send replacement or wait 30 days for refund at \u00a3175!",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 43,
+    "text": "@AmazonHelp I paid extra postage to guarantee delivery of my order yesterday but only half arrived on time. Can I get a refund on postage?",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 44,
+    "text": "@AmazonHelp I had a delivery scheduled today that the driver said they couldn\u2019t complete. I called logistics at 11:30 AM today and they said delivery would be reattempted after 4 PM. That never happened and the order was returned to the hub site.",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 45,
+    "text": "@AmazonHelp If I had received a refund on my account as you have stated, I wouldn't be writing to complain would I? Nothing has been refunded!",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 46,
+    "text": "@AmazonHelp Already processed to return dropping it off stage sorting office Saturday morning",
+    "intent": "refund_return",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 47,
+    "text": "@AmazonHelp I will, but I was literally chatting with your customer support minutes before my second \"refund\" email came through. And Gireesh told me that my order would come by EOD today and I quote \"there is no need to be worried about this anymore\".",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 48,
+    "text": "@AmazonHelp I am not asking for refund, how do I pay and get my order without any hassle. Also, re-try payment is not working. Grrr.. https://t.co/MLTXDyGjnF",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 49,
+    "text": "@AmazonHelp Done. Don't know how many follow-ups are needed for 1 return. \ud83d\ude11",
+    "intent": "refund_return",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 50,
+    "text": "@AmazonHelp I have emailed them twice and haven\u2019t heard anything back. What can I do, would like item or refund 2/2",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 51,
+    "text": "@AmazonHelp I paid for express shipping &amp; my package didn\u2019t arrive on time (which really fucks me) you\u2019ll refund the shipping cost, yeah?",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 52,
+    "text": "Didn't rcv the refund in Citi bank on Amazon shopping @AmazonHelp @117157",
+    "intent": "refund_return",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 53,
+    "text": "@AmazonHelp Completed the process to get my refund. That seemed to be my only option. Not very happy with that. Would have liked an option to resend the product w/ 1 day shipping. Amazon is the one who made the error, why not make that an option and make things right ASAP?",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 54,
+    "text": "@AmazonHelp The address was correct on the order and I don\u2019t understand why an order would be marked as handed to the resident if it hadn\u2019t been delivered yet. The whole point of tracking on deliveries is to keep the customer updated. A refund had now been arranged and I\u2019ll shop elsewhere",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 55,
+    "text": "@AmazonHelp All I expect is what I ordered &amp; paid for. Don't charge me for 100% of the items I ordered, tell me you shipped 100% of them &amp; when I receive them only 75% of them are in the box. I point it out. Response: \"sorry we don't have that item it's out of stock, we'll give you a refund\"",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 56,
+    "text": "@AmazonHelp Your emails only say you will check with seller - for what?? I do not need the item now since it is late. Kindly refund and stop harassing",
+    "intent": "refund_return",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 57,
+    "text": "@AmazonHelp It was charged with the other items I got in that same order, it showed a reversal for how much it was, and then that reversal disapleared.",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 58,
+    "text": "@AmazonHelp Can you explain why I've been charged AGAIN for a prime membership I don't have? This is the third time this has happened with no explanation as to why.",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 59,
+    "text": "@AmazonHelp Nothing has changed. It still says dispatching soon and arriving today. My card was charged at 12:05 last night.",
+    "intent": "billing_payment",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 60,
+    "text": "@AmazonHelp Hi I ordered something earlier and it\u2019s charged me another \u00a32 on top? I thought the prime student trial was free \ud83e\udd14 https://t.co/mCyB0iVbk8",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 61,
+    "text": "@AmazonHelp I did reply to them, but their resolution was incorrect/u helpful. There\u2019s actually no way to have a separate shipping+billing policy on business orders. I ended up buying a product with the wrong invoice now, and had to return it.",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 62,
+    "text": "@AmazonHelp I worked yesterday and after the amount of the requested amount, I received a message from them on 18/12/2017 will receive the goods for what did not inform the customer before payment that the goods will receive you after 18 days Thank you",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 63,
+    "text": "@AmazonHelp None of these options allow me to cancel the order due to delivery failure by @115817.  I will dispute the charges via the the credit card company instead.",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 64,
+    "text": "@AmazonHelp When I purchase from amazon I want to put in credit card without you storing it. There is NO OPTION for this. I have to manually delete and sometimes forget. This leaves my acct vulnerable to unwanted charges. I\u2019ve gotten charges in past and this is an ongoing issue with Amazon.",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Legal terminology",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 65,
+    "text": "@AmazonHelp @133929 Hi you piece of bull craps, gave you another chance. And this is what happens. How can I make a payment if delivery is not attempted? https://t.co/6Rc6fWjiHy",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 66,
+    "text": "@AmazonHelp 1 order came yesterday (fire tablet) no charger or adapter! Was only offered full replacement and refund, no partial refund or anything. Other agent told me to go buy it myself. Not impressed.",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 67,
+    "text": "@AmazonHelp I was using the 30 day free trial and I canceled right after being charged. I'm unsure if the trial counts as a gift or bundle",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 68,
+    "text": "@AmazonHelp  I have two charges for digitial services that I didn't order. How can I rectify this?",
+    "intent": "billing_payment",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 69,
+    "text": "@AmazonHelp It\u2019s in transit, says it\u2019s coming Monday. I was only told my payment didnt go through on the sunday before the book was to come out though?",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 70,
+    "text": "FFS @115830 @AmazonHelp are saying I've placed an order &amp; it's been dispatched when I haven't &amp; now I've been charged money I don't have",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 71,
+    "text": "@AmazonHelp Now I have suffer in self returning product and also not sure that courier charges will be given by Amazon or not. Please arrange person to",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 72,
+    "text": "Where is the result? \n#AmazonRechargeQuiz \n@AmazonHelp \n@115850",
+    "intent": "billing_payment",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 73,
+    "text": "@AmazonHelp Hi. I'd set auto-renewal off deliberately, recently, yet I've still been charged for another year. Any way to reverse this?",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 74,
+    "text": "@AmazonHelp Need to know if I recharge my Jio using Amazon pay balance, will I get the Cashback as pay balance itself ?",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 75,
+    "text": "@AmazonHelp I'm actually using the cord it came with plugged into my apple charger, it takes hours to charge to even 40%",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 76,
+    "text": "@AmazonHelp I tried to change payment method; your advisor cancelled a pre-order priced \u00a334.99 and told me to re-order at your current price of \u00a344.99",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 77,
+    "text": "@AmazonHelp what is your amazing prime help email please? I keep getting an email saying thanks for signing up but payment has been declined",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 78,
+    "text": "@AmazonHelp Thats the thing I told customer service. I created a new email address for the Prime trial and forgot it. What can I do so I'm not charged?",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 79,
+    "text": "@AmazonHelp Hi AmazonHelp, I keep getting charged \u20ac2.99 per month for Prime Video despite my account saying I've no subscription. There is no way for me to cancel! Please advise or help.",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 80,
+    "text": "@AmazonHelp Thank you.  I have spoken with the call centre and had the charge reversed.  Still scary to be billed without placing an order though...",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 81,
+    "text": "@AmazonHelp I have been double charged and left penniless. The person I spoke to was worse than useless how do I make a formal complaint",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 82,
+    "text": "@AmazonHelp I have not received my refund for the Amazon pay balance. When i placed the order it said that payment should be revised.",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 83,
+    "text": "@AmazonHelp \n@115821 \nTAKING CHARGE AND POSTING\n#WARNING ON\n#FAKE EMAILS\n@156163 \nDOES NOT DO OR SAY ANYTHING\n#BEWARE\n#CVS \n#FRAUDULENT EMAILS\n#AMAZON\n#AmazonHelp\nGood show!!!!!\n#BRILLIANT https://t.co/p6GhLt982a",
+    "intent": "billing_payment",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 84,
+    "text": "@AmazonHelp hello, after charing my card, Amazon says credit card is declined, even though the amount is charged and withdrawn?",
+    "intent": "billing_payment",
+    "difficulty": "medium",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 85,
+    "text": "@AmazonHelp Je l'ai fait il y a plus d'une semaine. J'ai donc appel\u00e9 samedi matin On m'a dit r\u00e9ponse sous 24h. Je me sens d\u00e9muni face \u00e0 votre SAV.",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 86,
+    "text": "@AmazonHelp @791115 Hi, I ordered from ur website but I couldn\u2019t find it in my orders.. I only find it in canceled orders! \ud83e\udd14 https://t.co/Ja4JBDN5mj",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 87,
+    "text": "@AmazonHelp We called as soon as it happened.  The packages have been picked up and are out for delivery.  The guy who left it said it was his second day and the lady who picked them up said she stopped to help him and he said he lost the packages. \ud83e\udd14",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 88,
+    "text": "@AmazonHelp @115850 @119625 No solution yet. Disappointed!\ud83d\ude14\ud83d\ude23 https://t.co/2EaOYwTQMj",
+    "intent": "technical_support",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 89,
+    "text": "@AmazonHelp We will see, I gave feedback personally to your colleague, next time we'll see what happens.",
+    "intent": "technical_support",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 90,
+    "text": "@AmazonHelp Halli hallo ihr Schnuckelm\u00e4use \ud83d\udc4b \nDer zweite Zustellversuch hatte dann geklappt nachdem ich meinen Wunschnachbarn eingetragen hatte \ud83d\udc4d \nW\u00fcnsch euch 1 sch\u00f6n 1. Dezember &amp; DAMKE f\u00fcr euern Support \ud83c\udf84\u2764\ud83c\udf85",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 91,
+    "text": "@AmazonHelp Man, the subtitles are not coming again now. I have updated the app, played some other TV shows and Hindi movies and could see subtitles . Wonder what's the problem with this movie alone.",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 92,
+    "text": "@AmazonHelp Yeah on Friday when I ordered it however it's now showing as not available on your website but my order still pending https://t.co/jcIemRBQo2",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 93,
+    "text": "so you wait for a week to get a product just to return it because it ain\u2019t working. Nice experience @115850 @AmazonHelp #disappointed",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 94,
+    "text": "@AmazonHelp I have arranged for the collection on two separate days but no one turned up on either. The only info your website gives is arrange again??",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 95,
+    "text": "@AmazonHelp D\u00e9j\u00e0 fait hier par t\u00e9l\u00e9phone, ils peuvent rien faire pour moi apparemment",
+    "intent": "technical_support",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 96,
+    "text": "@AmazonHelp Puisque le service client se borne \u00e0 me r\u00e9pondre toujours le m\u00eame paragraphe sans rapport avec mon probl\u00e8me... Voici l'\u00e9tat du colis livr\u00e9 par @132988 en relais (ils ne viennent plus sonner) https://t.co/fApeQ1zzyh",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 97,
+    "text": "@AmazonHelp Thank you I will check in my TV and let you know. I tried multiple times earlier but could not find the app for Amazon Prime.",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 98,
+    "text": "@AmazonHelp @4030 @118702 @115937 @4110 @4168 @119356 @115821 @131283 @144775 @2517 Dear Amazon,\nPeople trust on your brand name when they buy anything from your website. Why do you want to fool innocent customers.Stop Scams",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 99,
+    "text": "@AmazonHelp But they won't. The last time this happened they said they would but it happened again.\nCan you give me HO contact info?",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 100,
+    "text": "Can I expect these Diwali surprises before Diwali? :) @AmazonHelp @115850 #apptreasurehunt https://t.co/SO2IIjLLc9",
+    "intent": "technical_support",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 101,
+    "text": "@AmazonHelp Non mais c'est surtout le fait de dire que je n'\u00e9tais pas pr\u00e9sent, alors qu'il n'a pas \"Appel\u00e9\" ou m\u00eame laiss\u00e9 d'avis de passage ! Logique ?",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 102,
+    "text": "@AmazonHelp Hey my last order says confirmed on the Amazon app but I've still not received any email nor has my card been debited",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 103,
+    "text": "@AmazonHelp \nWe need arabic translation to all the shows, please\nAlso, Does the app we\u2019ve got here in UAE is for India or It\u2019s different ?",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 104,
+    "text": "@AmazonHelp hey I checked out the list of options but none of those applies to my issue! Can you look at the video I posted, to know my issue??",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Legal terminology",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 105,
+    "text": "@AmazonHelp AMZL US. \n\nAlso it appears the delivery was attempted in the wrong city. So that's a problem.",
+    "intent": "technical_support",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 106,
+    "text": "@AmazonHelp 2. Die App und das ganze restliche Konstrukt taugt nicht zum untereinander zu kommunizieren.",
+    "intent": "technical_support",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 107,
+    "text": "@AmazonHelp It's sitting in New Jersey, I'll just wait and see what happens. Hopefully it comes Friday. https://t.co/1cT4niEIsU",
+    "intent": "technical_support",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 108,
+    "text": "@AmazonHelp is AWS currently experiencing issues.  All apps on Fire Stick will highlight but not open.",
+    "intent": "technical_support",
+    "difficulty": "medium",
+    "should_escalate": true,
+    "escalation_reason": "Legal terminology",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 109,
+    "text": "@AmazonHelp I know how it happened, someone used the wrong email for their account &amp; because Amazon does NOT have any email verification process, this person inadvertently gave me access to their account. Not email provider's fault, AMAZON's fault. This wouldn't happen w/email verification. https://t.co/4EOurezBTE",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 110,
+    "text": "@AmazonHelp I contacted the seller weeks ago! Apparently, the book was shipped to Michigan. A place I've Never been.",
+    "intent": "technical_support",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 111,
+    "text": "@AmazonHelp I ordered two speakers at the same time. One was delivered today and apparently the second is nowhere to be found. I also had another order lost in transit on Saturday.",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 112,
+    "text": "@AmazonHelp Je viens d\u2019appeler ! On doit faire le point demain. Une r\u00e9clamation a \u00e9t\u00e9 formul\u00e9e aupr\u00e8s de Colis Priv\u00e9. J\u2019ai de + en + de probl\u00e8mes pour \u00eatre livr\u00e9 dans les temps de fa\u00e7on g\u00e9n\u00e9rale et a cause des transporteurs, \u00e7a g\u00e2che un peu mon exp\u00e9rience Amazon Prime.",
+    "intent": "technical_support",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 113,
+    "text": "@AmazonHelp Me reembolsaron el prime y todos mis productos lamentablemante la ultima vez que les compro",
+    "intent": "product_issue",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 114,
+    "text": "@AmazonHelp hey guys, I realise things get squashed during deliveries, but an item has came out of my parcel... What can I do? https://t.co/fvUBx207Xx",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 115,
+    "text": "@AmazonHelp 1. Placed order on 2 items \n2. Nothing arrived when Amazon app+email said so (deliverer lied by saying it'd been done)\n3. 1 art canceled....",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 116,
+    "text": "@AmazonHelp And what will that do for me? Nothing. Go speak to Adriana C. I will be contacting the source who sold this item (fulfilled and shipped by Amazon) and tell them how poorly you handled their product. And tagging @118706 to let them know how your reps lie about statuses of items.",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 117,
+    "text": "@AmazonHelp I spoke to op &amp; supervisor \u2018Kimberly\u2019 today and they basically said it\u2019s refund and pay more and prob get wrong item again &amp; no other option! I don\u2019t understand why problem wouldn\u2019t be solved / product honored at original price! .... 1/2",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 118,
+    "text": "@AmazonHelp The customer representative assured me that is why I returned the product otherwise I would not have",
+    "intent": "product_issue",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 119,
+    "text": "@AmazonHelp I have still not received these items",
+    "intent": "product_issue",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 120,
+    "text": "@AmazonHelp Your team promised me I will get my product by 9pm today but I didn't got yet. Why you people are cheating coustmers like this",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 121,
+    "text": "@AmazonHelp I've already spoken to a customer service rep. You need to fix #AmazonFresh because it is broken!",
+    "intent": "product_issue",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 122,
+    "text": "@AmazonHelp Originally, the estimated delivery date was for Wed 11/15 with two other items, which did come Wednesday.. now it says ups does not have a delivery date, just somewhere between 17-18 \u2639\ufe0f",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 123,
+    "text": "@AmazonHelp \u2018Some deliveries may take slightly longer\u2019 not one item I\u2019ve found that can be delivered before Wednesday! Infuriating!",
+    "intent": "product_issue",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 124,
+    "text": "@115851 @119356 @amazonhelp shall i donate the product to charity on ur behalf coz u obviously seem reluctant to do anything. 1/2",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 125,
+    "text": "@AmazonHelp The product which was supposed to deliver yesterday is still not delivered.. your customer care have no idea about it. https://t.co/FLNw5loctm",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 126,
+    "text": "@AmazonHelp @199094 I'm having several delays/no product and refusal of refund. Not ordering anything until Amazon gets head out of ass.",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 127,
+    "text": "@344927 @AmazonHelp ... Now i have to wait for the product to be returned to the seller and a refund to be issued which is making us lose at least 3 days",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Legal terminology",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 128,
+    "text": "@AmazonHelp Yup, got refunded but still frustrated with persistent @2150 issues. Also wasted 30 mins of my Sunday morn and I still don\u2019t have item!",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Legal terminology",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 129,
+    "text": "@AmazonHelp NOW a 4th agent contacted a seller for an item I did not have an issue with to request a refund without asking for more information.",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Legal terminology",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 130,
+    "text": "@AmazonHelp the issue got solved after so many follow up. Lost all the best prices for the products available till I got my money back. Will amazon pay?",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Legal terminology",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 131,
+    "text": "@AmazonHelp I\u2019m on mobile right now, so I\u2019ll have to check it out later, but this will allow me to add amazon.fr items to my US wish list?",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 132,
+    "text": "@AmazonHelp Item was promised on Thursday. Hadn't came yet today until after mailman made a 2nd delivery to my house.",
+    "intent": "product_issue",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 133,
+    "text": "@AmazonHelp Everything in the box was destroyed by a broken bottle of laundry detergent. I cannot return any of it, I just need a complete replacement of the entire shipment. How do I do this? https://t.co/W8cOZFENqE",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 134,
+    "text": "@AmazonHelp I've got the order, a box of screws! It should have been left in my \"safe place\" the idea of shipping online is to save money on items which are more expensive in store. But when you add parking and inconvenience on top, it's not!",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 135,
+    "text": "@115821 @AmazonHelp  I think u ppl r so rude..that ur escalation team asked me that u can buy product from market...  #poorserviceamazon",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 136,
+    "text": "@AmazonHelp As per the law, product can't be sold more than the MRP. Ur ans is not justifiable. I've enough evidence to proof in consumer court for making customer fool. Can't trust anymore on amazon",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Legal terminology",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 137,
+    "text": "@AmazonHelp I don't have that option, I am only allowed to cancel, however, I still need the item https://t.co/atu12c47Zn",
+    "intent": "product_issue",
+    "difficulty": "medium",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 138,
+    "text": "@195586 @115850 @AmazonHelp We didn't even received d order n u update d status as delivered !!! Where is d product. Is this ur #Prime service ??",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 139,
+    "text": "@AmazonHelp I've attempted to load it multiple times. It's on the ordered today section. I must of pocket bought it as I had been looking at the item a while earlier.",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 140,
+    "text": "@AmazonHelp ITS A CLEAR CASE OF THEFT BY THE DELIVERY GUY. HE WENT CLOSE TO OUR PLACE FOR GPS RECORDING AND THEN STOLE MY ITEM!!",
+    "intent": "product_issue",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 141,
+    "text": "@AmazonHelp So if I buy the year and cancel will I get my money back?",
+    "intent": "cancellation",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 142,
+    "text": "@AmazonHelp I don't have membership or an account.",
+    "intent": "cancellation",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 143,
+    "text": "@AmazonHelp I don't want to 'reach out' I want to cancel my order and my payment reimbursed asap! I've sent instruction via site. Awful service!",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 144,
+    "text": "@AmazonHelp Even when I have considered cancelling prime the employees dont even care why. I say is cause of cust serv and they have said ok, its done",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 145,
+    "text": "@115850 @AmazonHelp order cancelled as it was not delivered to my address. But money is not refunded yet.",
+    "intent": "cancellation",
+    "difficulty": "medium",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 146,
+    "text": "@AmazonHelp Called in because order was SUPPOSED to be delivered today and I rearranged my schedule to be here.  Was told to read my email and that what was on the website was only SORT OF a promise until after an email was sent.  The same agent told me I could cancel my order or my prime!",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 147,
+    "text": "@AmazonHelp Just been told its out of stock!!!!! Set. Delivery date 2 December! I've cancelled order. Am going g to speak to a supervisor.",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 148,
+    "text": "@AmazonHelp order an item from you and cancelled it. One of your seller started spamming everyday. https://t.co/BtTwsNuRzt",
+    "intent": "cancellation",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 149,
+    "text": "@AmazonHelp Hi there, I cancelled my WaPo subscription (through Amazon Pay) last month but was still charged this month. Can you assist?",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 150,
+    "text": "@AmazonHelp Hi I'll contact my bank, but they've already been taken out they aren't pending anymore..? Plus the amounts don't match anything else I've ordered other than the cancelled items? Xx",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 151,
+    "text": "@AmazonHelp Acc name kerem cakir.i was registering for seller acc and 39.99$ monthly fee was taken from my acc before reg complete.i cancel but no repay",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 152,
+    "text": "@AmazonHelp @115850 \nI have requested an order to return...\nBut delivery boy didn't picked it up and cancel return process...\nWhat to do",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 153,
+    "text": "@AmazonHelp Hab\u00eda hecho la compra de un par de  Samsung S8 hace como 1 mes o mas, y hoy me llego un correo donde me los cancelaron :(",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 154,
+    "text": "@AmazonHelp I have share details already. What should I do ? Can I cancel the order ? If I cancel , may be you will refund my money after 1 month",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 155,
+    "text": "@115821 @115850 \n@119625  @AmazonHelp \nI ordered my product before 6hrs &amp; I've my prime membership still its not shipped yet?why?!!",
+    "intent": "cancellation",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 156,
+    "text": "@AmazonHelp you\u2019ve taken Money out of my bank account for a membership I don\u2019t even have?!!!!",
+    "intent": "cancellation",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 157,
+    "text": "@AmazonHelp Order was due 10-25, still no package. It has my sons halloween costume now it says canceled. Have talked to 4 managers all can\u2019t help",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 158,
+    "text": "@AmazonHelp It was a kindle. i was refused refund until item is back at your warehouse even though you confirmed it's with the https://t.co/RCSmuJlM3z is no longer prime waste of money. Told I can't have a refund on my monthly subscription for this month as I have used service previously",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 159,
+    "text": "@AmazonHelp I dont have time to fill this out. Can I DM you the order number for you to sort? Because if it isn't here by 5pm today I will be cancelling the order",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 160,
+    "text": "@AmazonHelp If the item is delayed, whats the use of my prime membership then?? Amazon doesn\u2019t respect its promises. Not getting prime membership again",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 161,
+    "text": "@AmazonHelp Why don't u take initiative to report this on behalf of me, it will look better rght ? Will u return my prime membership amount ? I thnk it's of no use, before buying it shown 2-3 days, expected on 23 but after purchased shown before 25, dnt u thnk u making fool by prime tag name",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 162,
+    "text": "@AmazonHelp Today an 8.37 pm received mail that account got blocked \ud83d\ude1e why is this happening to me and Amazon cancelled my 3 order which was placed today",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 163,
+    "text": "@AmazonHelp Ordered the new oasis 32g - guaranteed delivery October 31 - had to cancel b/c it doesn\u2019t come until the 7th &amp; I needed it by tomorrow",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 164,
+    "text": "@AmazonHelp \nAmazon US has charged me for my Prime membership on Nov 13. I subscribed on Amazon Canada on Aug 02 for one year.",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 165,
+    "text": "@AmazonHelp Amazon prime 1 year plan, which i cancelled over a year ago because of fraud on my account so if i cancelled it how are you still taking money? Why do you still have my bank details?",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 166,
+    "text": "@115851 i know you probably will never read this but in the last month or so ur Prime membership has failed to deliver within the \"guaranteed\" time..kinda makes me think twice if having Prime is even worth it anymore @AmazonHelp #changeisalwaysgood no prime will teach patience",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 167,
+    "text": "@AmazonHelp When i launch amazon App on android fone a main window appeared and asked me to change the password. There was no other option to skip or cancel, bit weird it never occured before. Have been using amazon app for years.",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 168,
+    "text": "@AmazonHelp Nope everything I've ordered I've received already and their payments are also on my statement, and I have no subscriptions",
+    "intent": "cancellation",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 169,
+    "text": "@169215 @AmazonHelp @115850 Even I agree there customer care is worst then Paytm..",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 170,
+    "text": "Hi @AmazonHelp @116618 HDR/4K content looks incredibly washed/out dull on my new TCL/Roku TV. Is that (picture attached) the \"normal\" look or it or is there a problem with the TV or the app (HDR looks great and vibrant on some apps, terrible on others) https://t.co/OCSfLnAK2K",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 171,
+    "text": "@AmazonHelp Worst coustmer  serivce got form ur end.",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 172,
+    "text": "@AmazonHelp , the worst service u have really, https://t.co/XIvZQf9E7a",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 173,
+    "text": "@178205 @AmazonHelp I agree! Intelcom is THE WORST! Pkgs show up late in evening, terrible website tracking. It's not just a certain order, it's ALL Orders",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 174,
+    "text": "AMZL_US or Amazon Logistics is the worst delivery service ever devised.  and @AmazonHelp could care less.  They are losing business and prime members.",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 175,
+    "text": "@115850 if you wish to not to deliver my products, no worries. Pls give my money back\ud83d\ude4f\ud83c\udffd\n@AmazonHelp #amazonworst",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 176,
+    "text": "@AmazonHelp it's not even out for delivery so tell me how exactly its going to get here today. Last time it was out for delivery @ 3 pm and was sent back to the facility for \"running out of time\" please tell me how this package will now make it on time. You guys are the worst.",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 177,
+    "text": "@115850 @AmazonHelp @13938 worst support i hv gt frm Amazon &amp; it's Seller for defective item.",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 178,
+    "text": "@AmazonHelp have provided terrible service",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 179,
+    "text": "@AmazonHelp  I am not angry but very disappointed by you guys.\nI paid what you ask but didn't get\nProduct which you mention on website. Please do needful",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 180,
+    "text": "@AmazonHelp I've purchased a book not share of any big company ..plz don't try to convince me via this kind of extremely worst excuse. Proper response awaited \ud83d\udc7f\ud83d\udc7f\ud83d\udc7f",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 181,
+    "text": "@AmazonHelp Ordered a phone twice, never got it saying it was damaged in transit What a joke? Worst Service in India ever. @115851",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 182,
+    "text": "@AmazonHelp @AmazonHelp @115850 \nNow after 13 days and approx 25 + follow-up executive saying my packet may be lost\n#worstexcusesforstealing\n#cheaters",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 183,
+    "text": "@115821 @AmazonHelp I\u2019ve been a customer for 15 years and spent tens of thousands of dollars but due to a terrible experience with customer service tonight, I\u2019m thinking of canceling my Prime membership and using other services. Train your agents better. #deleteamazon https://t.co/zGCrNRlLq0",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 184,
+    "text": "@AmazonHelp Undelivered product and worst customer care.what u think a company outside of India come here and harasse Indian people and we will let u go",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 185,
+    "text": "@AmazonHelp I have contacted seller support every single day and they don\u2019t reply. I\u2019m so angry and frustrated plus they already charged me $39.99",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 186,
+    "text": "@AmazonHelp Worst return service by @115850 ...Agreed?",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 187,
+    "text": "@AmazonHelp Check your dm I nuh tryina rinse Alyuh our and look like an angry idiot on my time line",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 188,
+    "text": "@AmazonHelp Had terrible experience with Amazon India. The customer care staff is also of no assistance. Kindly reply me in quick time and resolve my issue. Worst online shopping experience ever. Will make sure to provide negative reviews of Amazon on as many platforms possible\ud83d\udc4e",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 189,
+    "text": "@AmazonHelp I wasn't refunded my promo credit, now I've been on the chat for 2 hours and your staff seem to make this worst for you.",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 190,
+    "text": "@AmazonHelp I think this is the worst customer support of @115821",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 191,
+    "text": "@AmazonHelp Terrible experience ever. Would have routed through other o line service rather the  amazon",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 192,
+    "text": "@AmazonHelp Another promise not delivered properly @AmazonHelp  the time frame is increasing day by day, worst service. https://t.co/5RGAmWzw56",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 193,
+    "text": "@AmazonHelp @115850 and @AmazonHelp weekend is here even d details r provided.. still no response  #irritated #worstexperience #verydisgustingservice",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 194,
+    "text": "@AmazonHelp I am more angry about the appalling service than I am the package being late! Right now I hate Amazon and refuse to purchase from you again!",
+    "intent": "complaint_frustration",
+    "difficulty": "hard",
+    "should_escalate": false,
+    "escalation_reason": null,
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 195,
+    "text": "@AmazonHelp Still nothing guys. Worst customer service I've ever encountered. Where can I send a formal complaint?",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  },
+  {
+    "id": 196,
+    "text": "@AmazonHelp R u befooling customer or what, you have taken money,dlvr product to someone else. I should only wait.#amazonisworst",
+    "intent": "complaint_frustration",
+    "difficulty": "easy",
+    "should_escalate": true,
+    "escalation_reason": "Severe complaint",
+    "sampling_method": "stratified_random",
+    "labeler": "auto_keyword_rules"
+  }
+]

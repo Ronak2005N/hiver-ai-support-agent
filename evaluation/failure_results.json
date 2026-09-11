@@ -1,0 +1,1186 @@
+{
+  "total_errors": 58,
+  "total_examples": 196,
+  "error_rate": 0.29591836734693877,
+  "failure_modes": [
+    {
+      "rank": 1,
+      "source_intent": "product_issue",
+      "predicted_intent": "refund_return",
+      "count": 7,
+      "percentage": 12.068965517241379,
+      "common_keywords": [
+        "refund",
+        "product",
+        "order"
+      ],
+      "example": "@AmazonHelp The customer representative assured me that is why I returned the product otherwise I would not have",
+      "root_cause": "Tweets contain keywords for both product_issue and refund_return"
+    },
+    {
+      "rank": 2,
+      "source_intent": "refund_return",
+      "predicted_intent": "order_status",
+      "count": 4,
+      "percentage": 6.896551724137931,
+      "common_keywords": [
+        "refund",
+        "order",
+        "billing"
+      ],
+      "example": "@AmazonHelp Three times for the same order???? And I\u2019ve already been refunded for the original charge.  I\u2019m still out 51.98. When will these reverse?",
+      "root_cause": "Tweets contain keywords for both refund_return and order_status"
+    },
+    {
+      "rank": 3,
+      "source_intent": "technical_support",
+      "predicted_intent": "complaint_frustration",
+      "count": 4,
+      "percentage": 6.896551724137931,
+      "common_keywords": [
+        "technical",
+        "refund",
+        "product"
+      ],
+      "example": "@AmazonHelp @115850 @119625 No solution yet. Disappointed!\ud83d\ude14\ud83d\ude23 https://t.co/2EaOYwTQMj",
+      "root_cause": "Tweets contain keywords for both technical_support and complaint_frustration"
+    },
+    {
+      "rank": 4,
+      "source_intent": "order_status",
+      "predicted_intent": "product_issue",
+      "count": 3,
+      "percentage": 5.172413793103448,
+      "common_keywords": [
+        "order",
+        "product"
+      ],
+      "example": "@AmazonHelp Your cc says we can't do anything as d packages are delivered.U delivered it to wrong person.U r @ fault.I have nothng to gift my relative",
+      "root_cause": "Tweets contain keywords for both order_status and product_issue"
+    },
+    {
+      "rank": 5,
+      "source_intent": "order_status",
+      "predicted_intent": "complaint_frustration",
+      "count": 3,
+      "percentage": 5.172413793103448,
+      "common_keywords": [
+        "order",
+        "complaint",
+        "technical"
+      ],
+      "example": "@AmazonHelp I have still not got the exact location and the confirmed delivery date of my package!!! Terrible u guys are!!",
+      "root_cause": "Tweets contain keywords for both order_status and complaint_frustration"
+    }
+  ],
+  "errors_by_difficulty": {
+    "hard": 45,
+    "easy": 11,
+    "medium": 2
+  },
+  "escalation_errors": 9,
+  "all_errors": [
+    {
+      "id": 1,
+      "text": "@AmazonHelp Your cc says we can't do anything as d packages are delivered.U delivered it to wrong person.U r @ fault.I have nothng to gift my relative",
+      "expected": "order_status",
+      "predicted": "product_issue",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 2,
+      "text": "@AmazonHelp Order No 408-7356679-2151563 dt-6/10/17 Received broken wall clock.",
+      "expected": "order_status",
+      "predicted": "product_issue",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "easy",
+      "should_escalate": false
+    },
+    {
+      "id": 5,
+      "text": "@AmazonHelp Just that there was a problem and our order was cancelled. As we thought we had tickets we stopped trying so have ended up with none now w",
+      "expected": "order_status",
+      "predicted": "cancellation",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": true,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 7,
+      "text": "@AmazonHelp I have still not got the exact location and the confirmed delivery date of my package!!! Terrible u guys are!!",
+      "expected": "order_status",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": true,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 11,
+      "text": "@AmazonHelp As usual @AmazonHelp quickly solved my issue but the question remains why is this always an issue? The packages can be left unattened at m",
+      "expected": "order_status",
+      "predicted": "technical_support",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "hard",
+      "should_escalate": true
+    },
+    {
+      "id": 12,
+      "text": "@AmazonHelp packages a month.  I went to the cops and there is nothing to file.  A crime has to happen to file a police report.  Y'all delivering a",
+      "expected": "order_status",
+      "predicted": "technical_support",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 15,
+      "text": "Ordered 2kg...received oni 1kg..Amazon#diwalisale#cheated#worst diwali gift ever from amazon.disappointed \ud83d\ude21@115821 @AmazonHelp @74901 https://t.co/rrl",
+      "expected": "order_status",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": true,
+        "technical": true
+      },
+      "difficulty": "easy",
+      "should_escalate": false
+    },
+    {
+      "id": 17,
+      "text": "@AmazonHelp Yeah received an email for three items to be refunded all processed on the same day. One refund has already been received (received over t",
+      "expected": "order_status",
+      "predicted": "cancellation",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": true,
+        "cancel": true,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 18,
+      "text": "@AmazonHelp we have no any call receive from your end for my order\nPlease do the action for order or refund my payment.",
+      "expected": "order_status",
+      "predicted": "refund_return",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": true,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 19,
+      "text": "@AmazonHelp The thing is i had recieved the refund but the order has not been picked up what to do with the stuff should i keep it? Or what to do?",
+      "expected": "order_status",
+      "predicted": "refund_return",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 20,
+      "text": "@AmazonHelp Placed order 2/11 prime for delivery 3/11 says it went to wrong courier centre &amp; now MAY not arrive till 8/11 that's not next day deli",
+      "expected": "order_status",
+      "predicted": "product_issue",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 27,
+      "text": "@AmazonHelp I sent an email to cust service. It's beyond the 30 day return window, another item I ordered from you guys was faulty. Spent a few weeks ",
+      "expected": "order_status",
+      "predicted": "refund_return",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 28,
+      "text": "@AmazonHelp Look at above screen shot how many times does a customer will contact for a single order?\nDon't you value our time? 3 times i contacted to",
+      "expected": "order_status",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 29,
+      "text": "@AmazonHelp Three times for the same order???? And I\u2019ve already been refunded for the original charge.  I\u2019m still out 51.98. When will these reverse?",
+      "expected": "refund_return",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": true,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 37,
+      "text": "@115830 @AmazonHelp Live Chat has to be the worst customer service I have ever received! Item hasn\u2019t turned up after weeks now they have refunded the ",
+      "expected": "refund_return",
+      "predicted": "product_issue",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": true,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 39,
+      "text": "@AmazonHelp my order has been picked since 24th and the product has still not reached your warehouse and because of that your team is not refunding my",
+      "expected": "refund_return",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 42,
+      "text": "@AmazonHelp I need missing part tomorrow - can't afford to wait until you've received this one to send replacement or wait 30 days for refund at \u00a3175!",
+      "expected": "refund_return",
+      "predicted": "product_issue",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 43,
+      "text": "@AmazonHelp I paid extra postage to guarantee delivery of my order yesterday but only half arrived on time. Can I get a refund on postage?",
+      "expected": "refund_return",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 51,
+      "text": "@AmazonHelp I paid for express shipping &amp; my package didn\u2019t arrive on time (which really fucks me) you\u2019ll refund the shipping cost, yeah?",
+      "expected": "refund_return",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 53,
+      "text": "@AmazonHelp Completed the process to get my refund. That seemed to be my only option. Not very happy with that. Would have liked an option to resend t",
+      "expected": "refund_return",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 54,
+      "text": "@AmazonHelp The address was correct on the order and I don\u2019t understand why an order would be marked as handed to the resident if it hadn\u2019t been deliv",
+      "expected": "refund_return",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 58,
+      "text": "@AmazonHelp Can you explain why I've been charged AGAIN for a prime membership I don't have? This is the third time this has happened with no explanat",
+      "expected": "billing_payment",
+      "predicted": "cancellation",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": false,
+        "product": false,
+        "cancel": true,
+        "billing": true,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 61,
+      "text": "@AmazonHelp I did reply to them, but their resolution was incorrect/u helpful. There\u2019s actually no way to have a separate shipping+billing policy on b",
+      "expected": "billing_payment",
+      "predicted": "refund_return",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": true,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 63,
+      "text": "@AmazonHelp None of these options allow me to cancel the order due to delivery failure by @115817.  I will dispute the charges via the the credit card",
+      "expected": "billing_payment",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": true,
+        "billing": true,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 66,
+      "text": "@AmazonHelp 1 order came yesterday (fire tablet) no charger or adapter! Was only offered full replacement and refund, no partial refund or anything. O",
+      "expected": "billing_payment",
+      "predicted": "refund_return",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": true,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 67,
+      "text": "@AmazonHelp I was using the 30 day free trial and I canceled right after being charged. I'm unsure if the trial counts as a gift or bundle",
+      "expected": "billing_payment",
+      "predicted": "cancellation",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": false,
+        "product": false,
+        "cancel": true,
+        "billing": true,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 71,
+      "text": "@AmazonHelp Now I have suffer in self returning product and also not sure that courier charges will be given by Amazon or not. Please arrange person t",
+      "expected": "billing_payment",
+      "predicted": "refund_return",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": true,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 79,
+      "text": "@AmazonHelp Hi AmazonHelp, I keep getting charged \u20ac2.99 per month for Prime Video despite my account saying I've no subscription. There is no way for ",
+      "expected": "billing_payment",
+      "predicted": "cancellation",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": false,
+        "product": false,
+        "cancel": true,
+        "billing": true,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 82,
+      "text": "@AmazonHelp I have not received my refund for the Amazon pay balance. When i placed the order it said that payment should be revised.",
+      "expected": "billing_payment",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": true,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 86,
+      "text": "@AmazonHelp @791115 Hi, I ordered from ur website but I couldn\u2019t find it in my orders.. I only find it in canceled orders! \ud83e\udd14 https://t.co/Ja4JBDN5mj",
+      "expected": "technical_support",
+      "predicted": "cancellation",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": true,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 87,
+      "text": "@AmazonHelp We called as soon as it happened.  The packages have been picked up and are out for delivery.  The guy who left it said it was his second ",
+      "expected": "technical_support",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 88,
+      "text": "@AmazonHelp @115850 @119625 No solution yet. Disappointed!\ud83d\ude14\ud83d\ude23 https://t.co/2EaOYwTQMj",
+      "expected": "technical_support",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": false,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "easy",
+      "should_escalate": false
+    },
+    {
+      "id": 93,
+      "text": "so you wait for a week to get a product just to return it because it ain\u2019t working. Nice experience @115850 @AmazonHelp #disappointed",
+      "expected": "technical_support",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 97,
+      "text": "@AmazonHelp Thank you I will check in my TV and let you know. I tried multiple times earlier but could not find the app for Amazon Prime.",
+      "expected": "technical_support",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": false,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 100,
+      "text": "Can I expect these Diwali surprises before Diwali? :) @AmazonHelp @115850 #apptreasurehunt https://t.co/SO2IIjLLc9",
+      "expected": "technical_support",
+      "predicted": "complaint_frustration",
+      "confidence": 0.7207045024094396,
+      "source": "ml",
+      "keywords": {
+        "refund": false,
+        "order": false,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "easy",
+      "should_escalate": false
+    },
+    {
+      "id": 102,
+      "text": "@AmazonHelp Hey my last order says confirmed on the Amazon app but I've still not received any email nor has my card been debited",
+      "expected": "technical_support",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 111,
+      "text": "@AmazonHelp I ordered two speakers at the same time. One was delivered today and apparently the second is nowhere to be found. I also had another orde",
+      "expected": "technical_support",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 115,
+      "text": "@AmazonHelp 1. Placed order on 2 items \n2. Nothing arrived when Amazon app+email said so (deliverer lied by saying it'd been done)\n3. 1 art canceled..",
+      "expected": "product_issue",
+      "predicted": "cancellation",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": true,
+        "cancel": true,
+        "billing": false,
+        "complaint": false,
+        "technical": true
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 118,
+      "text": "@AmazonHelp The customer representative assured me that is why I returned the product otherwise I would not have",
+      "expected": "product_issue",
+      "predicted": "refund_return",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "easy",
+      "should_escalate": false
+    },
+    {
+      "id": 119,
+      "text": "@AmazonHelp I have still not received these items",
+      "expected": "product_issue",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "easy",
+      "should_escalate": false
+    },
+    {
+      "id": 125,
+      "text": "@AmazonHelp The product which was supposed to deliver yesterday is still not delivered.. your customer care have no idea about it. https://t.co/FLNw5l",
+      "expected": "product_issue",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 126,
+      "text": "@AmazonHelp @199094 I'm having several delays/no product and refusal of refund. Not ordering anything until Amazon gets head out of ass.",
+      "expected": "product_issue",
+      "predicted": "refund_return",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 127,
+      "text": "@344927 @AmazonHelp ... Now i have to wait for the product to be returned to the seller and a refund to be issued which is making us lose at least 3 d",
+      "expected": "product_issue",
+      "predicted": "refund_return",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": true
+    },
+    {
+      "id": 128,
+      "text": "@AmazonHelp Yup, got refunded but still frustrated with persistent @2150 issues. Also wasted 30 mins of my Sunday morn and I still don\u2019t have item!",
+      "expected": "product_issue",
+      "predicted": "refund_return",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": true,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": true
+    },
+    {
+      "id": 129,
+      "text": "@AmazonHelp NOW a 4th agent contacted a seller for an item I did not have an issue with to request a refund without asking for more information.",
+      "expected": "product_issue",
+      "predicted": "refund_return",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": true
+    },
+    {
+      "id": 130,
+      "text": "@AmazonHelp the issue got solved after so many follow up. Lost all the best prices for the products available till I got my money back. Will amazon pa",
+      "expected": "product_issue",
+      "predicted": "refund_return",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": true
+    },
+    {
+      "id": 132,
+      "text": "@AmazonHelp Item was promised on Thursday. Hadn't came yet today until after mailman made a 2nd delivery to my house.",
+      "expected": "product_issue",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "easy",
+      "should_escalate": false
+    },
+    {
+      "id": 133,
+      "text": "@AmazonHelp Everything in the box was destroyed by a broken bottle of laundry detergent. I cannot return any of it, I just need a complete replacement",
+      "expected": "product_issue",
+      "predicted": "refund_return",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 134,
+      "text": "@AmazonHelp I've got the order, a box of screws! It should have been left in my \"safe place\" the idea of shipping online is to save money on items whi",
+      "expected": "product_issue",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 137,
+      "text": "@AmazonHelp I don't have that option, I am only allowed to cancel, however, I still need the item https://t.co/atu12c47Zn",
+      "expected": "product_issue",
+      "predicted": "cancellation",
+      "confidence": 0.7,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": false,
+        "product": true,
+        "cancel": true,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "medium",
+      "should_escalate": false
+    },
+    {
+      "id": 139,
+      "text": "@AmazonHelp I've attempted to load it multiple times. It's on the ordered today section. I must of pocket bought it as I had been looking at the item ",
+      "expected": "product_issue",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 141,
+      "text": "@AmazonHelp So if I buy the year and cancel will I get my money back?",
+      "expected": "cancellation",
+      "predicted": "refund_return",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": false,
+        "cancel": true,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "easy",
+      "should_escalate": false
+    },
+    {
+      "id": 145,
+      "text": "@115850 @AmazonHelp order cancelled as it was not delivered to my address. But money is not refunded yet.",
+      "expected": "cancellation",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": true,
+        "product": false,
+        "cancel": true,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "medium",
+      "should_escalate": false
+    },
+    {
+      "id": 157,
+      "text": "@AmazonHelp Order was due 10-25, still no package. It has my sons halloween costume now it says canceled. Have talked to 4 managers all can\u2019t help",
+      "expected": "cancellation",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": false,
+        "cancel": true,
+        "billing": false,
+        "complaint": false,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": false
+    },
+    {
+      "id": 175,
+      "text": "@115850 if you wish to not to deliver my products, no worries. Pls give my money back\ud83d\ude4f\ud83c\udffd\n@AmazonHelp #amazonworst",
+      "expected": "complaint_frustration",
+      "predicted": "refund_return",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": true,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": true,
+        "technical": false
+      },
+      "difficulty": "easy",
+      "should_escalate": true
+    },
+    {
+      "id": 177,
+      "text": "@115850 @AmazonHelp @13938 worst support i hv gt frm Amazon &amp; it's Seller for defective item.",
+      "expected": "complaint_frustration",
+      "predicted": "product_issue",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": false,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": true,
+        "technical": false
+      },
+      "difficulty": "easy",
+      "should_escalate": true
+    },
+    {
+      "id": 181,
+      "text": "@AmazonHelp Ordered a phone twice, never got it saying it was damaged in transit What a joke? Worst Service in India ever. @115851",
+      "expected": "complaint_frustration",
+      "predicted": "product_issue",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": true,
+        "product": true,
+        "cancel": false,
+        "billing": false,
+        "complaint": true,
+        "technical": false
+      },
+      "difficulty": "hard",
+      "should_escalate": true
+    },
+    {
+      "id": 192,
+      "text": "@AmazonHelp Another promise not delivered properly @AmazonHelp  the time frame is increasing day by day, worst service. https://t.co/5RGAmWzw56",
+      "expected": "complaint_frustration",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules",
+      "keywords": {
+        "refund": false,
+        "order": false,
+        "product": false,
+        "cancel": false,
+        "billing": false,
+        "complaint": true,
+        "technical": false
+      },
+      "difficulty": "easy",
+      "should_escalate": true
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+id,text,suggested_intent,difficulty,should_escalate,sampling_method,labeler
+1,@AmazonHelp Your cc says we can't do anything as d packages are delivered.U delivered it to wrong person.U r @ fault.I have nothng to gift my relatives,order_status,hard,False,stratified_random,auto_keyword_rules
+2,@AmazonHelp Order No 408-7356679-2151563 dt-6/10/17 Received broken wall clock.,order_status,easy,False,stratified_random,auto_keyword_rules
+3,@AmazonHelp I was just notified that my package was lost in shipping. How Can I get a refund for my order?,order_status,hard,False,stratified_random,auto_keyword_rules
+4,@AmazonHelp Ghatia ...your courier facility manager disconnected my call witjout listening to my issue and delivery boy is refusing to deliver my order,order_status,hard,True,stratified_random,auto_keyword_rules
+5,@AmazonHelp Just that there was a problem and our order was cancelled. As we thought we had tickets we stopped trying so have ended up with none now which is very annoying.,order_status,hard,False,stratified_random,auto_keyword_rules
+6,"@AmazonHelp Order# 407-8082045-4793950
+Arriving:
+Thursday, November 16 - 
+Monday, November 20",order_status,easy,False,stratified_random,auto_keyword_rules
+7,@AmazonHelp I have still not got the exact location and the confirmed delivery date of my package!!! Terrible u guys are!!,order_status,hard,False,stratified_random,auto_keyword_rules
+8,"Hey @AmazonHelp, who’s the carrier on my order tracking, listed as “AMZL”?",order_status,easy,False,stratified_random,auto_keyword_rules
+9,@AmazonHelp Earlier today my package said it would be arriving today by 8pm. I checked later and it said sorry it wasn't delivered. Nothing else.,order_status,hard,False,stratified_random,auto_keyword_rules
+10,@AmazonHelp I have 2 orders that have been on the brink of delivery (out for delivery)  for 3 days and in the local area for 4 days.  Wondering what the problem is in Niagara Falls NY.,order_status,hard,False,stratified_random,auto_keyword_rules
+11,@AmazonHelp As usual @AmazonHelp quickly solved my issue but the question remains why is this always an issue? The packages can be left unattened at my door at 8:45p but not at 4:00p. Makes no sense but truly appreciate the quick response.  Guess the system is a work in progress...,order_status,hard,True,stratified_random,auto_keyword_rules
+12,@AmazonHelp packages a month.  I went to the cops and there is nothing to file.  A crime has to happen to file a police report.  Y'all delivering a,order_status,hard,False,stratified_random,auto_keyword_rules
+13,"@AmazonHelp Not that you are interested, but after chasing again I've been told my order isnt coming today, but asap tomorrow...  🙄🙄🙄",order_status,hard,False,stratified_random,auto_keyword_rules
+14,@AmazonHelp So then your customer support lied when they promised delivery by tomorrow? Could I just get a clear answer instead of 5 different ones?,order_status,hard,False,stratified_random,auto_keyword_rules
+15,Ordered 2kg...received oni 1kg..Amazon#diwalisale#cheated#worst diwali gift ever from amazon.disappointed 😡@115821 @AmazonHelp @74901 https://t.co/rrlILXtSGS,order_status,easy,False,stratified_random,auto_keyword_rules
+16,@AmazonHelp when u  pre-order a game and it says it won’t arrive until a week after the release date but amazon take the money for it anyway https://t.co/so4dsBX5Pd,order_status,hard,False,stratified_random,auto_keyword_rules
+17,@AmazonHelp Yeah received an email for three items to be refunded all processed on the same day. One refund has already been received (received over the weekend). Stuff still states delivery date of November 9 but provides option to start a refund or cancellation.,order_status,hard,False,stratified_random,auto_keyword_rules
+18,"@AmazonHelp we have no any call receive from your end for my order
+Please do the action for order or refund my payment.",order_status,hard,False,stratified_random,auto_keyword_rules
+19,@AmazonHelp The thing is i had recieved the refund but the order has not been picked up what to do with the stuff should i keep it? Or what to do?,order_status,hard,False,stratified_random,auto_keyword_rules
+20,@AmazonHelp Placed order 2/11 prime for delivery 3/11 says it went to wrong courier centre &amp; now MAY not arrive till 8/11 that's not next day delivery!,order_status,hard,False,stratified_random,auto_keyword_rules
+21,@AmazonHelp Have now placed my order for a new battery to arrive at my designated delivery address. What does Standard Delivery mean in the UK?,order_status,hard,False,stratified_random,auto_keyword_rules
+22,@AmazonHelp The order should have arrived on the 18th.  Package has been sitting in Seattle for two days.  Seattle is only 15 minutes away.,order_status,hard,False,stratified_random,auto_keyword_rules
+23,"@AmazonHelp  I wanted to order phone with another address , but I forgot to mentioned that address and ordered ..Could u help me to Change order ? It will be great if u can do ..I spoke to cc but they said not available now change",order_status,hard,False,stratified_random,auto_keyword_rules
+24,"@AmazonHelp I paid for express delivery and my item not only has not arrived, but DPD driver said refused and returned to depot while I was home waiting",order_status,hard,False,stratified_random,auto_keyword_rules
+25,"@AmazonHelp Still waiting on my orders 026-1188582-3067513
+
+205-5647747-5889146",order_status,easy,False,stratified_random,auto_keyword_rules
+26,@AmazonHelp @AmazonHelp and what  about this one 👉order id #4__credit_card__,order_status,easy,False,stratified_random,auto_keyword_rules
+27,"@AmazonHelp I sent an email to cust service. It's beyond the 30 day return window, another item I ordered from you guys was faulty. Spent a few weeks replacing and reordering only to find out that yet another item is DOA. Someone is replacing this or my credit card company will deal with it.",order_status,hard,False,stratified_random,auto_keyword_rules
+28,"@AmazonHelp Look at above screen shot how many times does a customer will contact for a single order?
+Don't you value our time? 3 times i contacted to u",order_status,hard,False,stratified_random,auto_keyword_rules
+29,@AmazonHelp Three times for the same order???? And I’ve already been refunded for the original charge.  I’m still out 51.98. When will these reverse?,refund_return,hard,False,stratified_random,auto_keyword_rules
+30,Yay score one for me heaven smiled I got my refund. Thank you @115821 @AmazonHelp for making it right.,refund_return,easy,False,stratified_random,auto_keyword_rules
+31,@AmazonHelp when my issue is likely to get closed 3 refunds are pending,refund_return,easy,True,stratified_random,auto_keyword_rules
+32,"@AmazonHelp So juicer was due 4 del Mon 27th then Sat 25th, then Mon again, then tues, then Wed &amp; now today.  Whats the betting I don't get it today? Are Amzn going to refund me 4 all the fruit &amp;veg that I had bought especially? Seems like being a prime cust doesnt count 4 much",refund_return,hard,False,stratified_random,auto_keyword_rules
+33,@AmazonHelp @115850 @115821 So Amazon india has cheated me and now not providing me the refund. Bloody idiots @123288,refund_return,easy,False,stratified_random,auto_keyword_rules
+34,"@AmazonHelp My order was picked up, then the refund was put on halt as youll said, you have empty box, and now after 20 days, I am been told, I did not send correct product. This is clear fraud, and I need someone to look into this.",refund_return,hard,False,stratified_random,auto_keyword_rules
+35,"@AmazonHelp I've called 7 times since Sunday. Your ppl just offer apologies, no explanations, and offer a refund. I didn't want a refund, I wanted my stuff. A refund is useless if the item I need to buy is no longer available.",refund_return,hard,False,stratified_random,auto_keyword_rules
+36,@AmazonHelp One already shows refund processing; the other USPS...but I think all were the same.,refund_return,medium,False,stratified_random,auto_keyword_rules
+37,@115830 @AmazonHelp Live Chat has to be the worst customer service I have ever received! Item hasn’t turned up after weeks now they have refunded the wrong amount! Seriously!? 🙈🙈🙈,refund_return,hard,False,stratified_random,auto_keyword_rules
+38,"@AmazonHelp Basically , y’all haven’t refunded my money yet and im pissed so that’s that .",refund_return,easy,False,stratified_random,auto_keyword_rules
+39,"@AmazonHelp my order has been picked since 24th and the product has still not reached your warehouse and because of that your team is not refunding my money. Its been 18 days now and the service is just pathetic, i am just given fake dates.",refund_return,hard,False,stratified_random,auto_keyword_rules
+40,@AmazonHelp Okeydokie. Will do. *fingers crossed* Tomorrow makes 9 days since I returned the items...,refund_return,easy,False,stratified_random,auto_keyword_rules
+41,"@AmazonHelp Thanks. The associate processed the refund anyway. I appreciate it. Next time, I'd prefer to get a receipt when I drop off the item!",refund_return,hard,False,stratified_random,auto_keyword_rules
+42,@AmazonHelp I need missing part tomorrow - can't afford to wait until you've received this one to send replacement or wait 30 days for refund at £175!,refund_return,hard,False,stratified_random,auto_keyword_rules
+43,@AmazonHelp I paid extra postage to guarantee delivery of my order yesterday but only half arrived on time. Can I get a refund on postage?,refund_return,hard,False,stratified_random,auto_keyword_rules
+44,@AmazonHelp I had a delivery scheduled today that the driver said they couldn’t complete. I called logistics at 11:30 AM today and they said delivery would be reattempted after 4 PM. That never happened and the order was returned to the hub site.,refund_return,hard,False,stratified_random,auto_keyword_rules
+45,"@AmazonHelp If I had received a refund on my account as you have stated, I wouldn't be writing to complain would I? Nothing has been refunded!",refund_return,hard,False,stratified_random,auto_keyword_rules
+46,@AmazonHelp Already processed to return dropping it off stage sorting office Saturday morning,refund_return,easy,False,stratified_random,auto_keyword_rules
+47,"@AmazonHelp I will, but I was literally chatting with your customer support minutes before my second ""refund"" email came through. And Gireesh told me that my order would come by EOD today and I quote ""there is no need to be worried about this anymore"".",refund_return,hard,False,stratified_random,auto_keyword_rules
+48,"@AmazonHelp I am not asking for refund, how do I pay and get my order without any hassle. Also, re-try payment is not working. Grrr.. https://t.co/MLTXDyGjnF",refund_return,hard,False,stratified_random,auto_keyword_rules
+49,@AmazonHelp Done. Don't know how many follow-ups are needed for 1 return. 😑,refund_return,easy,False,stratified_random,auto_keyword_rules
+50,"@AmazonHelp I have emailed them twice and haven’t heard anything back. What can I do, would like item or refund 2/2",refund_return,hard,False,stratified_random,auto_keyword_rules
+51,"@AmazonHelp I paid for express shipping &amp; my package didn’t arrive on time (which really fucks me) you’ll refund the shipping cost, yeah?",refund_return,hard,False,stratified_random,auto_keyword_rules
+52,Didn't rcv the refund in Citi bank on Amazon shopping @AmazonHelp @117157,refund_return,easy,False,stratified_random,auto_keyword_rules
+53,"@AmazonHelp Completed the process to get my refund. That seemed to be my only option. Not very happy with that. Would have liked an option to resend the product w/ 1 day shipping. Amazon is the one who made the error, why not make that an option and make things right ASAP?",refund_return,hard,False,stratified_random,auto_keyword_rules
+54,@AmazonHelp The address was correct on the order and I don’t understand why an order would be marked as handed to the resident if it hadn’t been delivered yet. The whole point of tracking on deliveries is to keep the customer updated. A refund had now been arranged and I’ll shop elsewhere,refund_return,hard,False,stratified_random,auto_keyword_rules
+55,"@AmazonHelp All I expect is what I ordered &amp; paid for. Don't charge me for 100% of the items I ordered, tell me you shipped 100% of them &amp; when I receive them only 75% of them are in the box. I point it out. Response: ""sorry we don't have that item it's out of stock, we'll give you a refund""",refund_return,hard,False,stratified_random,auto_keyword_rules
+56,@AmazonHelp Your emails only say you will check with seller - for what?? I do not need the item now since it is late. Kindly refund and stop harassing,refund_return,hard,False,stratified_random,auto_keyword_rules
+57,"@AmazonHelp It was charged with the other items I got in that same order, it showed a reversal for how much it was, and then that reversal disapleared.",billing_payment,hard,False,stratified_random,auto_keyword_rules
+58,@AmazonHelp Can you explain why I've been charged AGAIN for a prime membership I don't have? This is the third time this has happened with no explanation as to why.,billing_payment,hard,False,stratified_random,auto_keyword_rules
+59,@AmazonHelp Nothing has changed. It still says dispatching soon and arriving today. My card was charged at 12:05 last night.,billing_payment,easy,False,stratified_random,auto_keyword_rules
+60,@AmazonHelp Hi I ordered something earlier and it’s charged me another £2 on top? I thought the prime student trial was free 🤔 https://t.co/mCyB0iVbk8,billing_payment,hard,False,stratified_random,auto_keyword_rules
+61,"@AmazonHelp I did reply to them, but their resolution was incorrect/u helpful. There’s actually no way to have a separate shipping+billing policy on business orders. I ended up buying a product with the wrong invoice now, and had to return it.",billing_payment,hard,False,stratified_random,auto_keyword_rules
+62,"@AmazonHelp I worked yesterday and after the amount of the requested amount, I received a message from them on 18/12/2017 will receive the goods for what did not inform the customer before payment that the goods will receive you after 18 days Thank you",billing_payment,hard,False,stratified_random,auto_keyword_rules
+63,@AmazonHelp None of these options allow me to cancel the order due to delivery failure by @115817.  I will dispute the charges via the the credit card company instead.,billing_payment,hard,False,stratified_random,auto_keyword_rules
+64,@AmazonHelp When I purchase from amazon I want to put in credit card without you storing it. There is NO OPTION for this. I have to manually delete and sometimes forget. This leaves my acct vulnerable to unwanted charges. I’ve gotten charges in past and this is an ongoing issue with Amazon.,billing_payment,hard,True,stratified_random,auto_keyword_rules
+65,"@AmazonHelp @133929 Hi you piece of bull craps, gave you another chance. And this is what happens. How can I make a payment if delivery is not attempted? https://t.co/6Rc6fWjiHy",billing_payment,hard,False,stratified_random,auto_keyword_rules
+66,"@AmazonHelp 1 order came yesterday (fire tablet) no charger or adapter! Was only offered full replacement and refund, no partial refund or anything. Other agent told me to go buy it myself. Not impressed.",billing_payment,hard,False,stratified_random,auto_keyword_rules
+67,@AmazonHelp I was using the 30 day free trial and I canceled right after being charged. I'm unsure if the trial counts as a gift or bundle,billing_payment,hard,False,stratified_random,auto_keyword_rules
+68,@AmazonHelp  I have two charges for digitial services that I didn't order. How can I rectify this?,billing_payment,easy,False,stratified_random,auto_keyword_rules
+69,"@AmazonHelp It’s in transit, says it’s coming Monday. I was only told my payment didnt go through on the sunday before the book was to come out though?",billing_payment,hard,False,stratified_random,auto_keyword_rules
+70,FFS @115830 @AmazonHelp are saying I've placed an order &amp; it's been dispatched when I haven't &amp; now I've been charged money I don't have,billing_payment,hard,False,stratified_random,auto_keyword_rules
+71,@AmazonHelp Now I have suffer in self returning product and also not sure that courier charges will be given by Amazon or not. Please arrange person to,billing_payment,hard,False,stratified_random,auto_keyword_rules
+72,"Where is the result? 
+#AmazonRechargeQuiz 
+@AmazonHelp 
+@115850",billing_payment,easy,False,stratified_random,auto_keyword_rules
+73,"@AmazonHelp Hi. I'd set auto-renewal off deliberately, recently, yet I've still been charged for another year. Any way to reverse this?",billing_payment,hard,False,stratified_random,auto_keyword_rules
+74,"@AmazonHelp Need to know if I recharge my Jio using Amazon pay balance, will I get the Cashback as pay balance itself ?",billing_payment,hard,False,stratified_random,auto_keyword_rules
+75,"@AmazonHelp I'm actually using the cord it came with plugged into my apple charger, it takes hours to charge to even 40%",billing_payment,hard,False,stratified_random,auto_keyword_rules
+76,@AmazonHelp I tried to change payment method; your advisor cancelled a pre-order priced £34.99 and told me to re-order at your current price of £44.99,billing_payment,hard,False,stratified_random,auto_keyword_rules
+77,@AmazonHelp what is your amazing prime help email please? I keep getting an email saying thanks for signing up but payment has been declined,billing_payment,hard,False,stratified_random,auto_keyword_rules
+78,@AmazonHelp Thats the thing I told customer service. I created a new email address for the Prime trial and forgot it. What can I do so I'm not charged?,billing_payment,hard,False,stratified_random,auto_keyword_rules
+79,"@AmazonHelp Hi AmazonHelp, I keep getting charged €2.99 per month for Prime Video despite my account saying I've no subscription. There is no way for me to cancel! Please advise or help.",billing_payment,hard,False,stratified_random,auto_keyword_rules
+80,@AmazonHelp Thank you.  I have spoken with the call centre and had the charge reversed.  Still scary to be billed without placing an order though...,billing_payment,hard,False,stratified_random,auto_keyword_rules
+81,@AmazonHelp I have been double charged and left penniless. The person I spoke to was worse than useless how do I make a formal complaint,billing_payment,hard,False,stratified_random,auto_keyword_rules
+82,@AmazonHelp I have not received my refund for the Amazon pay balance. When i placed the order it said that payment should be revised.,billing_payment,hard,False,stratified_random,auto_keyword_rules
+83,"@AmazonHelp 
+@115821 
+TAKING CHARGE AND POSTING
+#WARNING ON
+#FAKE EMAILS
+@156163 
+DOES NOT DO OR SAY ANYTHING
+#BEWARE
+#CVS 
+#FRAUDULENT EMAILS
+#AMAZON
+#AmazonHelp
+Good show!!!!!
+#BRILLIANT https://t.co/p6GhLt982a",billing_payment,hard,False,stratified_random,auto_keyword_rules
+84,"@AmazonHelp hello, after charing my card, Amazon says credit card is declined, even though the amount is charged and withdrawn?",billing_payment,medium,False,stratified_random,auto_keyword_rules
+85,@AmazonHelp Je l'ai fait il y a plus d'une semaine. J'ai donc appelé samedi matin On m'a dit réponse sous 24h. Je me sens démuni face à votre SAV.,technical_support,hard,False,stratified_random,auto_keyword_rules
+86,"@AmazonHelp @791115 Hi, I ordered from ur website but I couldn’t find it in my orders.. I only find it in canceled orders! 🤔 https://t.co/Ja4JBDN5mj",technical_support,hard,False,stratified_random,auto_keyword_rules
+87,@AmazonHelp We called as soon as it happened.  The packages have been picked up and are out for delivery.  The guy who left it said it was his second day and the lady who picked them up said she stopped to help him and he said he lost the packages. 🤔,technical_support,hard,False,stratified_random,auto_keyword_rules
+88,@AmazonHelp @115850 @119625 No solution yet. Disappointed!😔😣 https://t.co/2EaOYwTQMj,technical_support,easy,False,stratified_random,auto_keyword_rules
+89,"@AmazonHelp We will see, I gave feedback personally to your colleague, next time we'll see what happens.",technical_support,easy,False,stratified_random,auto_keyword_rules
+90,"@AmazonHelp Halli hallo ihr Schnuckelmäuse 👋 
+Der zweite Zustellversuch hatte dann geklappt nachdem ich meinen Wunschnachbarn eingetragen hatte 👍 
+Wünsch euch 1 schön 1. Dezember &amp; DAMKE für euern Support 🎄❤🎅",technical_support,hard,False,stratified_random,auto_keyword_rules
+91,"@AmazonHelp Man, the subtitles are not coming again now. I have updated the app, played some other TV shows and Hindi movies and could see subtitles . Wonder what's the problem with this movie alone.",technical_support,hard,False,stratified_random,auto_keyword_rules
+92,@AmazonHelp Yeah on Friday when I ordered it however it's now showing as not available on your website but my order still pending https://t.co/jcIemRBQo2,technical_support,hard,False,stratified_random,auto_keyword_rules
+93,so you wait for a week to get a product just to return it because it ain’t working. Nice experience @115850 @AmazonHelp #disappointed,technical_support,hard,False,stratified_random,auto_keyword_rules
+94,@AmazonHelp I have arranged for the collection on two separate days but no one turned up on either. The only info your website gives is arrange again??,technical_support,hard,False,stratified_random,auto_keyword_rules
+95,"@AmazonHelp Déjà fait hier par téléphone, ils peuvent rien faire pour moi apparemment",technical_support,easy,False,stratified_random,auto_keyword_rules
+96,@AmazonHelp Puisque le service client se borne à me répondre toujours le même paragraphe sans rapport avec mon problème... Voici l'état du colis livré par @132988 en relais (ils ne viennent plus sonner) https://t.co/fApeQ1zzyh,technical_support,hard,False,stratified_random,auto_keyword_rules
+97,@AmazonHelp Thank you I will check in my TV and let you know. I tried multiple times earlier but could not find the app for Amazon Prime.,technical_support,hard,False,stratified_random,auto_keyword_rules
+98,"@AmazonHelp @4030 @118702 @115937 @4110 @4168 @119356 @115821 @131283 @144775 @2517 Dear Amazon,
+People trust on your brand name when they buy anything from your website. Why do you want to fool innocent customers.Stop Scams",technical_support,hard,False,stratified_random,auto_keyword_rules
+99,"@AmazonHelp But they won't. The last time this happened they said they would but it happened again.
+Can you give me HO contact info?",technical_support,hard,False,stratified_random,auto_keyword_rules
+100,Can I expect these Diwali surprises before Diwali? :) @AmazonHelp @115850 #apptreasurehunt https://t.co/SO2IIjLLc9,technical_support,easy,False,stratified_random,auto_keyword_rules
+101,"@AmazonHelp Non mais c'est surtout le fait de dire que je n'étais pas présent, alors qu'il n'a pas ""Appelé"" ou même laissé d'avis de passage ! Logique ?",technical_support,hard,False,stratified_random,auto_keyword_rules
+102,@AmazonHelp Hey my last order says confirmed on the Amazon app but I've still not received any email nor has my card been debited,technical_support,hard,False,stratified_random,auto_keyword_rules
+103,"@AmazonHelp 
+We need arabic translation to all the shows, please
+Also, Does the app we’ve got here in UAE is for India or It’s different ?",technical_support,hard,False,stratified_random,auto_keyword_rules
+104,"@AmazonHelp hey I checked out the list of options but none of those applies to my issue! Can you look at the video I posted, to know my issue??",technical_support,hard,True,stratified_random,auto_keyword_rules
+105,"@AmazonHelp AMZL US. 
+
+Also it appears the delivery was attempted in the wrong city. So that's a problem.",technical_support,easy,False,stratified_random,auto_keyword_rules
+106,@AmazonHelp 2. Die App und das ganze restliche Konstrukt taugt nicht zum untereinander zu kommunizieren.,technical_support,easy,False,stratified_random,auto_keyword_rules
+107,"@AmazonHelp It's sitting in New Jersey, I'll just wait and see what happens. Hopefully it comes Friday. https://t.co/1cT4niEIsU",technical_support,easy,False,stratified_random,auto_keyword_rules
+108,@AmazonHelp is AWS currently experiencing issues.  All apps on Fire Stick will highlight but not open.,technical_support,medium,True,stratified_random,auto_keyword_rules
+109,"@AmazonHelp I know how it happened, someone used the wrong email for their account &amp; because Amazon does NOT have any email verification process, this person inadvertently gave me access to their account. Not email provider's fault, AMAZON's fault. This wouldn't happen w/email verification. https://t.co/4EOurezBTE",technical_support,hard,False,stratified_random,auto_keyword_rules
+110,"@AmazonHelp I contacted the seller weeks ago! Apparently, the book was shipped to Michigan. A place I've Never been.",technical_support,easy,False,stratified_random,auto_keyword_rules
+111,@AmazonHelp I ordered two speakers at the same time. One was delivered today and apparently the second is nowhere to be found. I also had another order lost in transit on Saturday.,technical_support,hard,False,stratified_random,auto_keyword_rules
+112,"@AmazonHelp Je viens d’appeler ! On doit faire le point demain. Une réclamation a été formulée auprès de Colis Privé. J’ai de + en + de problèmes pour être livré dans les temps de façon générale et a cause des transporteurs, ça gâche un peu mon expérience Amazon Prime.",technical_support,hard,False,stratified_random,auto_keyword_rules
+113,@AmazonHelp Me reembolsaron el prime y todos mis productos lamentablemante la ultima vez que les compro,product_issue,easy,False,stratified_random,auto_keyword_rules
+114,"@AmazonHelp hey guys, I realise things get squashed during deliveries, but an item has came out of my parcel... What can I do? https://t.co/fvUBx207Xx",product_issue,hard,False,stratified_random,auto_keyword_rules
+115,"@AmazonHelp 1. Placed order on 2 items 
+2. Nothing arrived when Amazon app+email said so (deliverer lied by saying it'd been done)
+3. 1 art canceled....",product_issue,hard,False,stratified_random,auto_keyword_rules
+116,@AmazonHelp And what will that do for me? Nothing. Go speak to Adriana C. I will be contacting the source who sold this item (fulfilled and shipped by Amazon) and tell them how poorly you handled their product. And tagging @118706 to let them know how your reps lie about statuses of items.,product_issue,hard,False,stratified_random,auto_keyword_rules
+117,@AmazonHelp I spoke to op &amp; supervisor ‘Kimberly’ today and they basically said it’s refund and pay more and prob get wrong item again &amp; no other option! I don’t understand why problem wouldn’t be solved / product honored at original price! .... 1/2,product_issue,hard,False,stratified_random,auto_keyword_rules
+118,@AmazonHelp The customer representative assured me that is why I returned the product otherwise I would not have,product_issue,easy,False,stratified_random,auto_keyword_rules
+119,@AmazonHelp I have still not received these items,product_issue,easy,False,stratified_random,auto_keyword_rules
+120,@AmazonHelp Your team promised me I will get my product by 9pm today but I didn't got yet. Why you people are cheating coustmers like this,product_issue,hard,False,stratified_random,auto_keyword_rules
+121,@AmazonHelp I've already spoken to a customer service rep. You need to fix #AmazonFresh because it is broken!,product_issue,easy,False,stratified_random,auto_keyword_rules
+122,"@AmazonHelp Originally, the estimated delivery date was for Wed 11/15 with two other items, which did come Wednesday.. now it says ups does not have a delivery date, just somewhere between 17-18 ☹️",product_issue,hard,False,stratified_random,auto_keyword_rules
+123,@AmazonHelp ‘Some deliveries may take slightly longer’ not one item I’ve found that can be delivered before Wednesday! Infuriating!,product_issue,easy,False,stratified_random,auto_keyword_rules
+124,@115851 @119356 @amazonhelp shall i donate the product to charity on ur behalf coz u obviously seem reluctant to do anything. 1/2,product_issue,hard,False,stratified_random,auto_keyword_rules
+125,@AmazonHelp The product which was supposed to deliver yesterday is still not delivered.. your customer care have no idea about it. https://t.co/FLNw5loctm,product_issue,hard,False,stratified_random,auto_keyword_rules
+126,@AmazonHelp @199094 I'm having several delays/no product and refusal of refund. Not ordering anything until Amazon gets head out of ass.,product_issue,hard,False,stratified_random,auto_keyword_rules
+127,@344927 @AmazonHelp ... Now i have to wait for the product to be returned to the seller and a refund to be issued which is making us lose at least 3 days,product_issue,hard,True,stratified_random,auto_keyword_rules
+128,"@AmazonHelp Yup, got refunded but still frustrated with persistent @2150 issues. Also wasted 30 mins of my Sunday morn and I still don’t have item!",product_issue,hard,True,stratified_random,auto_keyword_rules
+129,@AmazonHelp NOW a 4th agent contacted a seller for an item I did not have an issue with to request a refund without asking for more information.,product_issue,hard,True,stratified_random,auto_keyword_rules
+130,@AmazonHelp the issue got solved after so many follow up. Lost all the best prices for the products available till I got my money back. Will amazon pay?,product_issue,hard,True,stratified_random,auto_keyword_rules
+131,"@AmazonHelp I’m on mobile right now, so I’ll have to check it out later, but this will allow me to add amazon.fr items to my US wish list?",product_issue,hard,False,stratified_random,auto_keyword_rules
+132,@AmazonHelp Item was promised on Thursday. Hadn't came yet today until after mailman made a 2nd delivery to my house.,product_issue,easy,False,stratified_random,auto_keyword_rules
+133,"@AmazonHelp Everything in the box was destroyed by a broken bottle of laundry detergent. I cannot return any of it, I just need a complete replacement of the entire shipment. How do I do this? https://t.co/W8cOZFENqE",product_issue,hard,False,stratified_random,auto_keyword_rules
+134,"@AmazonHelp I've got the order, a box of screws! It should have been left in my ""safe place"" the idea of shipping online is to save money on items which are more expensive in store. But when you add parking and inconvenience on top, it's not!",product_issue,hard,False,stratified_random,auto_keyword_rules
+135,@115821 @AmazonHelp  I think u ppl r so rude..that ur escalation team asked me that u can buy product from market...  #poorserviceamazon,product_issue,hard,False,stratified_random,auto_keyword_rules
+136,"@AmazonHelp As per the law, product can't be sold more than the MRP. Ur ans is not justifiable. I've enough evidence to proof in consumer court for making customer fool. Can't trust anymore on amazon",product_issue,hard,True,stratified_random,auto_keyword_rules
+137,"@AmazonHelp I don't have that option, I am only allowed to cancel, however, I still need the item https://t.co/atu12c47Zn",product_issue,medium,False,stratified_random,auto_keyword_rules
+138,@195586 @115850 @AmazonHelp We didn't even received d order n u update d status as delivered !!! Where is d product. Is this ur #Prime service ??,product_issue,hard,False,stratified_random,auto_keyword_rules
+139,@AmazonHelp I've attempted to load it multiple times. It's on the ordered today section. I must of pocket bought it as I had been looking at the item a while earlier.,product_issue,hard,False,stratified_random,auto_keyword_rules
+140,@AmazonHelp ITS A CLEAR CASE OF THEFT BY THE DELIVERY GUY. HE WENT CLOSE TO OUR PLACE FOR GPS RECORDING AND THEN STOLE MY ITEM!!,product_issue,hard,False,stratified_random,auto_keyword_rules
+141,@AmazonHelp So if I buy the year and cancel will I get my money back?,cancellation,easy,False,stratified_random,auto_keyword_rules
+142,@AmazonHelp I don't have membership or an account.,cancellation,easy,False,stratified_random,auto_keyword_rules
+143,@AmazonHelp I don't want to 'reach out' I want to cancel my order and my payment reimbursed asap! I've sent instruction via site. Awful service!,cancellation,hard,False,stratified_random,auto_keyword_rules
+144,"@AmazonHelp Even when I have considered cancelling prime the employees dont even care why. I say is cause of cust serv and they have said ok, its done",cancellation,hard,False,stratified_random,auto_keyword_rules
+145,@115850 @AmazonHelp order cancelled as it was not delivered to my address. But money is not refunded yet.,cancellation,medium,False,stratified_random,auto_keyword_rules
+146,@AmazonHelp Called in because order was SUPPOSED to be delivered today and I rearranged my schedule to be here.  Was told to read my email and that what was on the website was only SORT OF a promise until after an email was sent.  The same agent told me I could cancel my order or my prime!,cancellation,hard,False,stratified_random,auto_keyword_rules
+147,@AmazonHelp Just been told its out of stock!!!!! Set. Delivery date 2 December! I've cancelled order. Am going g to speak to a supervisor.,cancellation,hard,False,stratified_random,auto_keyword_rules
+148,@AmazonHelp order an item from you and cancelled it. One of your seller started spamming everyday. https://t.co/BtTwsNuRzt,cancellation,easy,False,stratified_random,auto_keyword_rules
+149,"@AmazonHelp Hi there, I cancelled my WaPo subscription (through Amazon Pay) last month but was still charged this month. Can you assist?",cancellation,hard,False,stratified_random,auto_keyword_rules
+150,"@AmazonHelp Hi I'll contact my bank, but they've already been taken out they aren't pending anymore..? Plus the amounts don't match anything else I've ordered other than the cancelled items? Xx",cancellation,hard,False,stratified_random,auto_keyword_rules
+151,@AmazonHelp Acc name kerem cakir.i was registering for seller acc and 39.99$ monthly fee was taken from my acc before reg complete.i cancel but no repay,cancellation,hard,False,stratified_random,auto_keyword_rules
+152,"@AmazonHelp @115850 
+I have requested an order to return...
+But delivery boy didn't picked it up and cancel return process...
+What to do",cancellation,hard,False,stratified_random,auto_keyword_rules
+153,"@AmazonHelp Había hecho la compra de un par de  Samsung S8 hace como 1 mes o mas, y hoy me llego un correo donde me los cancelaron :(",cancellation,hard,False,stratified_random,auto_keyword_rules
+154,"@AmazonHelp I have share details already. What should I do ? Can I cancel the order ? If I cancel , may be you will refund my money after 1 month",cancellation,hard,False,stratified_random,auto_keyword_rules
+155,"@115821 @115850 
+@119625  @AmazonHelp 
+I ordered my product before 6hrs &amp; I've my prime membership still its not shipped yet?why?!!",cancellation,easy,False,stratified_random,auto_keyword_rules
+156,@AmazonHelp you’ve taken Money out of my bank account for a membership I don’t even have?!!!!,cancellation,easy,False,stratified_random,auto_keyword_rules
+157,"@AmazonHelp Order was due 10-25, still no package. It has my sons halloween costume now it says canceled. Have talked to 4 managers all can’t help",cancellation,hard,False,stratified_random,auto_keyword_rules
+158,@AmazonHelp It was a kindle. i was refused refund until item is back at your warehouse even though you confirmed it's with the https://t.co/RCSmuJlM3z is no longer prime waste of money. Told I can't have a refund on my monthly subscription for this month as I have used service previously,cancellation,hard,False,stratified_random,auto_keyword_rules
+159,@AmazonHelp I dont have time to fill this out. Can I DM you the order number for you to sort? Because if it isn't here by 5pm today I will be cancelling the order,cancellation,hard,False,stratified_random,auto_keyword_rules
+160,"@AmazonHelp If the item is delayed, whats the use of my prime membership then?? Amazon doesn’t respect its promises. Not getting prime membership again",cancellation,hard,False,stratified_random,auto_keyword_rules
+161,"@AmazonHelp Why don't u take initiative to report this on behalf of me, it will look better rght ? Will u return my prime membership amount ? I thnk it's of no use, before buying it shown 2-3 days, expected on 23 but after purchased shown before 25, dnt u thnk u making fool by prime tag name",cancellation,hard,False,stratified_random,auto_keyword_rules
+162,@AmazonHelp Today an 8.37 pm received mail that account got blocked 😞 why is this happening to me and Amazon cancelled my 3 order which was placed today,cancellation,hard,False,stratified_random,auto_keyword_rules
+163,@AmazonHelp Ordered the new oasis 32g - guaranteed delivery October 31 - had to cancel b/c it doesn’t come until the 7th &amp; I needed it by tomorrow,cancellation,hard,False,stratified_random,auto_keyword_rules
+164,"@AmazonHelp 
+Amazon US has charged me for my Prime membership on Nov 13. I subscribed on Amazon Canada on Aug 02 for one year.",cancellation,hard,False,stratified_random,auto_keyword_rules
+165,"@AmazonHelp Amazon prime 1 year plan, which i cancelled over a year ago because of fraud on my account so if i cancelled it how are you still taking money? Why do you still have my bank details?",cancellation,hard,False,stratified_random,auto_keyword_rules
+166,"@115851 i know you probably will never read this but in the last month or so ur Prime membership has failed to deliver within the ""guaranteed"" time..kinda makes me think twice if having Prime is even worth it anymore @AmazonHelp #changeisalwaysgood no prime will teach patience",cancellation,hard,False,stratified_random,auto_keyword_rules
+167,"@AmazonHelp When i launch amazon App on android fone a main window appeared and asked me to change the password. There was no other option to skip or cancel, bit weird it never occured before. Have been using amazon app for years.",cancellation,hard,False,stratified_random,auto_keyword_rules
+168,"@AmazonHelp Nope everything I've ordered I've received already and their payments are also on my statement, and I have no subscriptions",cancellation,hard,False,stratified_random,auto_keyword_rules
+169,@169215 @AmazonHelp @115850 Even I agree there customer care is worst then Paytm..,complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+170,"Hi @AmazonHelp @116618 HDR/4K content looks incredibly washed/out dull on my new TCL/Roku TV. Is that (picture attached) the ""normal"" look or it or is there a problem with the TV or the app (HDR looks great and vibrant on some apps, terrible on others) https://t.co/OCSfLnAK2K",complaint_frustration,hard,True,stratified_random,auto_keyword_rules
+171,@AmazonHelp Worst coustmer  serivce got form ur end.,complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+172,"@AmazonHelp , the worst service u have really, https://t.co/XIvZQf9E7a",complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+173,"@178205 @AmazonHelp I agree! Intelcom is THE WORST! Pkgs show up late in evening, terrible website tracking. It's not just a certain order, it's ALL Orders",complaint_frustration,hard,True,stratified_random,auto_keyword_rules
+174,AMZL_US or Amazon Logistics is the worst delivery service ever devised.  and @AmazonHelp could care less.  They are losing business and prime members.,complaint_frustration,hard,True,stratified_random,auto_keyword_rules
+175,"@115850 if you wish to not to deliver my products, no worries. Pls give my money back🙏🏽
+@AmazonHelp #amazonworst",complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+176,"@AmazonHelp it's not even out for delivery so tell me how exactly its going to get here today. Last time it was out for delivery @ 3 pm and was sent back to the facility for ""running out of time"" please tell me how this package will now make it on time. You guys are the worst.",complaint_frustration,hard,True,stratified_random,auto_keyword_rules
+177,@115850 @AmazonHelp @13938 worst support i hv gt frm Amazon &amp; it's Seller for defective item.,complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+178,@AmazonHelp have provided terrible service,complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+179,"@AmazonHelp  I am not angry but very disappointed by you guys.
+I paid what you ask but didn't get
+Product which you mention on website. Please do needful",complaint_frustration,hard,False,stratified_random,auto_keyword_rules
+180,@AmazonHelp I've purchased a book not share of any big company ..plz don't try to convince me via this kind of extremely worst excuse. Proper response awaited 👿👿👿,complaint_frustration,hard,True,stratified_random,auto_keyword_rules
+181,"@AmazonHelp Ordered a phone twice, never got it saying it was damaged in transit What a joke? Worst Service in India ever. @115851",complaint_frustration,hard,True,stratified_random,auto_keyword_rules
+182,"@AmazonHelp @AmazonHelp @115850 
+Now after 13 days and approx 25 + follow-up executive saying my packet may be lost
+#worstexcusesforstealing
+#cheaters",complaint_frustration,hard,True,stratified_random,auto_keyword_rules
+183,"@115821 @AmazonHelp I’ve been a customer for 15 years and spent tens of thousands of dollars but due to a terrible experience with customer service tonight, I’m thinking of canceling my Prime membership and using other services. Train your agents better. #deleteamazon https://t.co/zGCrNRlLq0",complaint_frustration,hard,True,stratified_random,auto_keyword_rules
+184,@AmazonHelp Undelivered product and worst customer care.what u think a company outside of India come here and harasse Indian people and we will let u go,complaint_frustration,hard,True,stratified_random,auto_keyword_rules
+185,@AmazonHelp I have contacted seller support every single day and they don’t reply. I’m so angry and frustrated plus they already charged me $39.99,complaint_frustration,hard,False,stratified_random,auto_keyword_rules
+186,@AmazonHelp Worst return service by @115850 ...Agreed?,complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+187,@AmazonHelp Check your dm I nuh tryina rinse Alyuh our and look like an angry idiot on my time line,complaint_frustration,easy,False,stratified_random,auto_keyword_rules
+188,@AmazonHelp Had terrible experience with Amazon India. The customer care staff is also of no assistance. Kindly reply me in quick time and resolve my issue. Worst online shopping experience ever. Will make sure to provide negative reviews of Amazon on as many platforms possible👎,complaint_frustration,hard,True,stratified_random,auto_keyword_rules
+189,"@AmazonHelp I wasn't refunded my promo credit, now I've been on the chat for 2 hours and your staff seem to make this worst for you.",complaint_frustration,hard,True,stratified_random,auto_keyword_rules
+190,@AmazonHelp I think this is the worst customer support of @115821,complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+191,@AmazonHelp Terrible experience ever. Would have routed through other o line service rather the  amazon,complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+192,"@AmazonHelp Another promise not delivered properly @AmazonHelp  the time frame is increasing day by day, worst service. https://t.co/5RGAmWzw56",complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+193,@AmazonHelp @115850 and @AmazonHelp weekend is here even d details r provided.. still no response  #irritated #worstexperience #verydisgustingservice,complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+194,@AmazonHelp I am more angry about the appalling service than I am the package being late! Right now I hate Amazon and refuse to purchase from you again!,complaint_frustration,hard,False,stratified_random,auto_keyword_rules
+195,@AmazonHelp Still nothing guys. Worst customer service I've ever encountered. Where can I send a formal complaint?,complaint_frustration,easy,True,stratified_random,auto_keyword_rules
+196,"@AmazonHelp R u befooling customer or what, you have taken money,dlvr product to someone else. I should only wait.#amazonisworst",complaint_frustration,easy,True,stratified_random,auto_keyword_rules

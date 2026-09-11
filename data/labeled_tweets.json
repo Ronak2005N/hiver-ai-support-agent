@@ -1,0 +1,2502 @@
+[
+  {
+    "tweet_id": 2847303,
+    "text": "@AmazonHelp Thank you. Comment now submitted.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 163472,
+    "text": "@AmazonHelp It's ok my neighbour brought it round",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1259713,
+    "text": "@AmazonHelp Habe heute einige Google Shopping Anzeigen im Bereich Fashion gesichtet. Seit wann nutzt Ihr den Channel? \ud83d\ude09",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2555202,
+    "text": "@AmazonHelp Pla keep sharing. Even I m sharing yours @115850 \"No\" help team!!! Get famous on social media! @98984 @98987 @98986 @719117 @",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2463045,
+    "text": "@AmazonHelp So I rang - ask them - but I have laryngitis - and they could not understand.  So please find another way to help me.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1850378,
+    "text": "@AmazonHelp Today 9pm. No I wont get it today. Perhaps tomorrow.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2470078,
+    "text": "@AmazonHelp Its the same Day delivery which is very annoying sometimes available, sometimes not, sometimes timed off at 9 10 11 never 12 as should be",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 781654,
+    "text": "@AmazonHelp I've checked,nothing from the id you refer. I've got one more usual 'we're so sorry,we'll get back to you..\" from Kindle -support. Shameful!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1346629,
+    "text": "@AmazonHelp 35min... #stress",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2938235,
+    "text": "@AmazonHelp Este es el enlace del producto: https://t.co/E3w0n4sfXe",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 2528865,
+    "text": "@AmazonHelp Danke f\u00fcr die Antwort. Bin ich mal gespannt :)",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 428251,
+    "text": "@AmazonHelp Who knows. All I can tell from this picture is that  someone took a picture of my house some time in the last month.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2777390,
+    "text": "@AmazonHelp Ruf gleich bei euch durch \u2013 war bis eben au\u00dfer Haus unterwegs.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 799623,
+    "text": "@AmazonHelp example blood lad and many more https://t.co/2QdTsDdEbL",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 222687,
+    "text": "@AmazonHelp Generally UPS is the one we're most aware of, they either deliver after the 8PM delivery time stated on our orders or deliver the  next day.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 65840,
+    "text": "@AmazonHelp Another representative (Jet N.) has emailed them on my behalf, but if it's gonna be like last time, I'm not expecting a speedy reply.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2287076,
+    "text": "@AmazonHelp Is there any way to get packages not delivered by usps?",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2731150,
+    "text": "@AmazonHelp Of course, how will bad products get sold then?",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 2260624,
+    "text": "@AmazonHelp I tried. You were closed for the night in the UK and the bot only recognizes Prime orders not Prime Now. The human I spoke to in India couldn't help either. Got through this morning and refunded. I just hope Alex your driver is OK. #stillonhisway",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 789626,
+    "text": "@AmazonHelp Ah I see ok will I still get it tomorrow?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 350638,
+    "text": "@AmazonHelp I was not able to access anazon prime and amazon. Had complained however did not get satisfactory resolution",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 1228655,
+    "text": "@AmazonHelp @408245 Absolut unm\u00f6glich! Wir reden hier von einer Lifetime https://t.co/M3vEfHUGVy Mitgliedschaft als Prime auf Amazon! Da sollte doch etwas",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 2957017,
+    "text": "@AmazonHelp StarWars: Rebel Rising. Al mismo tiempo que otros 3.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2432765,
+    "text": "@AmazonHelp It never arrived to them. They moved so the building was empty, USPS instead of take it back as undeliverable, put it as delivered and did whatever, they say because there is no insurance they won't do anything, you say if I don't go to the police you won't do anything. So... https://t.co/1V97qgIurE",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 325863,
+    "text": "@AmazonHelp This still hasn't come 2 days after it was supposed to arrive, which was already a push back from last saturday. What's going on https://t.co/Y4zNQW1G6B",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 657888,
+    "text": "@AmazonHelp One of my packages was delayed by 2 days last week and nobody at amazon knew why it was delayed and it was through amazon logistic",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 292831,
+    "text": "@AmazonHelp I did not recieve the order and Ur agent marked it as product delivered",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 343066,
+    "text": "@AmazonHelp I am sure, you can contact the seller and ask them to exchange the product, but you will not do it.",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 2798306,
+    "text": "@AmazonHelp But this is what the front of my door actually looks like. https://t.co/dGvEhvgc2o",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 691142,
+    "text": "@AmazonHelp My amazon account had the email address connected to it changed without my knowledge and now i can't access it. Help!",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 134940,
+    "text": "Bonjour @AmazonHelp , j'ai deux commandes qui devaient \u00eatre livr\u00e9es le lundi 27 (une qui est en abonnement j'ai moi-m\u00eame choisi d'avancer ma livraison via le calendrier et une qui est une pr\u00e9-commande PRIME) et qui sont pr\u00e9vues en livraison le Mardi 28 ... Le 27 n'est pas f\u00e9ri\u00e9",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 2693861,
+    "text": "@AmazonHelp This is the one: https://t.co/kIe42DHIsx",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 343106,
+    "text": "@AmazonHelp But is it not a dodgy hack?!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 968682,
+    "text": "@AmazonHelp U R required to give cashBack of Rs 50, as per #Amazon offer. It is effecting your credibility, as all others are also not got such cashBack",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 435150,
+    "text": "@AmazonHelp \ud83d\ude1f",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 447242,
+    "text": "@AmazonHelp My phone... using prime video",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 1253975,
+    "text": "@AmazonHelp Someone has changed the email add on all accounts. How was this done without needing confirmation from my existing email???",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1421970,
+    "text": "@AmazonHelp War dazwischen, halt nicht ausreichend. Ersatz bereits bestellt, mal sehen wie\u2019s jetzt ankommt.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 71059,
+    "text": "@AmazonHelp \u3084\u3060\u30fb\u30fb\u30fb\u4e2d\u306e\u4eba\u304b\u308f\u3044\u3059\u304e\u304b\u3088\u30fb\u30fb\u30fb(\u00b4\u00b0\u0325\u0325\u0325\u0325\u0325\u0325\u0325\u0325\u03c9\u00b0\u0325\u0325\u0325\u0325\u0325\u0325\u0325\u0325\uff40)",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1334268,
+    "text": "@AmazonHelp And if the address was wrong (which it definitely isn't)why was I not notified about it earlier?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2480634,
+    "text": "@AmazonHelp Here is the issue. https://t.co/2VeYcQ95mp",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1587293,
+    "text": "@AmazonHelp No emails so far",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 279162,
+    "text": "@AmazonHelp Should i send you a dm?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 487702,
+    "text": "@AmazonHelp I have been trying to get back into my Prime\u00ae account that you deleted by mistake.  It's been going on since Nov. 26th.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1141474,
+    "text": "@AmazonHelp quick. Better.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1720092,
+    "text": "@AmazonHelp But wat about the different price from user to user on exactly same time. Check the time stamp on screen shot. https://t.co/Sy3mvMwmdG",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 2596346,
+    "text": "@AmazonHelp Or make the site less chaotic...maybe you can take a note of this! Thanks for the reply, but I'm done with Amazon.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1558704,
+    "text": "@AmazonHelp Your people said that they can only give 500 rs as amazon voucher. This is not fair &amp; nor accepted at all.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 118815,
+    "text": "@AmazonHelp today is 23rd November... since when did one-day delivery mean 4 days?! https://t.co/vDcI6KieVA",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 294865,
+    "text": "@AmazonHelp Hi! Hermes website advises that I contact you re the matter. Would you be able to organise a new pick up date?",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1739032,
+    "text": "@AmazonHelp Bonjour, j'ai eu une de vos coll\u00e8gues . En gros j'ai rien re\u00e7u pour le moment. Et on me dit qu'on peut rien faire avant lundi \ud83d\ude25",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1083840,
+    "text": "@AmazonHelp Why have I got to have all this hassle your operative SHANTI promised she would be in touch, thought she would shut me up with voucher !!!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 138961,
+    "text": "@AmazonHelp Sorry to report, received a really poor email from John, i replied straight back, will that email box be read?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1035549,
+    "text": "@AmazonHelp Just read your description of prime membership and it doesn\u2019t clearly state extra processing time...be honest or don\u2019t take membership fee.",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 103848,
+    "text": "@AmazonHelp C'est \u00e9trange car au d\u00e9but c'est \u00e9crit :\n\"Nous sommes ravis de vous rappeler que vous b\u00e9n\u00e9ficiez de Prime Vid\u00e9o gr\u00e2ce \u00e0 votre abonnement Amazon Prime ..\"",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1177656,
+    "text": "@AmazonHelp \ud83d\ude2a merci",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1764530,
+    "text": "@AmazonHelp Siii, pero me han cancelado un pedido que no puedo ni reactivarlo y me ha desaparecido del historial",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 340156,
+    "text": "@AmazonHelp That's correct and this has become a frequent issue since @118706 became more leveraged. This impacts your reputation.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2033169,
+    "text": "@AmazonHelp When I order a \"like new\" product from Amazon Warehouse Deals, that means the product has never been used, right? Only the packaging is damaged?",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 247467,
+    "text": "I can't return what I don't have. Will you give me the money back? Will you call? Will you respond? @AmazonHelp #disappointed https://t.co/zO8UEbYp18",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 1396129,
+    "text": "@AmazonHelp great \ud83d\ude44 but what\u2019s the point in paying for prime then having the send the items back for replacements or refunds kind of defeats the object",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 2366270,
+    "text": "@AmazonHelp I have a prime account but then I sign in on Amazon now it tells me to use my email to get info on becoming prime ?",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1053531,
+    "text": "@AmazonHelp I am unable to add money to my money since 18th I hv complained 100 times But who cares.???",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 840444,
+    "text": "@AmazonHelp Complaints 1. Product is marked as delivered without delivery \n2. Delivery agent's no is unreachable \n3. 2 day delivery guarantee breached",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 531580,
+    "text": "@AmazonHelp Le suivi sur l'application COLIS @120534 indique retourn\u00e9 \u00e0 l'exp\u00e9diteur. Le suivi sur @AmazonHelp indique Exp\u00e9di\u00e9, livraison pr\u00e9vue le 29 Novembre.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1714309,
+    "text": "@116324 @115830 Disappointing to have had no response. Do you really think this behaviour acceptable? Your lack of response appears to condone @AmazonHelp",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 986223,
+    "text": "@AmazonHelp It was on Amazon prime",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 2602205,
+    "text": "@AmazonHelp I've been told it's being investigated so it won't happen in future but next order it happens again and again as I don't get no feel back from the investigation feel like it's just a way to get me off the phone or chat",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1609588,
+    "text": "@AmazonHelp And maybe the customer service people shouldn\u2019t lie saying items are out for delivery when they clearly aren\u2019t",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1267573,
+    "text": "@AmazonHelp This was the order number 113-5122138-6399449",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1735439,
+    "text": "@AmazonHelp Just don't be sorry..... Arrange for delivery.... It's a GIFT ...!!!!\nStop the RTS\n@69623",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1415769,
+    "text": "@AmazonHelp And now it's not letting me cancel since it's too close to the delivery date so I have to send it back \ud83d\ude44 know it's not your fault but it's a pain",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2298712,
+    "text": "@AmazonHelp @115851 https://t.co/dfPqjLJA5v",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2276128,
+    "text": "@AmazonHelp Keep getting a weird error message when I go to check out. Any idea how soon this will be resolved??",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2573747,
+    "text": "@AmazonHelp Hopefully this leads to a resolution. I haven't had any problems with Amazon or my account up until now. Thank you for the replys.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 140968,
+    "text": "@AmazonHelp It says Monday, even though it lists it as one day Amazon locker shipping, that's definitely more than one day! https://t.co/RnIuSGkaNc",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1675550,
+    "text": "@AmazonHelp The your orders says delivered to locker, but when you drill down it says delayed. But if you track it with the carrier it shows delivered",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 134973,
+    "text": "@AmazonHelp Already done.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1683474,
+    "text": "@AmazonHelp how to play treasure hunt???? Is it live????",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2115542,
+    "text": "@AmazonHelp Not sure, haven't opened it yet because again, I collect boxes and mine looks like it's been thrown around. Not sure why there isn't anything protecting it. No bubble wrap or peanuts",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 489513,
+    "text": "@AmazonHelp I really look forward to control my Amazon Fire Stick with Amazon Echo @121284 @115833 @115850 @AmazonHelp",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2277140,
+    "text": "@AmazonHelp Oh no worries, it\u2019s not supposed to be here until the 14th, I just like obsessively watching the tracking info. Thanks for looking out though, that\u2019s why I love amazon!",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1382729,
+    "text": "@AmazonHelp Called for help, this was a gift, but she wouldn\u2019t try to help because I didn\u2019t know the gifters email for their account.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 611108,
+    "text": "@AmazonHelp When ya.. even last time it didn't come",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 507150,
+    "text": "@AmazonHelp Perfect thank you so much. I assumed so. But just wanted to verify. Thank you so much.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2958609,
+    "text": "@AmazonHelp No, USPS says you\u2019re late in giving it to them which reflects that on their tracking number. Your customer service can\u2019t give me a reason either.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 386438,
+    "text": "@AmazonHelp And i call customer care not receive call",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 27820,
+    "text": "@AmazonHelp already done that - but its the same issue as others for brighton - keeps saying ticket number exceeded when buying 1",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1707959,
+    "text": "@AmazonHelp Yes it has been. Talked to one of your colleagues who has stated they will be delivering today. Not good service if it does not! \ud83d\ude34",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2888295,
+    "text": "@AmazonHelp Pode deixar que eu conto sim \ud83d\udc9a",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 754113,
+    "text": "@AmazonHelp They keep saying they will expedite the request and I will hear back within a week.  I never hear back. Have opened 30 or so cases.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1408135,
+    "text": "@AmazonHelp Personne n'as d'iPhone 7 dans ma famille donc \u00e7a m'\u00e9tonnerai :')",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 123406,
+    "text": "@AmazonHelp I just noticed \"by 8PM\" do I guess I should at least wait for then to start complaining... \ud83d\ude02... but if it isn't here at 8:01, I'm going to be ringing your doorbell again... https://t.co/dyZs5AE1Xt",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 9123,
+    "text": "@AmazonHelp Hello? So how do I contact someone if I can't log in?! I'm really concerned about what is happening with my acct and who has access to it!",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2386400,
+    "text": "@AmazonHelp Sent you a DM explaining the situation. Ultimately I\u2019m hoping to be properly compensated for the unprofessionalism and the waste of my time.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1437482,
+    "text": "@AmazonHelp Half an hour on the phone, issue not sorted, was like talking to a child, assistant had the customer service skills of a wet sponge \ud83d\ude21",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2350934,
+    "text": "@AmazonHelp Si, la respuesta fue: \u201cponga una reclamaci\u00f3n a Amazon.\u201d As\u00ed que nuevamente el que pierde el tiempo y el dinero es el usuario.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2346265,
+    "text": "@AmazonHelp Please do something...fix this issue as soon as possible",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2647221,
+    "text": "@AmazonHelp Spoke to Live Chat about my daughter's Kindle that has overheated and stopped working. Promised an email. Nothing. Contacted again. Same promise. Nothing. Really disappointed as always been top class!!",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 619196,
+    "text": "@AmazonHelp Looks nice but think it's for the wrong model?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1100526,
+    "text": "@AmazonHelp So I opened a question on Saturday and was told that I would absolutely get my package by the end of the day this past Saturday. I didn\u2019t get it, and now I have to mail this gift to the person because they left for North Carolina today. Very disappointing",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 381013,
+    "text": "@AmazonHelp Nach der Neuinstallation kann ich die Folgen zwar sehen, aber nur \u00fcber Streaming, weil die App die Dateien auf der SD-Karte nicht erkennt.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1669876,
+    "text": "Liebes @AmazonHelp, es nervt ungemein, dass ich - obwohl ihr wisst, wo ich wohne - falschen Versandkosten (DE statt AT) angezeigt kriege.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2911633,
+    "text": "@AmazonHelp hello, the package I ordered wasn't delivered to the address, yet when I track it, it mentions that it is delivered, please advise!!!",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 137071,
+    "text": "@AmazonHelp Je suis Prime donc 1 jour ouvr\u00e9. Cf messages pr\u00e9c\u00e9dents",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 398773,
+    "text": "@AmazonHelp communication which you have sent didn't address the issue",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1674195,
+    "text": "@AmazonHelp WOW seriously? tried to take your advice and this is where it gets me? https://t.co/RFQWCDh4xL",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 755099,
+    "text": "@AmazonHelp Era de Amazon. Amazon me responde hoy que la culpa es de seur. La cuesti\u00f3n es que estoy sin maletas y que pago el servicio Amazon premium",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1329462,
+    "text": "@AmazonHelp El producto est\u00e1 correcto por eso lo he aceptado, pero me ha llamado la atenci\u00f3n el procedimiento. Nunca me hab\u00eda pasado. Es en  Madrid.",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 2403022,
+    "text": "I want my @AmazonHelp pay balance to bank.\nMy account is Locked no reason told.\nTransfer to my Bank or Recharge to my SIM number.\n\ud83e\udd11\ud83e\udd11\ud83e\udd11\ud83e\udd11\ud83e\udd11\ud83e\udd11\ud83e\udd11\ud83e\udd11\ud83e\udd11\ud83e\udd11",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 1608674,
+    "text": "@AmazonHelp Un \u00e9change standard du produit \ud83d\ude01 ! J'ai eu une personne qui a su r\u00e9pondre \u00e0 mes attentes au bout du fil \ud83d\udc4d\ud83d\udc4d",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 601305,
+    "text": "@AmazonHelp Amazon delivered my package to the wrong address.  They replaced the item but now want me to send back the original that I never got.  What do I do?",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2708413,
+    "text": "@AmazonHelp ASAP!!!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1919969,
+    "text": "@AmazonHelp @137605 No,nada",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 425167,
+    "text": "@AmazonHelp I didnt get the confirmation email until this morning and right after it shipped. Both have the wrong address but the other item i ordered right before went to the correct address",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1137330,
+    "text": "@AmazonHelp It's been more than 24 hours now. And I haven't got any resolution",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2461304,
+    "text": "@AmazonHelp I have had such a battle with it. The original order had to be re ordered for today and now today\u2019s one isn\u2019t even gonna arrive on time it\u2019s a joke",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 602300,
+    "text": "@AmazonHelp being a prime member, it's really upsetting to experience terrible delivery service from #Amazon who leave packages unattended in the lobby and say it's \"DELIVERED\" when they actually are not! And then say they can't help!\n\nARE YOU KIDDING ME???",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2595563,
+    "text": "@AmazonHelp Delivery date is today 17th but when I check the order it hasn't been packed up for delivery yet!",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1241742,
+    "text": "@AmazonHelp You haven't missed the delivery date in confirmation. It's the fact that it's not 2 days from the order date. Not even 2 business days.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 340885,
+    "text": "@AmazonHelp To reset my password. Your system will not send me a code or a link. My email works, I\u2019ve tested it, &amp; you\u2019ve sent me ads.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2113639,
+    "text": "@AmazonHelp Thank you . I just did",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2406893,
+    "text": "@AmazonHelp Pages which show my saved cards so tell me why this is happening?!",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2888171,
+    "text": "Et allez encore un probl\u00e8me avec @AmazonHelp . D\u00e9cid\u00e9ment. En plus je tombe sur quelqu\u2019un au t\u00e9l\u00e9phone qui est incompr\u00e9hensible.\nC\u2019est. G\u00e9nial. https://t.co/nrG0YwVHbX",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1497890,
+    "text": "@AmazonHelp My product is not working properly. I want to claim warranty for my product",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1143445,
+    "text": "@AmazonHelp  i just re joined prime by accident if i cancel do i get full re fund",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 322042,
+    "text": "@AmazonHelp Contact but it's said it'll be 12 hours for a reply",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 483155,
+    "text": "@AmazonHelp Did it...",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1562339,
+    "text": "@AmazonHelp Yeah on the phone with a new operator and he said it\u2019s delivered but I\u2019m at my house with no package... what kind of bs?",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2891861,
+    "text": "@AmazonHelp When the bank sent the payment somehow the code didn\u2019t match? (This is what bank had said amazon sent back) The bank can not claim my \u00a3190 back and amazon can\u2019t accept now it has declined. They then tried to take the money out a further 12 times",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 1536963,
+    "text": "@AmazonHelp every device in my house connects to wifi but kindle. Tried all troubleshooting tips from Amazon site. Other options?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 518791,
+    "text": "@AmazonHelp That's completely useless. I can leave package feedback about a package I didn't receive. I can \"return\" a package I didn't receive. I can review package details that says my package was delivered that I do not have.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2387976,
+    "text": "@AmazonHelp Why should I wait if it is not my fault..why not immediately...shame on you...you ppl r cheaters blocking my money",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 602281,
+    "text": "@AmazonHelp I was promised today by an Amazon CSA that it would be delivered to me today, which was a blatant lie, and then had CSA offer my 5 GBP for my wasted time, so I have been insulted twice today by @115830!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 907038,
+    "text": "@AmazonHelp Ya know, @115877 doesn\u2019t make me clear my cache, and for that reason, I\u2019m out. https://t.co/nvl171KV3A",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 319703,
+    "text": "@AmazonHelp If you are not able to deliver after taking the order. Let us know, we will help amazon by uninstalling it. It is not a big deal.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 205000,
+    "text": "Since when does @AmazonHelp charge almost $20 for return shipping. I am so dissatisfied with prime...",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 249882,
+    "text": "@AmazonHelp I had responded to ur mail millions of times called ur customer care a million times but of no use you think ur  smart and  make fool of us",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2084598,
+    "text": "@AmazonHelp Yes the carrier that amazon prime normally uses. When a parcel came royal mail there was no problem",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 2289377,
+    "text": "@AmazonHelp Beide Spiele sind p\u00fcnktlich angekommen! Danke :D",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 29488,
+    "text": "@AmazonHelp Yes may I suggest you look at this issue",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2318061,
+    "text": "@AmazonHelp In touch with the seller through mails, but no constructive efforts made.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2826422,
+    "text": "@AmazonHelp Amazon hub seized my US Mail and put it in the Hub at 8800 N IH-35. It was not an Amazon shipment or any vendor Amazon fronts for. It was a homemade birthday gift from a friend. I cannot get it from the Hub. This seems to me a violation of 18 USC sec. 1701.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1687016,
+    "text": "@AmazonHelp Kann das am Internet liegen?  (Links unten in der Ecke kann mans ganz gut erkennen) https://t.co/mJn0u3Pn6e",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 318825,
+    "text": "@AmazonHelp I ordered something with express delivery and it didn't come because it told me to revise payment methods.\nreorder - it hapn agn",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2403959,
+    "text": "@AmazonHelp Super! Thanks",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 887894,
+    "text": "@AmazonHelp Any update on the same???  Don't you think it's high time to escalate the same to higher grievance cell?",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 606239,
+    "text": "@AmazonHelp (=\uff9f\u03c9\uff9f=)",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 802996,
+    "text": "@AmazonHelp I will do that today",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1480801,
+    "text": "Unsicher wer mehr nervt @AmazonHelp oder @124285. Seid Wochen werden meine Bestellungen nicht mehr zugestellt sondern \"falsch vorsortiert\"",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1208744,
+    "text": "@AmazonHelp Perdona, pero las opciones est\u00e1n todas tabuladas y en ninguna hay posibilidad de explicar el problema que yo tengo. Dirigeme a la opci\u00f3n.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 276135,
+    "text": "@AmazonHelp Oh right let\u2019s hope you can get this item for me and soon. Being looking forward to this for a while",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 2748310,
+    "text": "@AmazonHelp can you help I received an email saying I need to revise my payment method on items I purchased but I have checked my online banking and I have been charged already for the items??",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 2869548,
+    "text": "@115821 @AmazonHelp So not only did your delivery guy lied about how he delivered my package.. he also shot a free throw FTW! https://t.co/9MxV3bTBxg https://t.co/orONGaE24f",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 785078,
+    "text": "@AmazonHelp You don't. Company rep abusing. After a delay of 2 days and lying, I am asked to wait for a day more. Pathetic.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 956307,
+    "text": "@AmazonHelp Does it make sense to you that i pay for PRIME membership, order 2 packages and not be here to receive them? What type of feedback you want?",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2343994,
+    "text": "@AmazonHelp will la noire remastered be dispatched today since its release day tomorrow?",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2144441,
+    "text": "@AmazonHelp It was @115817, I called Amazon, got transferred to @UPSHelp who argued with me and consistently doubted that I was home at the time of attempted delivery, then got really rude and hanged up in me. Prime Membership isn't feeling like money worth spending atm.",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 2361841,
+    "text": "@AmazonHelp Is there anyway to cancel it because the place they told me to pick it is never open when im available",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 288096,
+    "text": "@AmazonHelp @115850 @132994  after 3 days of committed guaranteed delivery, keeping the customer in darkness. No update, no delivery. Frustrating.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2092693,
+    "text": "@AmazonHelp I unfortunately needed it for today....I had to cancel the order and if it does get delivered I\u2019ll be returning it #itsalovehatething",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 21560,
+    "text": "@AmazonHelp Ok tu ek kaam kar an...apni MAA chuda...bhosadike...to hell with you guys...this is my contact number, tell ur reps that I'll call and will screw ur happiness : 8793681285",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2280036,
+    "text": "@AmazonHelp Just confirmed email Is in message centre link there also goes to 404 page",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2383275,
+    "text": "@AmazonHelp Had purchased Amazon echo dot my prime services had to be restarted from 6th November but that never happened.\nI have spoken with the customer service team twice, but they have not helped. Don't know how they function and I have no idea when will this be resolved!",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1648059,
+    "text": "@AmazonHelp just b.coz of ur pathetic customer service I have cancelled my order\nAukat nhi hai tmhari flipkart ki barabari krne ki",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1735438,
+    "text": "@AmazonHelp @17786 Trust this gift needs to be delivered. Assist to route to stop RTS and arrange for delivering this shipment.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 423437,
+    "text": "@AmazonHelp I have already the mails that I have received. But still one product is missing related to the same Order No",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2429411,
+    "text": "@AmazonHelp Where are others results ???",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1382683,
+    "text": "@AmazonHelp \u8abf\u3079\u3066\u307f\u305f\u3089\u3086\u3046\u30d1\u30b1\u30c3\u30c8\u3068\u3044\u3046\u30b5\u30fc\u30d3\u30b9\u3067\u914d\u9001\u3055\u308c\u3066\u3044\u308b\u307f\u305f\u3044\u306a\u306e\u3067\u30d3\u30eb\u306e\u7ba1\u7406\u30dd\u30b9\u30c8\u306b\u6295\u51fd\u3055\u308c\u3066\u308b\u304b\u3082\u3067\u3059\u306d\u3002\u305d\u3061\u3089\u306e\u4f1a\u793e\u3055\u3093\u306f\u4e0d\u5728\u306a\u306e\u3067\u53d7\u3051\u53d6\u308a\u306f\u9031\u660e\u3051\u306b\u306a\u308a\u305d\u3046\u3067\u3059\u3002\u305d\u306e\u6642\u5c4a\u3044\u3066\u306a\u3044\u3088\u3046\u306a\u3089\u30ab\u30b9\u30bf\u30de\u30fc\u30b5\u30fc\u30d3\u30b9\u69d8\u3078\u9023\u7d61\u3044\u305f\u3057\u307e\u3059\u3002\u308f\u3056\u308f\u3056\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2686568,
+    "text": "@AmazonHelp \u5e74\u9593\u6255\u3044\u306b\u3057\u305f\u304b\u3089\u305d\u308c\u306f\u3044\u3044\u3093\u3060\u3051\u3069\u3001\u65e5\u66dc\u306e\u3053\u306e\u6642\u9593\u306b\u30c4\u30a4\u30c3\u30bf\u30fc\u8fd4\u4fe1\u696d\u52d9\u304a\u75b2\u308c\u69d8\u3067\u3059\u3002\u65e5\u672c\u52e4\u52d9\u304b\u308f\u304b\u308a\u307e\u305b\u3093\u304c\u3002",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 521690,
+    "text": "@AmazonHelp Nothing happen end.the item still not delivered and showing as delivered on the app.what forgery is this?how can I sue you for this?",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2932787,
+    "text": "@AmazonHelp It is sold by Amazon EU S.a.r.L. This appear underneath what I have ordered",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 510309,
+    "text": "@AmazonHelp ok, vedo se trovo il modo di un nuovo acquisto \ud83d\ude02\ud83d\ude0b\ud83d\udc93\u2744",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1183984,
+    "text": "@AmazonHelp stop playing with me",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 876257,
+    "text": "@AmazonHelp I ended up canceling the order.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 245295,
+    "text": "@AmazonHelp already did that no progress",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1062277,
+    "text": "@AmazonHelp I have filled this document out four times already. What is the point?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2733895,
+    "text": "@AmazonHelp It\u2019s ok! We found the signature - was hard to see in Silver! Thank you for your quick response!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 281148,
+    "text": "@AmazonHelp But will it take so long?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 142802,
+    "text": "@AmazonHelp Luego os escribo. Muchas gracias.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1270341,
+    "text": "@AmazonHelp Pls go check it. You guys are lying to the customers. #shameonamazon #shameonamazon",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1820728,
+    "text": "@AmazonHelp \n\u30ea\u30d7\u5931\u793c\u3057\u307e\u3059\u3002\u8cfc\u5165\u3057\u305f\u5546\u54c1\u304c\u4eca\u65e5\u767a\u9001\u4e88\u5b9a\u306a\u306e\u306b\u307e\u3060\u767a\u9001\u3055\u308c\u306a\u3044\u306e\u3067\u3059\u304c\u3001\u4e88\u5b9a\u901a\u308a\u306b\u660e\u65e5\u5c4a\u304d\u307e\u3059\u304b\uff1f",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 644028,
+    "text": "@AmazonHelp Done",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1748138,
+    "text": "@AmazonHelp Hola! Sigo teniendo mi cuenta bloqueada, que hago?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1439133,
+    "text": "@AmazonHelp Just takes me to a standard contact you form? I know my stuff will arrive eventually. Just annoying I pay for Prime and next day delivery seems to be failing more and more now. Up to three days late is really unacceptable.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 415720,
+    "text": "@AmazonHelp this is the second job not paid... and another one in san leadro !",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 444299,
+    "text": "@AmazonHelp Le transporteur... j\u2019attend son retour",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2252811,
+    "text": "@AmazonHelp nope. Order tracker still says delivery by 9pm. What a wasted day off from work",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 279909,
+    "text": "@AmazonHelp They informed me that the shipment wil come by 5th October but there is no delivery and I called them more than 5 times",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2330932,
+    "text": "@AmazonHelp **It did not EXIST** when I used my Amazon Prime trial 2 years ago. To think I miss out because of that is a bit stupid. Hardly 'free trial'",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 2355300,
+    "text": "@AmazonHelp When are you going to release this \u00a31?! There was no need for you to hold it in the first place and it is the principle!!!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 580560,
+    "text": "@AmazonHelp Why are you asking me to contact amazon when they asked me to contact manufacturer?????",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 422214,
+    "text": "@AmazonHelp J'attendrai que ce bureau r\u00e9apparaisse pour passer ma prochaine commande. Les autres points sont trop loin. Merci.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2303352,
+    "text": "@AmazonHelp my firetv stick has stopped showing X-ray although the movie supports it. Any help?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 564914,
+    "text": "@AmazonHelp Very good, found it, will run through directions to see if it does anything",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 437375,
+    "text": "@AmazonHelp Thank you.Frustrating talking to CSRs when all they do is stick to a script and not answer direct Qs.20 min call where 3 would have done :/",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 280660,
+    "text": "@AmazonHelp No I don't think product is damaged but I feel it a used product https://t.co/GFXIBNRlnB",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 2291494,
+    "text": "@AmazonHelp The manufacturer can't respond me. Please help me because I paid full amount. My phone has little but major defect.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2538150,
+    "text": "@AmazonHelp amazon.in",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 885527,
+    "text": "@AmazonHelp @115850 @115851 @AmazonHelp @115850 @115851\n#AmazonSucks\n\n#AmazonGreatIndianFestival \n#AmazonIndia",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 250014,
+    "text": "@AmazonHelp Ohk but plz check my product where is my product I am not able to see from website",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 450670,
+    "text": "@AmazonHelp It said 1st December when I ordered! Can\u2019t believe you\u2019ve started using Hermes for your deliveries \ud83d\udeae\ud83d\udeae\ud83d\udeae",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 656847,
+    "text": "@AmazonHelp if payment done by credit card, and order cancelled. how and when refund ????",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 343127,
+    "text": "@AmazonHelp Even if i get the money back, we were relying on the package as part of our big fundraiser on friday night, now have to sort something else",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2311467,
+    "text": "@AmazonHelp ok grad abgeschickt, mal sehen obs was bringt, bin langsam echt am verzweifeln... hab mir nix zu schulden kommen lassen *sfz*",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 238094,
+    "text": "@AmazonHelp Not able to watch other language movies.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2905049,
+    "text": "@AmazonHelp I ordered an item yesterday morning which ended up being mispriced however spoke to an Amazon representative on chat who promised me my order would be honoured regardless and I would receive it between 2nd and 4th of December in plenty of time for my son's birthday only then to",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 69902,
+    "text": "@AmazonHelp It\u2019s not there. Should i send you the screenshot via DM? Also, can you guys call &amp; resolve? Thanks!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1176214,
+    "text": "@AmazonHelp \u5230\u7740\u4e88\u5b9a\u65e5\u306e\u65e9\u671d3\u664254\u5206\u306b\u306a\u3063\u3066\u306f\u3058\u3081\u3066\u51fa\u8377\u3001\u660e\u65e5\u5230\u7740\u3068\u306f\u3042\u307e\u308a\u306b\u3082\u5bfe\u5fdc\u304c\u60aa\u3044\u306e\u3067\u306f\u306a\u3044\u304b\u3002\u6628\u591c\u306e\u6642\u70b9\u3067\u7121\u7406\u306a\u3089\u305d\u306e\u65e8\u65e9\u3081\u306b\u9023\u7d61\u3059\u3079\u304d\u3067\u306f\u306a\u3044\u306e\u304b\uff1f\u975e\u5e38\u306b\u4fe1\u983c\u3067\uff4b\u306a\u304f\u306a\u308a\u307e\u3057\u305f\u3002",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1425680,
+    "text": "@AmazonHelp \u30c4\u30a4\u30fc\u30c8\u62fe\u3063\u3066\u9802\u304d\u6709\u96e3\u3046\u3054\u3056\u3044\u307e\u3059\u3002\n\u3042\u307e\u308a\u306b\u4e2d\u8eab\u3068\u5927\u304d\u3055\u304c\u9055\u3046\u3053\u3068\u304c\u591a\u304f\u3066\u2026\ud83d\ude25\n\u3082\u3046\u5c11\u3057\u7bb1\u306e\u7a2e\u985e\u3092\u5897\u3084\u3057\u305f\u3089\u3044\u3044\u306e\u306b\u306a\u2026\u3068\u601d\u3063\u3066\n\u3082\u3063\u305f\u3044\u306a\u3044\u306a\u3041\u2026\u307f\u305f\u3044\u306a\u611f\u3058\u304c\u3057\u305f\u306e\u3067\u2026\n\u3061\u3087\u3063\u3068\u3057\u305f\u610f\u898b\u3067\u3057\u305f\ud83d\ude47\u200d\u2640\ufe0f",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2416103,
+    "text": "@AmazonHelp unable to load and not load correctly https://t.co/k1AIZyQxNj",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 719888,
+    "text": "@AmazonHelp Thanks for your help though! I'm sorry, I don't usually complain about things. \ud83d\ude0c",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2939167,
+    "text": "@AmazonHelp Thanks.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 836902,
+    "text": "@AmazonHelp cashback is not credited to my account even after 7-8 days, worst service by amazon",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 246408,
+    "text": "@AmazonHelp I had conversation with the Amazon team. They were rude and not agreed to help me",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 742456,
+    "text": "@AmazonHelp eu queria calcular o frete dessa oferta https://t.co/OX9ffYOVP3",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 462551,
+    "text": "@AmazonHelp Sent a dm",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 177370,
+    "text": "@amazonhelp 2/2 ..changed as \u00a319.99 - Your team won't seem to honour the original price even though they can see i orderd b4 midnight on BF",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 502529,
+    "text": "@AmazonHelp  https://t.co/X1YT0pYvRB",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 420435,
+    "text": "@AmazonHelp The courier boy came later sometime during 2pm and delivered. Please make sure this kind of confusing messages should not come to us!",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1160402,
+    "text": "@AmazonHelp Entendi. Perdi a compra que fiz. Parab\u00e9ns",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2811732,
+    "text": "@AmazonHelp Order confirmation last night said between 8th &amp; 18th. Dispatch email this morning says 18th. Is that a worst case scenario?",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2290176,
+    "text": "@AmazonHelp Thanks i received a msg that it is out for delivery\ud83d\ude04\ud83d\ude04\ud83d\ude04",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 882505,
+    "text": "@AmazonHelp Nope, no emails or advance warnings.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1371835,
+    "text": "@AmazonHelp care to explain this?? Love how every time I order with Prime your courier's fuck me over by losing or delivering DAYS late!! \ud83d\ude24\ud83d\ude24 https://t.co/YHhfLaRije",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1894028,
+    "text": "@AmazonHelp Oh... aber ich sehe gerade das parallel zum Code doch noch eine Ersatzlieferung vermerkt ist die sich anscheinend nicht stornieren l\u00e4sst.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 580669,
+    "text": "@AmazonHelp That\u2019s not an option that I have ever been made aware of and doesn\u2019t come up on the oneclick ordering? Can you email me to discuss further? __email__",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1353529,
+    "text": "@AmazonHelp That someone would \"try\" to deliver tomorrow. Not addressing the issue of why they couldn't find my house today. I have no confidence",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1745411,
+    "text": "@AmazonHelp It\u2019s ok, there\u2019s a message on my account with the link",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1485370,
+    "text": "@AmazonHelp I don\u2019t think I need to provide my twitter handle and a phone number for you \u2018to look into this\u2019.  (The provided link)",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 744226,
+    "text": "@AmazonHelp I\u2019m trying to register a new code-generation app.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1260598,
+    "text": "@AmazonHelp Dialed again .. RNR... I already connected with Dhiraj from Leadership team, He is useless.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1018246,
+    "text": "@AmazonHelp Shouldn't have to return it! The box it came in isn't damaged it's been put in the box in that state and now no time to get a new gift!",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 2722652,
+    "text": "@AmazonHelp could we get some proper amazon support over at the UK region as well please?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 80675,
+    "text": "@AmazonHelp malgr\u00e9 l'intervention (ou pas) du responsable hier, le colis a \u00e9t\u00e9 livr\u00e9 \u00e0 10h, heureusement, j'ai eu de la chance avec le chauffeur et j'ai pu r\u00e9ceptionner le colis.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1519194,
+    "text": "@AmazonHelp Pro Ordered COD back in July it was launched today and it has not been despatched. Took the day off any everything",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 485195,
+    "text": "@AmazonHelp So you're saying we need to sift through broken glass, sort it, buy packaging, and package it separately before returning it to you? Seems a little unreasonable.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2907755,
+    "text": "@AmazonHelp Third-party",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2159299,
+    "text": "@AmazonHelp No, it still says \"Package has left seller facility and is in transit to carrier\", which has been there since 12:37 PM yesterday.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1420509,
+    "text": "@AmazonHelp Me too, hope you will take action otherwise it will not be good.\nI will not tolerate this incident and will take some action if Amazon fails to do so.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2631381,
+    "text": "@AmazonHelp The reason this is so bad? Waiting for the right one makes me lose at least 5 days leading up to #SmallBusinessSaturday.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 991866,
+    "text": "Pathetic experience with one of leading online shopping portal.. @AmazonHelp @115821  ....after all fake conformation received  nothing \ud83d\ude21 https://t.co/GDd8ko3Yyb",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 1160424,
+    "text": "@AmazonHelp No, they didn't. And I asked multiple times. Again, via e-mail and DM. No answers.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1253352,
+    "text": "@AmazonHelp Reply done",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 472402,
+    "text": "@AmazonHelp I am sorry if this is the way you treat  customers. Can you pls let me know how can I delete my Amazon us UK and India account @115850. Why did you Customer care ask me to send pic iand promised to refund it.",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 2843701,
+    "text": "@AmazonHelp The edges of the book are damaged slightly.",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 64186,
+    "text": "@AmazonHelp As suggested by you, I reported the issue. I hope they contact me soon. Thanks for the response.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 318592,
+    "text": "@AmazonHelp can u people help me plz i am unable to contact you guys.Its really urgent no customer rep plz call me.9910573161",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1487700,
+    "text": "@AmazonHelp @115821 I understand your policy but sometimes customer service comes before this. Doing whats right for a long time customer. Im no longer in the mood to argue this anymore. The item is in my cart should you want to make this right.",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 748706,
+    "text": "@AmazonHelp Already customer service has taken a lot closer look 6 times..if you ppl cant deliver you shud nt sell a dream...#falseassurances",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2129452,
+    "text": "@115851 becoming richest man on Earth by loot your customers... @115821 @AmazonHelp @115850 #noresolution policy",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 396854,
+    "text": "@AmazonHelp  https://t.co/DRA9jzp83R",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2094069,
+    "text": "@AmazonHelp No encuentro forma de contacto, pone que el transportista es de Amazon Logistics.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2176516,
+    "text": "@AmazonHelp I spoke to someone 20 minutes ago, and was told that you\u2019re blaming USPS for the screw up, without taking any responsibility for making good on your guarantee.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 313697,
+    "text": "@AmazonHelp Got the order, thanks for prompt delivery",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 14300,
+    "text": "@AmazonHelp Just completed form. Would be great to speak with someone able to solve the problem, instead of just offering 1 month of free prime.",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 2449447,
+    "text": "@AmazonHelp Contacted again and the assistant was incredibly rude - more interested in calling me \u201cman\u201d and telling me I was wrong",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1737102,
+    "text": "@AmazonHelp Sorry,I had to tweet Amazon India.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 519753,
+    "text": "@AmazonHelp Yeah. I just messaged you with the information",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1753328,
+    "text": "@AmazonHelp justement je viens de les avoirs, elle arrive demain la #XboxOneX  \ud83d\ude16",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2269282,
+    "text": "@AmazonHelp I had to use an actual browser, had followed the link  and it went to the Amazon Android application. Had a chat, issue resolved. Thanks for the help from everyone who responded.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2263023,
+    "text": "@AmazonHelp I was sent an apology for the 'late deliveries' im told to wait until thursday before I report.  One of the orders was from Friday.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 487663,
+    "text": "@AmazonHelp ??? Why does this happen @AmazonHelp don't bury your heads in the sand",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1501689,
+    "text": "@AmazonHelp Sounded like a drummer from DAY ONE. I want @115821 to refund the cost of part AND the $28 shipping, &amp;send a *prepaid* RA label\ud83d\ude21 @115851",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 426662,
+    "text": "@AmazonHelp I have reverted and again same mail received.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 633560,
+    "text": "@AmazonHelp Managed to chat to sum1 online, and got full refund \ud83d\ude0b Thanks",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 2894538,
+    "text": "@AmazonHelp Only my mom has access to add to my cart, but I complete the checkout. This is a clearly odd mixture of items such as 6 MacBook chargers",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 359184,
+    "text": "@AmazonHelp if u understand my concern re-ship my cancelled order",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2960421,
+    "text": "@AmazonHelp I have replied via your __email__ and your call center. Because I havent received any support after multiple contacts it's caused me to make the issue public",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1850365,
+    "text": "@AmazonHelp It was shipped via Amazon. Good news is I got a refund but I am curious to why my review was rejected due to the item costing less then $50.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 588787,
+    "text": "@AmazonHelp I had an email to say my parcels at been delivered and left in my safe place. They weren't. They were left on my neighbours porch in full view of the street. You can't miss my house, there is a big sign with my house name on the gate.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2644125,
+    "text": "@AmazonHelp This acceptable. But I\u2019m still throwing shade.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 726593,
+    "text": "@AmazonHelp My prime membership is due for renewal on Nov 3rd.. also the prime membership charge is just 499... Then why 719 has been charged...",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 507093,
+    "text": "@AmazonHelp It says the delivery date was supposed to be November 28, 2017 and package status is shipped",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 324140,
+    "text": "@AmazonHelp Amazon is a scam company having worst customer care and no policies for customer if  they having problem due to their fault #fraudamazon",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1010411,
+    "text": "@AmazonHelp FedEx. It seems to be fixed, but the process was awful. We were questioned over and over, and it was extremely frustrating.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2379691,
+    "text": "@AmazonHelp Esperando mais ou menos assim: https://t.co/DaZj8TFBKX",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1512009,
+    "text": "@AmazonHelp Ja, ich habe auch schon eine Antwort erhalten, dass der Zusteller ermahnt wird seine Arbeit vern\u00fcnftig auszuf\u00fchren, Danke.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1735563,
+    "text": "@AmazonHelp Shouldn't take 30 minutes to resolve what should be a simple issue.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 249776,
+    "text": "@AmazonHelp So far i have been following for refund now saw replacement order has been shipped.\nNot sure what's going on here.I am looking for refund.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2414438,
+    "text": "@AmazonHelp Great, looking forward to this. Thanks.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2850694,
+    "text": "Hola @AmazonHelp quien me puede ayudar a validar mi cuenta, ya env\u00ede varias veces la informaci\u00f3n que me piden y que me pudo proporcionar mi banco pero a\u00fan sigue bloqueada, de ante mano gracias",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 277259,
+    "text": "@AmazonHelp Which is false as we are open from 8am and have had nobody come in asking if we are expecting any packages",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 784098,
+    "text": "@AmazonHelp Recupere la cuenta de Amazon y la personal. No gracias a Amazon. #Amazon #faltadeseriedad",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1594806,
+    "text": "@UPSHelp why did @115817 driver leave a big, electronic @AmazonHelp package in the rain?!? When the porch is covered?!? It even says \u201ckeep dry\u201d https://t.co/8kqdffUF4i",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 181008,
+    "text": "Would be great if when you ordered a book from @115821 it didn't come looking like it's been completely battered @AmazonHelp",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 395067,
+    "text": "@AmazonHelp @115830 131st day requesting any kind of response",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2936680,
+    "text": "@AmazonHelp I didn't receive any estimated delivery date at all. It's Xanathar's Guide to Everything by Wizards of the Coast.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 622360,
+    "text": "@AmazonHelp Its not just not working ! It came to me smashed therefore i cant take it out the box properly !!",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 270907,
+    "text": "@AmazonHelp Not really sure why it takes a month for a book to be delivered. Order cancelled.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1166662,
+    "text": "@AmazonHelp @AmazonHelp yes, that's why I'm frustrated this is a bed frame and it will be the 5th night of the mattress being on the floor.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 971043,
+    "text": "@AmazonHelp And what's your earliest time it's almost a week now? Is this your turn around time?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 264962,
+    "text": "@AmazonHelp No, I haven't. Wish I did though.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2979648,
+    "text": "@AmazonHelp They are unable to solve the problem! This is unacceptable!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2093981,
+    "text": "@AmazonHelp It was a packet of hula hoops that I wanted to send as a gift to a friend",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1526922,
+    "text": "@AmazonHelp Product not being delivered and your staff lying to me, how does that sound??",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 323323,
+    "text": "@AmazonHelp its same apologies and all but how does it make difference when i am not getting  any help ? no Action taken till now",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1213397,
+    "text": "@AmazonHelp Tracking#216255307133 try to deliver by 1400 hrs by 27-October.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2853694,
+    "text": "@AmazonHelp The delivery guys need some training. My stuff showed up (a day late) yesterday. The driver rang my very loud buzzer FIVE TIMES. With no pause in between. Took him about 2 sounds to ring all 5X. Need to know why.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2451649,
+    "text": "@AmazonHelp Every time we use it recently we have to reset it at least once or twice because it freezes up or keeps kicking itself off the internet",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 376593,
+    "text": "@AmazonHelp Had the chat at about 7:19 PM PST",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 535714,
+    "text": "@AmazonHelp Both fulfilled by Amazon",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 315008,
+    "text": "@AmazonHelp WHEN YOU HAVE UNDERSTOOD MY PROBLEM THEN SOLVE IT, THAT'S ALL.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1337218,
+    "text": "@AmazonHelp but normally amazon prime is fast, I don\u2019t understand why it takes 5 day, and it was the only delivery option.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 853920,
+    "text": "@AmazonHelp Yeah been a customer for many years and been let down SO MANY times , I know how it works.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 936710,
+    "text": "@amazonhelp thanks for the quick response, I\u2019ve sent an email",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2971942,
+    "text": "Hey @AmazonHelp what exactly does it mean when you say my package has been delivered and is ready to be picked up? Those can't both be true. Why do you use the @118706 when they continue to be terrible? https://t.co/KT759XDksp",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 965273,
+    "text": "@AmazonHelp Email i can use to send u the correspondence??",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1195794,
+    "text": "@AmazonHelp \u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\ud83d\ude0a",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2460763,
+    "text": "@AmazonHelp Then what was this \ud83d\ude14\ud83d\ude14\ud83d\ude14 https://t.co/Sj0LdIE3W6",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1200048,
+    "text": "@AmazonHelp @115850 @115851 why would i go to the service center if I started facing issue within 10 days.I want replacement of this device #Lenovo",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1771711,
+    "text": "@AmazonHelp I just reset my password. The website refused to accept it, then I see this. Amazon, what IS going on with my account?? https://t.co/3O1NMQ59xO",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 927817,
+    "text": "@AmazonHelp help. I've a query",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 19466,
+    "text": "@AmazonHelp via Twitter and you people ask me to fill one form, I did and wait to see what happen next~ thanks for asking~",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1092433,
+    "text": "@AmazonHelp I feel like it costs more for Amazon to give me a return label and send a new one, than a simple credit to the account. Doesn\u2019t make sense.",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 489494,
+    "text": "@AmazonHelp Dear MJ,\nYour executives left me with no other choice. Called amazon from 6PM to 9PM. Got few contradicting mails. But no solution. i can UNDERSTAND your concern about your personal information sorry can't help sharing such a wonderful experience.\nRegards,\nRD",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 782697,
+    "text": "@AmazonHelp It forwards me to this calling option",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2924426,
+    "text": "@AmazonHelp But why send a package North, when it\u2019s supposed to go the complete opposite direction? No the delivery date has not changed. But I also have not been notified where the location of I\u00adt is in 21 hours. I\u00adt is UPS",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1179637,
+    "text": "@AmazonHelp Delivery was said to have been tried Sunday, was in all day. Found slip throw over back gate. No delivery attempted Monday.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1410753,
+    "text": "@AmazonHelp i know the pick up points near me. just can't get the \"instant pickup\" option to show up on my app",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1601315,
+    "text": "@AmazonHelp \u3054\u4e01\u5be7\u306b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\uff01",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2980874,
+    "text": ". @115821 @AmazonHelp @115850 very disappointing service by amazon.in. Policy for buying product with exchange is pathetic. Within 2 hours of delivery and pick up i wanted to get my old phone back. They simply refused. Didn't expect this service being a prime customer.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1014826,
+    "text": "@AmazonHelp I don\u2019t think so these thing it\u2019s really important for you guys suffering from these nonsense from last so many days now you are talking about your policy.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2950729,
+    "text": "@AmazonHelp Award-winning job you guys did picking the appropriate box size and padding. https://t.co/lJagkHEJwr",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 382776,
+    "text": "@AmazonHelp I did not ask for call back as I have two small children. I just want them to confirm delivery today or latest tomorrow.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1437481,
+    "text": "@AmazonHelp Asked for him a supervisor/manager and someone from complaints dept to ring me and still nothing \ud83d\udc4c\ud83c\udffc you keep being you amazon fs",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 285541,
+    "text": "@AmazonHelp Thanks",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 911194,
+    "text": "@AmazonHelp Twice in last month goods have not reached Locker destination. Seller now want me to wait another 10 days. Not happy.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 722912,
+    "text": "@AmazonHelp Bear the sarcasm",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1561569,
+    "text": "@AmazonHelp this is how your driver delivered my package today... WTF https://t.co/YLUiSgc26m",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 395227,
+    "text": "@AmazonHelp @115830 298th day requesting any kind of response",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2035200,
+    "text": "@AmazonHelp Moi qui esp\u00e9r\u00e9 pouvoir en profiter ce WE https://t.co/KVGf4Gy1PT",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 878810,
+    "text": "@AmazonHelp Unaddressed issues r remaining unresolved since months and you are just escalating and requesting me to wait further. No refund since months",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 1564995,
+    "text": "@AmazonHelp Heute. Sonst h\u00e4tte ich es Donnerstag mit Same Day gleich zu mir kommen lassen",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 812414,
+    "text": "@AmazonHelp Faute, faute et refaute, c'est \u00ab\u00a0en train\u00a0\u00bb, non pas \u00ab\u00a0entrain\u00a0\u00bb.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 386410,
+    "text": "@AmazonHelp My packages arrived safely, thank you for your time :)",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 247008,
+    "text": "@AmazonHelp Hmm ..it's getting worked upon from last 5 days..nothing is being done though",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2403973,
+    "text": "@AmazonHelp Why not? Our consumer court will let you  know everything.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 720749,
+    "text": "@AmazonHelp https://t.co/pRvlzIxCxk I think I asked for a play 3",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 641790,
+    "text": "@AmazonHelp Hi, I have managed to cancel it myself now. I was not able to do that earlier. I have had to contact my bank to cancel the pending transaction, because it wasn't possible for you to refund it over the phone.",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 67443,
+    "text": "@AmazonHelp \nI bought a product in July. It's now broken. But there's no option to get a replacement or raise a complaint. What do i do??  !!!",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 2565616,
+    "text": "@AmazonHelp I ordered something and it still haven\u2019t arrived what\u2019s wrong? https://t.co/h7rAahbGUi",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 128021,
+    "text": "@AmazonHelp No I haven't received any mail of that type..resend me",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1020080,
+    "text": "@AmazonHelp my most recent order hasn't shipped yet but you know I'm prayin' that it comes via FedEx or UPS",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2276825,
+    "text": "@AmazonHelp Except you have a release date for the standard version. The whole reason I'm paying extra is to get it early. https://t.co/swJLJqM8zf",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1353601,
+    "text": "Seriously @AmazonHelp, what was the point in pre ordering in JULY? Still not here. Giving up and buying digital from Nintendo https://t.co/9ej0x0eT3K",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1480161,
+    "text": "@AmazonHelp So I tested it just now. The two echoes and the phone on the same wifi network. And I still cannot add the 2 echoes to the one group.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 25256,
+    "text": "@AmazonHelp Yeah",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 666905,
+    "text": "@AmazonHelp Hell no!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1303741,
+    "text": "@AmazonHelp I can't sign from that link for help cuz it won't acknowledge my email address as valid",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 330173,
+    "text": "@AmazonHelp Sorry dont understand?  link FR? Verify my address?  It has been the same for years..",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 627863,
+    "text": "@AmazonHelp All items were \u2018dispatched from and sold by Amazon\u2019",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1044991,
+    "text": "@AmazonHelp Even after the call no action being taken. Where should I report?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 226329,
+    "text": "@AmazonHelp Executives mr Daksh whom I talk he is just saying to talk to Sbi I had numerous time contact Sbi also they say we don't have such tie up",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 550579,
+    "text": "@AmazonHelp Why do you use Hermes for delivery when they seem to fail to get the job done? They're damaging your reputation too.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 26954,
+    "text": "@AmazonHelp Got it. Worst services @AmazonHelp @121899  too",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 307882,
+    "text": "@AmazonHelp It's order 112-6233088-9961021. Your site shows it as delivered but the delivery company has told me it's been misdelivered...",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2400894,
+    "text": "@AmazonHelp I\u2019ve tried calling several times with my registers mobile and IVR doesn\u2019t let me proceed. Can someone call me back ASAP regarding an order?",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 780608,
+    "text": "@AmazonHelp U send the wrong product send back to u and u didnt retun my money u said I sent wrong product .Will fuck u now",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 1404775,
+    "text": "@AmazonHelp They are both pending, and this happened last time with my Kindle subscription, the money went back on my account, but it is frustrating 1/",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2538891,
+    "text": "@AmazonHelp I don't understand.. the intended information I have is the 'estimated' delivery date!! Which, before this morning was a 'guarenteed' delivery date of TODAY! NOT IN 2-3 DAYS TIME",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2399806,
+    "text": "@AmazonHelp I'm not trying to sound rude but after months of saying something &amp; getting no answers, someone finally decided to speak. Hmmm.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2780564,
+    "text": "@AmazonHelp 14 days and counting......",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 124050,
+    "text": "@AmazonHelp bom pelo visto de desconto teve nada n\u00e9.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 258838,
+    "text": "@AmazonHelp Hi @AmazonHelp &amp; @115830 just 2 let u know the customerservice number u gave me fixed the problem &amp; I got the parcel 2day- thanku :)",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2926386,
+    "text": "@AmazonHelp Si es serie original, deber\u00eda ser lanzamiento mundial",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 837518,
+    "text": "@AmazonHelp @115821 @115850 today one more order got cancelled...  leave it you are fooling people by reason pricing difference",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2380831,
+    "text": "@AmazonHelp \u6ce8\u610f\u559a\u8d77\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\n\u4e8b\u524d\u306b\u67b6\u7a7a\u8acb\u6c42\u8a50\u6b3a\u304c\u3042\u308b\u3053\u3068\u3092\u77e5\u3063\u3066\u3044\u305f\u305f\u3081\u3001\u8a18\u8f09\u3055\u308c\u3066\u3044\u308b\u756a\u53f7\u306b\u3064\u3044\u3066\u306f\u30af\u30ea\u30c3\u30af\u3057\u3066\u3044\u307e\u305b\u3093\u3002",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 52243,
+    "text": "@AmazonHelp I have my account blocked. I have already sent the fax you have requested (twise) but still got no aswer. What should I do?",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 639459,
+    "text": "@AmazonHelp \u00c7a ... ce qui est faux --\" ! Bon j'abandonne et je supprime mon compte amazon. Je suis vraiment de\u00e7u par vos services. https://t.co/dByZZzRD24",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 2294986,
+    "text": "@AmazonHelp \u6700\u9ad8\u3067\u3059\uff01\uff01",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 435766,
+    "text": "@AmazonHelp When will I be able to apply for a refund. The item isn't needed now if it won't be here on time.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 98807,
+    "text": "@AmazonHelp I didn't receives any mail,\nCall me now.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 914845,
+    "text": "@AmazonHelp I have written a mail from my mail ID __email__. Request you to refer the mail for the details",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 529051,
+    "text": "@AmazonHelp this assurity is given by your customer service team from 5 days......and I have no info. about my money.....I hope for a speedy resolution #cheaters #AmazonIndia #JEFFBEZOS",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 307891,
+    "text": "@AmazonHelp It has been 2 months that's why today I tweeted",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2509284,
+    "text": "@AmazonHelp Yes. This was an issue when you launched multi-room. Your documentation was published weeks ahead of the necessary app update being pushed out.\n\nIt would be good if you included the feature in an update rather than advertise something that isn\u2019t true. https://t.co/zxWfu7jZH8",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2883344,
+    "text": "@AmazonHelp The first time, I was advised that I would be sent an ULTRA even though my shopping cart said DUO PLUS. The second time I was promised an ULTRA at this price. The third time, today, I'm being told to f-off.",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 2116129,
+    "text": "@AmazonHelp They randomly reappeared again. I think it was a fault with the \"endless scrolling\" not showing page 2. Quite frustrating.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 64156,
+    "text": "@AmazonHelp No justification why you extended delivery date by 5 days. Even I requested them if I place fresh order will you deliver early...no words on that. Why you have prime service if you deliver in 8 days and in portal you show delivery by tomorrow.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2292680,
+    "text": "@AmazonHelp just had an update saying they had tried to deliver the package at 9pm...... no one knocked on my door have a baby so dead quiet and they usually put it through my letter box \ud83d\ude21liars",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1223595,
+    "text": "@AmazonHelp Done,  thanks \ud83d\ude18",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 134971,
+    "text": "@AmazonHelp Awaiting your positive response.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2453238,
+    "text": "@AmazonHelp I just want to order a new phone if I got refund. because all devices have same problem. I checked on internet.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 431120,
+    "text": "@AmazonHelp I do that every time it happens!",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1650406,
+    "text": "@AmazonHelp so I want refund for this as it was an expensive biscuit, and didn't expect such service from amazon",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 277273,
+    "text": "Anyone else having problems with\"look inside\" asking you sign in for more pages with no effect. @115821 @AmazonHelp",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 969131,
+    "text": "@AmazonHelp Shut up Bunch of Liars.\nRefund my money right now.\n\nMOST CORRUPTED customer care on this earth",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 247006,
+    "text": "@AmazonHelp Still waiting for my order .. will it arrive this year.. @115850 @115851",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2377196,
+    "text": "@AmazonHelp In a chat now. Y\u2019all rock! If only boys responded as quick as y\u2019all do. \ud83d\ude02",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 396841,
+    "text": "@AmazonHelp Haha no! I ordered it from another vendor. Wish I would have thru you guys. I would have gotten it by now!!",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2615120,
+    "text": "@AmazonHelp The order was delivered on 24th June 2017. Do you understand? I really need your help!",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1829438,
+    "text": "@AmazonHelp Saying sorry doesn\u2019t get me my packages \ud83d\ude12\ud83d\ude12 but you can\u2019t teleport ten to me so I have no choice but to wait https://t.co/WpKSp3tbvO",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1254153,
+    "text": "@AmazonHelp #AmazonCheats #Consumer #protection @1560 @3923 @131027 https://t.co/0zZG5fNgMJ",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2353718,
+    "text": "@AmazonHelp Non pas encore je comptais le faire mais vous m'avez r\u00e9pondu, donc je dois contacter le SAV ?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2122392,
+    "text": "@AmazonHelp @292555 Try @17256  :) https://t.co/NOQYUzqIYB",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2347837,
+    "text": "@AmazonHelp You should GN",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2853739,
+    "text": "@AmazonHelp none at all \ud83d\ude01",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2141381,
+    "text": "@AmazonHelp I am trying but it tells me to enter email address with no spot to enter email address so i can\u2019t submit it",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 788258,
+    "text": "@AmazonHelp Et puis ce matin je me connecte \u00e0 societe g\u00e9n\u00e9rale je constate que le pr\u00e9l\u00e8vement des achats est en cours. Explication ??",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 347361,
+    "text": "@AmazonHelp I have done such &amp; received 2 replies from Amazon, but not anyone from Vine, and both have been useless. I'm hitting my point of frustration right now.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 754576,
+    "text": "@AmazonHelp What does that means?..\n\n\ud83d\udc49 Package has left the courier facility in DELHI, NEW DELHI, IN",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 911584,
+    "text": "@AmazonHelp Hope...today deliver bcoz today estimated last day of delivery..",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 73640,
+    "text": "@AmazonHelp i sold my product on ur site..the product was taken nd from dat tym neither the product is returned nor my money..take some serious actioc as soon as possible",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 2861944,
+    "text": "@AmazonHelp Which option do I choose?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2417647,
+    "text": "@AmazonHelp Sendung Nr 1/Buch soll am Montag (vielleicht) zugestellt werden .. na ja.  @1713",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2236498,
+    "text": "When @AmazonHelp @115821 sends you a picture to prove they delivered your package and it\u2019s a picture of someone else\u2019s house. Way to go. Where is my package??",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2275923,
+    "text": "@AmazonHelp A message that you sent could not be delivered to one or more of\nits recipients. This is a permanent error. The following address(es)\nfailed:\n\n__email__:\nreason: https://t.co/yJWqHblwmm\n554 SBRS score too low: https://t.co/Z9unsnEsyL",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2171312,
+    "text": "@AmazonHelp queria a trilogia da funda\u00e7\u00e3o do asimov (me arranja um link a\u00ed com o pre\u00e7o da oferta do dia haha)",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 258719,
+    "text": "@AmazonHelp @4030 @118702 @115937 @4110 @4168 @119356 @115821 @131283 @144775 @2517 @115830 @115850 Dear Amazon,\nGive me one reason why u haven't published my review?\nStop this malpractice of selling faulty e-products.\n#ScamAtAmazon\n#Day45",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 980148,
+    "text": "@AmazonHelp Sure. I would request you to please send me a confirmation message or mail regarding the refund process and please speed up the process.",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 2849957,
+    "text": "@AmazonHelp Tracking indicates it is still out for delivery. But my mail was delivered hours ago, package was not.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2828045,
+    "text": "@AmazonHelp I\u2019m assuming someone thinks my email is theirs. \nDon\u2019t remember if I have two factor auth. enabled, but wouldn\u2019t that be why I\u2019m getting all the text messages?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2176417,
+    "text": "@AmazonHelp Trust me but your support team has been proved useless. They cannot get the courier delivered even after waiting 14 days.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2208539,
+    "text": "@AmazonHelp it says delivery attempted but there's no reason they shouldn't have been able to deliver, my office is open and there's no delivery notice.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1373386,
+    "text": "@AmazonHelp I am letting you know.....itnwas sue by 8pm on the 18th...TODAY...its 9:24. Consider this your notification \ud83d\ude33",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2761294,
+    "text": "@AmazonHelp Hello, I missed the allocated time to drop off return at an Amazon locker, how can I reschedule? Thanks",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 89205,
+    "text": "@AmazonHelp Interesting - to clarify I'm not asking for a pay out - I get that - but the value should be back in my account no? But for that reason it needs to be unlocked - by sharing information that I do not want (and in fact not able to) share.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 579041,
+    "text": "So damn annoyed!! Yet another parcel has gone missing from @115821 2 in one week!! Really think they need to change couriers as I know I'm not the only one this has happened to!! Hoping @AmazonHelp can sort it as I'm not a happy bunny! \ud83d\ude20",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 419843,
+    "text": "@115850 @AmazonHelp #4__credit_card__ after several calls and confirmation mails from cust care represent order has been cancelled 1/2",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 350627,
+    "text": "@AmazonHelp If it's not available with that seller, then Why you are showing it up?? To fool the customers? Pls check with the seller and remove it",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2192331,
+    "text": "@AmazonHelp Yes, however it now won\u2019t arrive in time. Very disappointed. Subscribe to Prime so a 5 day delay with no apology or email is hardly acceptable.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 566638,
+    "text": "@AmazonHelp Well I've got a Spotify playlist called \"Christmas songs\" that it *really* should have detected, but even without that it must be a pretty common request this time of year! I tried \"play some Christmas music\" and even explicitly \"play my Christmas playlist from Spotify\".",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2230558,
+    "text": "@AmazonHelp It was shipped by Amazon from US to Singapore. My issue is why international customers have to pay return postage for damaged items?",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 2934371,
+    "text": "@AmazonHelp Sold by AOKII Direct Store and Fulfilled by Amazon.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2807290,
+    "text": "@AmazonHelp LOL THANKS.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 844082,
+    "text": "@AmazonHelp Thank you!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 319440,
+    "text": "@AmazonHelp @115851  https://t.co/hkku1aCotX",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2481433,
+    "text": "@AmazonHelp my eta for my package says tomorrow at 8 pm but I need it to arrive during the day. How accurate is the eta?? Paid for 1 day",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 451918,
+    "text": "@AmazonHelp Thanks. It's with @122232 and I've arranged for it to be delivered to a neighbour but only if I'm not in.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 490472,
+    "text": "@AmazonHelp No thanks! It\u2019s worth it hehehehehe",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2405088,
+    "text": "@AmazonHelp Et j'esp\u00e8re que \u00e7a c'est une blague :\n\"Suite \u00e0 notre conversation t\u00e9l\u00e9phonique je prend acte du fait que vous n'\u00eates pas int\u00e9resse par le fait d'\u00eatre rembours\u00e9 pour votre commande non re\u00e7u.\"\nRe\u00e7u par mail... de mieux en mieux... Amazon perd mon colis et ne me rembourse pas",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 814859,
+    "text": "@AmazonHelp Il n'y a aucun probl\u00e8me, je suis juste content que \u00e7a ne soit pas Chronopost ;)\nC'est dommage de ne pas pouvoir dire quand on est absent :-(",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 476773,
+    "text": "@AmazonHelp I suppose I can give you one more email. I will happy list the items in question you have caused me great frustration with. Here's a spoiler for you. There are nearly 30 of them.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2496043,
+    "text": "@AmazonHelp Come on Amazon . Make up your word. Are you making false promises via cust care? @115850 #Amazon",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2564069,
+    "text": "@AmazonHelp When there is an Incorrect product delivered to a customer,Amazon.in should arrange for a return pick up and then notify the seller 2 dispatch the correct product immediately rather than waiting for the incorrect product 2 reach the seller to dispatch the replacement",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1297470,
+    "text": "@AmazonHelp That's not what I ask I been told to write you a letter by consumer advice people so can i have a address to write it to please",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2794318,
+    "text": "@AmazonHelp I have been trying to pay monthly for the free time app with no help from customer service after being on the phone for an hour and my one son's tab just erased everything on it while he was playing on it",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2294557,
+    "text": "@AmazonHelp Yes no problem.  It doesn't mean I won t be back though.  Thank you.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1202811,
+    "text": "@AmazonHelp Sure but I already did the chat/contact and it was extremely unhelpful",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 792096,
+    "text": "@AmazonHelp Hi,been asked to revise payment method as payment's been declined twice in the past few days - 1) info's \u2705, 2) \u20acs there to pay!\ud83d\ude33",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 1665810,
+    "text": "@220362 @AmazonHelp Ordered within 5 mins of announcement and still not heard anything yet mate. Booked day off tomorrow too.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 128802,
+    "text": "@AmazonHelp Hi, my package was expected to arrive Nov. 22 and never did and still says it's on the way over 24hrs later. Order #701-2741906-8579460",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2335813,
+    "text": "@AmazonHelp I am reverting them back from yesterday but they doing is making false promises hate your site seriously @115850",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2595568,
+    "text": "@AmazonHelp Lets keep our fingers crossed then and thank you for the message \ud83d\ude00",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 808886,
+    "text": "@AmazonHelp do u see the problem here. i ordered two day shipping why is it going to take five days https://t.co/tMtEMl5Vd4",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1519844,
+    "text": "@AmazonHelp I did have free trial but amazon canceled it. I did not change my card details",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 1071156,
+    "text": "@AmazonHelp if you could give me email or somethingSo i can identify myself, so you can fix my account and the cancelled orders on the bits @AmazonHelp",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2422683,
+    "text": "@AmazonHelp Does this now mean the item will not be arriving \ud83d\ude21 . 2 different delivery dates and now this fuming is an understatement!!! https://t.co/jraTbbOurp",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 293389,
+    "text": "@AmazonHelp My issue wasn\u2019t resolved...the seller want me to buy a label for $26 to return the item. \ud83d\ude44\ud83d\ude20",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 886137,
+    "text": "@AmazonHelp Bonjour, @132988 est le transporteur en charge de ma livraison",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 2943205,
+    "text": "@AmazonHelp I don't have email address associated with the account",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 2672695,
+    "text": "@AmazonHelp already did",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1668913,
+    "text": "@AmazonHelp You guys have pathetic after sales customer support",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 126330,
+    "text": "@AmazonHelp It is 8:13PM and I am moving out from the address. I tried to cancel the request but not able to cancel through web and app.",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 957114,
+    "text": "@AmazonHelp Hi there! Please tell me if @42289's World in My Eyes will be available tomorrow on @115830. This is my third enquiry.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 601271,
+    "text": "@AmazonHelp Amazon logistics",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2931412,
+    "text": "@810553 @AmazonHelp Won't help. I've ordered more than 20k and everything is getting Returned to seller. I don't have credit to order again. They screwed me.",
+    "intent": "refund"
+  },
+  {
+    "tweet_id": 877665,
+    "text": "@AmazonHelp guys again...ive selected the options n stuff...the IVR doesnt give me an option to select to speak wit a human...!!!!!!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1563754,
+    "text": "@AmazonHelp Done",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 441905,
+    "text": "@AmazonHelp Love you x",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2463934,
+    "text": "@AmazonHelp I have requested this information through all channels I can repeatedly. Can I get clarification on what a \u201cstatement for my payment card\u201d is ??",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 2759690,
+    "text": "@AmazonHelp $11 item that I ordered on Friday and paid $8 one-day shipping for. Was hoping to get it on Saturday before I left town. It hasn\u2019t shipped yet so I wanted to cancel the order or refund the shipping. Agent was indignant and insisted I was wrong. I hope he was happy being right.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1890618,
+    "text": "@AmazonHelp I have cancelled the order and Amazon was not able to help me. Please focus on refunds.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 605123,
+    "text": "@AmazonHelp Par un vendeur tiers et encore disponible",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1832107,
+    "text": "@115850 charging different price for same product from same seller.Then what is the advantage of having prime membership if you add the delivery charges to the product . Suggest me from which seller i should buy. @115821 @AmazonHelp https://t.co/daHNwxn1bb",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 2473514,
+    "text": "@AmazonHelp Mai avuto un problema con voi, ringrazio quotidianamente di vivere in un'epoca in cui ci sono Kindle e Prime. \ud83d\udc4d",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 183043,
+    "text": "@AmazonHelp Hi MJ. Yes I have even changed my password to all lower case and still get error at the bottom of the page",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 808166,
+    "text": "@AmazonHelp I have associated email addresses with the account",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 1140858,
+    "text": "@AmazonHelp slightly confused why i\u2019m seeing this today as the package was delivered yesterday? https://t.co/v4nuzDwosF",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2111000,
+    "text": "So, did a live chat with @AmazonHelp @115830 about the Xbox One X preorder. Long and short of it, it will NOT be arriving today. Feel completely lied to. Never buy a console from Amazon!! #XboxOneXProjectScorpioEdition",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 727107,
+    "text": "@AmazonHelp Status is showing Latest update: Thursday, 5 Oct and in GREEN Colour its showing arriving today.   What is it mean",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2450869,
+    "text": "@AmazonHelp That just works for parental control. You can't turn off the pin requirement for 18+ content. Thank you anyway!",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2930107,
+    "text": "@AmazonHelp Amazon logistics, 5 PRIME items ordered Monday, you pushed delivery back to Thursday  as you were busy so not technically late but they are ten minutes from my home at your depot so I am asking why can't you deliver them today? I Pay my fee and you can just deliver when you want?",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1564985,
+    "text": "@AmazonHelp My notifications are set on the app to let me know when my order has been delivered. Just checked, usually get a missed you delivery note",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 24979,
+    "text": "@AmazonHelp receiving same mails 4m u no resolution yet. I CANNOT trust a company that gives me unboxed product, I will NOT opt for replacement...",
+    "intent": "product"
+  },
+  {
+    "tweet_id": 465788,
+    "text": "@AmazonHelp Yes it is sold and shipped by Amazon.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2299081,
+    "text": "@AmazonHelp and unless My amazon pay balance is unlocked. So Do that within 24 hour or else I have better alternatives to amazon , I ll never look back to amazon....2/2",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 407474,
+    "text": "@AmazonHelp I can't seem to find that option.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2922590,
+    "text": "@AmazonHelp Ok so it was shipped today. So two days would be Friday at the latest. Right? It's only Tuesday night",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2391859,
+    "text": "@AmazonHelp Oui, plusieurs fois, et rien du tout. Si ce n'est plus possible, tant pis, j'aurais aim\u00e9 mettre un avis positif :/",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1953352,
+    "text": "@AmazonHelp still showing as today for delivery",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1073232,
+    "text": "@AmazonHelp What good is a guarantee if it\u2019s not met and there\u2019s no action taken?",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1681804,
+    "text": "@AmazonHelp I found an Amazon transaction on my bank statement that I can't place? Help?\n\nThank you.",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 1714216,
+    "text": "@AmazonHelp Pues eso me suena a nuevo, pero en fin, para el pr\u00f3ximo a\u00f1o cancelo y listo.",
+    "intent": "cancellation"
+  },
+  {
+    "tweet_id": 25291,
+    "text": "@AmazonHelp  https://t.co/1dmMd2wSOv",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 167981,
+    "text": "@AmazonHelp SIM! E COM BOLINHO HEHE",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1110845,
+    "text": "@AmazonHelp 24 hours later, the product MRP is unchanged. You continue to mislead/cheat customers with false info on your site.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2944295,
+    "text": "@AmazonHelp I won't be getting any future deliveries but thanks.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 1429478,
+    "text": "@AmazonHelp Ahora en mis pedidos de amazon aparece una nueva fecha de entrega! 16-17 de octubre. No se si es cosa vuestra o de @130687",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 69928,
+    "text": "@AmazonHelp Any update? :)",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2302251,
+    "text": "@AmazonHelp So no extra charge like others. Bang on thank you very much.",
+    "intent": "billing"
+  },
+  {
+    "tweet_id": 1754225,
+    "text": "@AmazonHelp ???",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 440513,
+    "text": "@AmazonHelp is there a place I can put special delivery instructions? None of the delivery instructions match my criteria.",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 2539626,
+    "text": "@AmazonHelp Which time?! Have rung 5 times so far! First time I was told it wouldn't be delivered as it out of stock... when I questioned why it was still showing as with the courier the story changed and I was told it was damaged.. when I questioned how dog chew could be damaged they said..",
+    "intent": "order_status"
+  },
+  {
+    "tweet_id": 1604134,
+    "text": "@AmazonHelp No",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 2933547,
+    "text": "@AmazonHelp Okay....please arrange a call on below no so that I can explain my issue to you.",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 530772,
+    "text": "@AmazonHelp Bien sur! Je connais d\u00e9j\u00e0 la r\u00e9ponse... mais je trouve \u00e7a dommage que vous acceptiez que vos vendeurs puisse abuser autant sur les prix! Alors que vous \u00eates r\u00e9put\u00e9 pour justement \u00eatre comp\u00e9titif. https://t.co/2QUTsPLdxJ",
+    "intent": "complaint"
+  },
+  {
+    "tweet_id": 631730,
+    "text": "@AmazonHelp i cannot log i to my account as my account has been locked",
+    "intent": "technical"
+  },
+  {
+    "tweet_id": 197692,
+    "text": "@AmazonHelp 10:58Colis envoy\u00e9 au transporteur, en transit.\nMontelimar, FR (message exact)",
+    "intent": "complaint"
+  }
+]

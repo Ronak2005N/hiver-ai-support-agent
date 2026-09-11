@@ -1,0 +1,259 @@
+{
+  "accuracy": 0.8826530612244898,
+  "precision": 1.0,
+  "recall": 0.34285714285714286,
+  "f1": 0.5106382978723404,
+  "tp": 12,
+  "tn": 161,
+  "fp": 0,
+  "fn": {
+    "id": 178,
+    "text": "@AmazonHelp have provided terrible service",
+    "true_intent": "complaint_frustration",
+    "pred_intent": "complaint_frustration",
+    "true_escalate": true,
+    "pred_escalate": false,
+    "escalation_reason": "Auto-handleable",
+    "confidence": 0.95
+  },
+  "auto_handle_rate": 0.9387755102040817,
+  "escalation_rate": 0.061224489795918366,
+  "baseline": {
+    "accuracy": 0.923469387755102,
+    "precision": 0.8571428571428571,
+    "recall": 0.6857142857142857,
+    "f1": 0.7619047619047619
+  },
+  "false_negatives": [
+    {
+      "id": 169,
+      "text": "@169215 @AmazonHelp @115850 Even I agree there customer care is worst then Paytm..",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 170,
+      "text": "Hi @AmazonHelp @116618 HDR/4K content looks incredibly washed/out dull on my new TCL/Roku TV. Is tha",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 171,
+      "text": "@AmazonHelp Worst coustmer  serivce got form ur end.",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 172,
+      "text": "@AmazonHelp , the worst service u have really, https://t.co/XIvZQf9E7a",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 173,
+      "text": "@178205 @AmazonHelp I agree! Intelcom is THE WORST! Pkgs show up late in evening, terrible website t",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 174,
+      "text": "AMZL_US or Amazon Logistics is the worst delivery service ever devised.  and @AmazonHelp could care ",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 175,
+      "text": "@115850 if you wish to not to deliver my products, no worries. Pls give my money back\ud83d\ude4f\ud83c\udffd\n@AmazonHelp ",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 176,
+      "text": "@AmazonHelp it's not even out for delivery so tell me how exactly its going to get here today. Last ",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 177,
+      "text": "@115850 @AmazonHelp @13938 worst support i hv gt frm Amazon &amp; it's Seller for defective item.",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 178,
+      "text": "@AmazonHelp have provided terrible service",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 180,
+      "text": "@AmazonHelp I've purchased a book not share of any big company ..plz don't try to convince me via th",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 181,
+      "text": "@AmazonHelp Ordered a phone twice, never got it saying it was damaged in transit What a joke? Worst ",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 182,
+      "text": "@AmazonHelp @AmazonHelp @115850 \nNow after 13 days and approx 25 + follow-up executive saying my pac",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 183,
+      "text": "@115821 @AmazonHelp I\u2019ve been a customer for 15 years and spent tens of thousands of dollars but due",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 184,
+      "text": "@AmazonHelp Undelivered product and worst customer care.what u think a company outside of India come",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 186,
+      "text": "@AmazonHelp Worst return service by @115850 ...Agreed?",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 189,
+      "text": "@AmazonHelp I wasn't refunded my promo credit, now I've been on the chat for 2 hours and your staff ",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 190,
+      "text": "@AmazonHelp I think this is the worst customer support of @115821",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 191,
+      "text": "@AmazonHelp Terrible experience ever. Would have routed through other o line service rather the  ama",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 192,
+      "text": "@AmazonHelp Another promise not delivered properly @AmazonHelp  the time frame is increasing day by ",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 193,
+      "text": "@AmazonHelp @115850 and @AmazonHelp weekend is here even d details r provided.. still no response  #",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 195,
+      "text": "@AmazonHelp Still nothing guys. Worst customer service I've ever encountered. Where can I send a for",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 196,
+      "text": "@AmazonHelp R u befooling customer or what, you have taken money,dlvr product to someone else. I sho",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    }
+  ]
+}

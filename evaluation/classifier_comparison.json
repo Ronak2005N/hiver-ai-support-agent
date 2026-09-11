@@ -1,0 +1,56 @@
+{
+  "classifier_v1": {
+    "accuracy": 0.6990,
+    "macro_f1": 0.70,
+    "per_class": {
+      "billing_payment": {"precision": 0.95, "recall": 0.71, "f1": 0.82},
+      "cancellation": {"precision": 0.73, "recall": 0.86, "f1": 0.79},
+      "complaint_frustration": {"precision": 0.69, "recall": 0.86, "f1": 0.76},
+      "order_status": {"precision": 0.54, "recall": 0.50, "f1": 0.52},
+      "product_issue": {"precision": 0.70, "recall": 0.50, "f1": 0.58},
+      "refund_return": {"precision": 0.54, "recall": 0.75, "f1": 0.63},
+      "technical_support": {"precision": 0.91, "recall": 0.71, "f1": 0.80}
+    },
+    "confusion_errors": {
+      "product_issue->refund_return": 7,
+      "order_status->refund_return": 4,
+      "billing_payment->cancellation": 4,
+      "order_status->product_issue": 3,
+      "order_status->complaint_frustration": 3
+    }
+  },
+  "classifier_v2": {
+    "accuracy": 0.7041,
+    "macro_f1": 0.71,
+    "per_class": {
+      "billing_payment": {"precision": 1.00, "recall": 0.71, "f1": 0.83},
+      "cancellation": {"precision": 0.76, "recall": 0.89, "f1": 0.82},
+      "complaint_frustration": {"precision": 0.67, "recall": 0.86, "f1": 0.75},
+      "order_status": {"precision": 0.52, "recall": 0.54, "f1": 0.53},
+      "product_issue": {"precision": 0.67, "recall": 0.50, "f1": 0.57},
+      "refund_return": {"precision": 0.57, "recall": 0.71, "f1": 0.63},
+      "technical_support": {"precision": 0.91, "recall": 0.71, "f1": 0.80}
+    },
+    "confusion_errors": {
+      "product_issue->refund_return": 7,
+      "refund_return->order_status": 4,
+      "technical_support->complaint_frustration": 4,
+      "order_status->product_issue": 3,
+      "order_status->complaint_frustration": 3
+    }
+  },
+  "key_changes": {
+    "what_improved": [
+      "Accuracy: 69.90% -> 70.41% (+0.51%)",
+      "Macro F1: 0.70 -> 0.71 (+0.01)",
+      "order_status F1: 0.52 -> 0.53 (+0.01)",
+      "cancellation F1: 0.79 -> 0.82 (+0.03)",
+      "billing_payment precision: 0.95 -> 1.00 (+0.05)"
+    ],
+    "what_got_worse": [
+      "product_issue F1: 0.58 -> 0.57 (-0.01)",
+      "refund_return precision: 0.54 -> 0.57 (+0.03) but recall: 0.75 -> 0.71 (-0.04)"
+    ],
+    "root_cause_fix": "Reordered rule priorities so product_issue and order_status are checked before refund_return and cancellation"
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "accuracy": 0.7040816326530612,
+  "total_examples": 196,
+  "total_errors": 58,
+  "per_class": {
+    "billing_payment": {
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.8333333333333334,
+      "support": 28.0
+    },
+    "cancellation": {
+      "precision": 0.7575757575757576,
+      "recall": 0.8928571428571429,
+      "f1-score": 0.819672131147541,
+      "support": 28.0
+    },
+    "complaint_frustration": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.75,
+      "support": 28.0
+    },
+    "order_status": {
+      "precision": 0.5172413793103449,
+      "recall": 0.5357142857142857,
+      "f1-score": 0.5263157894736842,
+      "support": 28.0
+    },
+    "product_issue": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1-score": 0.5714285714285714,
+      "support": 28.0
+    },
+    "refund_return": {
+      "precision": 0.5714285714285714,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.6349206349206349,
+      "support": 28.0
+    },
+    "technical_support": {
+      "precision": 0.9090909090909091,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.8,
+      "support": 28.0
+    }
+  },
+  "macro_avg": {
+    "precision": 0.7269528501055594,
+    "recall": 0.7040816326530612,
+    "f1-score": 0.7050957800433949,
+    "support": 196.0
+  },
+  "confusion_matrix": [
+    [
+      20,
+      3,
+      0,
+      2,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      25,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      24,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      3,
+      15,
+      3,
+      3,
+      2
+    ],
+    [
+      0,
+      2,
+      2,
+      3,
+      14,
+      7,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      4,
+      2,
+      20,
+      0
+    ],
+    [
+      0,
+      1,
+      4,
+      3,
+      0,
+      0,
+      20
+    ]
+  ],
+  "error_types": {
+    "order_status->product_issue": 3,
+    "order_status->cancellation": 2,
+    "order_status->complaint_frustration": 3,
+    "order_status->technical_support": 2,
+    "order_status->refund_return": 3,
+    "refund_return->order_status": 4,
+    "refund_return->product_issue": 2,
+    "refund_return->complaint_frustration": 2,
+    "billing_payment->cancellation": 3,
+    "billing_payment->refund_return": 3,
+    "billing_payment->order_status": 2,
+    "technical_support->cancellation": 1,
+    "technical_support->order_status": 3,
+    "technical_support->complaint_frustration": 4,
+    "product_issue->cancellation": 2,
+    "product_issue->refund_return": 7,
+    "product_issue->order_status": 3,
+    "product_issue->complaint_frustration": 2,
+    "cancellation->refund_return": 1,
+    "cancellation->order_status": 1,
+    "cancellation->complaint_frustration": 1,
+    "complaint_frustration->refund_return": 1,
+    "complaint_frustration->product_issue": 2,
+    "complaint_frustration->order_status": 1
+  },
+  "errors": [
+    {
+      "id": 1,
+      "text": "@AmazonHelp Your cc says we can't do anything as d packages are delivered.U delivered it to wrong pe",
+      "expected": "order_status",
+      "predicted": "product_issue",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 2,
+      "text": "@AmazonHelp Order No 408-7356679-2151563 dt-6/10/17 Received broken wall clock.",
+      "expected": "order_status",
+      "predicted": "product_issue",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 5,
+      "text": "@AmazonHelp Just that there was a problem and our order was cancelled. As we thought we had tickets ",
+      "expected": "order_status",
+      "predicted": "cancellation",
+      "confidence": 0.7,
+      "source": "rules"
+    },
+    {
+      "id": 7,
+      "text": "@AmazonHelp I have still not got the exact location and the confirmed delivery date of my package!!!",
+      "expected": "order_status",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 11,
+      "text": "@AmazonHelp As usual @AmazonHelp quickly solved my issue but the question remains why is this always",
+      "expected": "order_status",
+      "predicted": "technical_support",
+      "confidence": 0.7,
+      "source": "rules"
+    },
+    {
+      "id": 12,
+      "text": "@AmazonHelp packages a month.  I went to the cops and there is nothing to file.  A crime has to happ",
+      "expected": "order_status",
+      "predicted": "technical_support",
+      "confidence": 0.7,
+      "source": "rules"
+    },
+    {
+      "id": 15,
+      "text": "Ordered 2kg...received oni 1kg..Amazon#diwalisale#cheated#worst diwali gift ever from amazon.disappo",
+      "expected": "order_status",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 17,
+      "text": "@AmazonHelp Yeah received an email for three items to be refunded all processed on the same day. One",
+      "expected": "order_status",
+      "predicted": "cancellation",
+      "confidence": 0.7,
+      "source": "rules"
+    },
+    {
+      "id": 18,
+      "text": "@AmazonHelp we have no any call receive from your end for my order\nPlease do the action for order or",
+      "expected": "order_status",
+      "predicted": "refund_return",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 19,
+      "text": "@AmazonHelp The thing is i had recieved the refund but the order has not been picked up what to do w",
+      "expected": "order_status",
+      "predicted": "refund_return",
+      "confidence": 0.7,
+      "source": "rules"
+    },
+    {
+      "id": 20,
+      "text": "@AmazonHelp Placed order 2/11 prime for delivery 3/11 says it went to wrong courier centre &amp; now",
+      "expected": "order_status",
+      "predicted": "product_issue",
+      "confidence": 0.7,
+      "source": "rules"
+    },
+    {
+      "id": 27,
+      "text": "@AmazonHelp I sent an email to cust service. It's beyond the 30 day return window, another item I or",
+      "expected": "order_status",
+      "predicted": "refund_return",
+      "confidence": 0.7,
+      "source": "rules"
+    },
+    {
+      "id": 28,
+      "text": "@AmazonHelp Look at above screen shot how many times does a customer will contact for a single order",
+      "expected": "order_status",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 29,
+      "text": "@AmazonHelp Three times for the same order???? And I\u2019ve already been refunded for the original charg",
+      "expected": "refund_return",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 37,
+      "text": "@115830 @AmazonHelp Live Chat has to be the worst customer service I have ever received! Item hasn\u2019t",
+      "expected": "refund_return",
+      "predicted": "product_issue",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 39,
+      "text": "@AmazonHelp my order has been picked since 24th and the product has still not reached your warehouse",
+      "expected": "refund_return",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 42,
+      "text": "@AmazonHelp I need missing part tomorrow - can't afford to wait until you've received this one to se",
+      "expected": "refund_return",
+      "predicted": "product_issue",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 43,
+      "text": "@AmazonHelp I paid extra postage to guarantee delivery of my order yesterday but only half arrived o",
+      "expected": "refund_return",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 51,
+      "text": "@AmazonHelp I paid for express shipping &amp; my package didn\u2019t arrive on time (which really fucks m",
+      "expected": "refund_return",
+      "predicted": "order_status",
+      "confidence": 0.95,
+      "source": "rules"
+    },
+    {
+      "id": 53,
+      "text": "@AmazonHelp Completed the process to get my refund. That seemed to be my only option. Not very happy",
+      "expected": "refund_return",
+      "predicted": "complaint_frustration",
+      "confidence": 0.95,
+      "source": "rules"
+    }
+  ]
+}
