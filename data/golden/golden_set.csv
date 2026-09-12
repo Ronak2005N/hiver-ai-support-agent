@@ -76,21 +76,21 @@ Don't you value our time? 3 times i contacted to u",complaint_frustration,ESCALA
 68,@AmazonHelp  I have two charges for digitial services that I didn't order. How can I rectify this?,billing_payment,ESCALATE,easy,,true,billing_payment
 69,"@AmazonHelp It’s in transit, says it’s coming Monday. I was only told my payment didnt go through on the sunday before the book was to come out though?",billing_payment,AUTO_HANDLE,hard,,true,billing_payment
 70,FFS @115830 @AmazonHelp are saying I've placed an order &amp; it's been dispatched when I haven't &amp; now I've been charged money I don't have,billing_payment,ESCALATE,hard,,true,billing_payment
-71,@AmazonHelp Now I have suffer in self returning product and also not sure that courier charges will be given by Amazon or not. Please arrange person to,billing_payment,AUTO_HANDLE,hard,,false,billing_payment
+71,@AmazonHelp Now I have suffer in self returning product and also not sure that courier charges will be given by Amazon or not. Please arrange person to,refund_return,ESCALATE,hard,,true,billing_payment
 72,"Where is the result? 
 #AmazonRechargeQuiz 
 @AmazonHelp 
-@115850",billing_payment,AUTO_HANDLE,easy,,false,billing_payment
-73,"@AmazonHelp Hi. I'd set auto-renewal off deliberately, recently, yet I've still been charged for another year. Any way to reverse this?",billing_payment,AUTO_HANDLE,hard,,false,billing_payment
-74,"@AmazonHelp Need to know if I recharge my Jio using Amazon pay balance, will I get the Cashback as pay balance itself ?",billing_payment,AUTO_HANDLE,hard,,false,billing_payment
-75,"@AmazonHelp I'm actually using the cord it came with plugged into my apple charger, it takes hours to charge to even 40%",billing_payment,AUTO_HANDLE,hard,,false,billing_payment
-76,@AmazonHelp I tried to change payment method; your advisor cancelled a pre-order priced £34.99 and told me to re-order at your current price of £44.99,billing_payment,AUTO_HANDLE,hard,,false,billing_payment
-77,@AmazonHelp what is your amazing prime help email please? I keep getting an email saying thanks for signing up but payment has been declined,billing_payment,AUTO_HANDLE,hard,,false,billing_payment
-78,@AmazonHelp Thats the thing I told customer service. I created a new email address for the Prime trial and forgot it. What can I do so I'm not charged?,billing_payment,AUTO_HANDLE,hard,,false,billing_payment
-79,"@AmazonHelp Hi AmazonHelp, I keep getting charged €2.99 per month for Prime Video despite my account saying I've no subscription. There is no way for me to cancel! Please advise or help.",billing_payment,AUTO_HANDLE,hard,,false,billing_payment
-80,@AmazonHelp Thank you.  I have spoken with the call centre and had the charge reversed.  Still scary to be billed without placing an order though...,billing_payment,AUTO_HANDLE,hard,,false,billing_payment
-81,@AmazonHelp I have been double charged and left penniless. The person I spoke to was worse than useless how do I make a formal complaint,billing_payment,AUTO_HANDLE,hard,,false,billing_payment
-82,@AmazonHelp I have not received my refund for the Amazon pay balance. When i placed the order it said that payment should be revised.,billing_payment,AUTO_HANDLE,hard,,false,billing_payment
+@115850",complaint_frustration,AUTO_HANDLE,easy,,true,billing_payment
+73,"@AmazonHelp Hi. I'd set auto-renewal off deliberately, recently, yet I've still been charged for another year. Any way to reverse this?",billing_payment,ESCALATE,hard,,true,billing_payment
+74,"@AmazonHelp Need to know if I recharge my Jio using Amazon pay balance, will I get the Cashback as pay balance itself ?",billing_payment,AUTO_HANDLE,hard,,true,billing_payment
+75,"@AmazonHelp I'm actually using the cord it came with plugged into my apple charger, it takes hours to charge to even 40%",product_issue,AUTO_HANDLE,hard,,true,billing_payment
+76,@AmazonHelp I tried to change payment method; your advisor cancelled a pre-order priced £34.99 and told me to re-order at your current price of £44.99,cancellation,ESCALATE,hard,,true,billing_payment
+77,@AmazonHelp what is your amazing prime help email please? I keep getting an email saying thanks for signing up but payment has been declined,billing_payment,AUTO_HANDLE,hard,,true,billing_payment
+78,@AmazonHelp Thats the thing I told customer service. I created a new email address for the Prime trial and forgot it. What can I do so I'm not charged?,billing_payment,AUTO_HANDLE,hard,,true,billing_payment
+79,"@AmazonHelp Hi AmazonHelp, I keep getting charged €2.99 per month for Prime Video despite my account saying I've no subscription. There is no way for me to cancel! Please advise or help.",billing_payment,ESCALATE,hard,,true,billing_payment
+80,@AmazonHelp Thank you.  I have spoken with the call centre and had the charge reversed.  Still scary to be billed without placing an order though...,billing_payment,AUTO_HANDLE,hard,,true,billing_payment
+81,@AmazonHelp I have been double charged and left penniless. The person I spoke to was worse than useless how do I make a formal complaint,complaint_frustration,ESCALATE,hard,,true,billing_payment
+82,@AmazonHelp I have not received my refund for the Amazon pay balance. When i placed the order it said that payment should be revised.,refund_return,ESCALATE,hard,,true,billing_payment
 83,"@AmazonHelp 
 @115821 
 TAKING CHARGE AND POSTING
@@ -104,16 +104,16 @@ DOES NOT DO OR SAY ANYTHING
 #AMAZON
 #AmazonHelp
 Good show!!!!!
-#BRILLIANT https://t.co/p6GhLt982a",billing_payment,AUTO_HANDLE,hard,,false,billing_payment
-84,"@AmazonHelp hello, after charing my card, Amazon says credit card is declined, even though the amount is charged and withdrawn?",billing_payment,AUTO_HANDLE,medium,,false,billing_payment
-85,@AmazonHelp Je l'ai fait il y a plus d'une semaine. J'ai donc appelé samedi matin On m'a dit réponse sous 24h. Je me sens démuni face à votre SAV.,technical_support,AUTO_HANDLE,hard,,false,technical_support
-86,"@AmazonHelp @791115 Hi, I ordered from ur website but I couldn’t find it in my orders.. I only find it in canceled orders! 🤔 https://t.co/Ja4JBDN5mj",technical_support,AUTO_HANDLE,hard,,false,technical_support
-87,@AmazonHelp We called as soon as it happened.  The packages have been picked up and are out for delivery.  The guy who left it said it was his second day and the lady who picked them up said she stopped to help him and he said he lost the packages. 🤔,technical_support,AUTO_HANDLE,hard,,false,technical_support
-88,@AmazonHelp @115850 @119625 No solution yet. Disappointed!😔😣 https://t.co/2EaOYwTQMj,technical_support,AUTO_HANDLE,easy,,false,technical_support
-89,"@AmazonHelp We will see, I gave feedback personally to your colleague, next time we'll see what happens.",technical_support,AUTO_HANDLE,easy,,false,technical_support
+#BRILLIANT https://t.co/p6GhLt982a",billing_payment,ESCALATE,hard,,true,billing_payment
+84,"@AmazonHelp hello, after charing my card, Amazon says credit card is declined, even though the amount is charged and withdrawn?",billing_payment,ESCALATE,medium,,true,billing_payment
+85,@AmazonHelp Je l'ai fait il y a plus d'une semaine. J'ai donc appelé samedi matin On m'a dit réponse sous 24h. Je me sens démuni face à votre SAV.,technical_support,ESCALATE,hard,,true,technical_support
+86,"@AmazonHelp @791115 Hi, I ordered from ur website but I couldn’t find it in my orders.. I only find it in canceled orders! 🤔 https://t.co/Ja4JBDN5mj",order_status,AUTO_HANDLE,hard,,true,technical_support
+87,@AmazonHelp We called as soon as it happened.  The packages have been picked up and are out for delivery.  The guy who left it said it was his second day and the lady who picked them up said she stopped to help him and he said he lost the packages. 🤔,order_status,ESCALATE,hard,,true,technical_support
+88,@AmazonHelp @115850 @119625 No solution yet. Disappointed!😔😣 https://t.co/2EaOYwTQMj,technical_support,ESCALATE,easy,,true,technical_support
+89,"@AmazonHelp We will see, I gave feedback personally to your colleague, next time we'll see what happens.",technical_support,AUTO_HANDLE,easy,,true,technical_support
 90,"@AmazonHelp Halli hallo ihr Schnuckelmäuse 👋 
 Der zweite Zustellversuch hatte dann geklappt nachdem ich meinen Wunschnachbarn eingetragen hatte 👍 
-Wünsch euch 1 schön 1. Dezember &amp; DAMKE für euern Support 🎄❤🎅",technical_support,AUTO_HANDLE,hard,,false,technical_support
+Wünsch euch 1 schön 1. Dezember &amp; DAMKE für euern Support 🎄❤🎅",technical_support,AUTO_HANDLE,hard,,true,technical_support
 91,"@AmazonHelp Man, the subtitles are not coming again now. I have updated the app, played some other TV shows and Hindi movies and could see subtitles . Wonder what's the problem with this movie alone.",technical_support,AUTO_HANDLE,hard,,false,technical_support
 92,@AmazonHelp Yeah on Friday when I ordered it however it's now showing as not available on your website but my order still pending https://t.co/jcIemRBQo2,technical_support,AUTO_HANDLE,hard,,false,technical_support
 93,so you wait for a week to get a product just to return it because it ain’t working. Nice experience @115850 @AmazonHelp #disappointed,technical_support,AUTO_HANDLE,hard,,false,technical_support
