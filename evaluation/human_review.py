@@ -45,9 +45,11 @@ def save_human_scores(data):
         json.dump(data, f, indent=2)
 
 
-def select_stratified_sample(golden_set, n=30):
-    """Select n examples stratified by intent."""
+def select_stratified_sample(golden_set, n=30, valid_ids=None):
+    """Select n examples stratified by intent, optionally filtered to valid_ids."""
     from collections import defaultdict
+    if valid_ids is not None:
+        golden_set = [ex for ex in golden_set if ex['id'] in valid_ids]
     by_intent = defaultdict(list)
     for ex in golden_set:
         by_intent[ex['intent']].append(ex)
@@ -80,12 +82,20 @@ def run_human_review():
     with open('evaluation/golden_set.json', 'r', encoding='utf-8') as f:
         golden_set = json.load(f)
 
-    # Load or create human scores
+    # Load judge results to get valid IDs (only these have LLM scores for kappa)
+    with open('evaluation/judge_results.json', 'r', encoding='utf-8') as f:
+        judge_data = json.load(f)
+    valid_ids = {r['tweet_id'] for r in judge_data['results']}
+    print(f"LLM judge has scores for {len(valid_ids)} examples (IDs 1-{max(valid_ids)}).")
+    print("Sampling only from these so Cohen's Kappa can be computed.\n")
+
+    # Load or create human scores, keep only ones that match valid IDs
     human_data = load_or_create_human_scores()
+    human_data['scores'] = [s for s in human_data['scores'] if s['tweet_id'] in valid_ids]
     already_scored = {s['tweet_id'] for s in human_data['scores']}
 
-    # Select sample
-    sample = select_stratified_sample(golden_set, n=30)
+    # Select sample from valid IDs only
+    sample = select_stratified_sample(golden_set, n=30, valid_ids=valid_ids)
     sample = [s for s in sample if s['id'] not in already_scored]
 
     if not sample:
@@ -161,15 +171,54 @@ def run_human_review():
         'dimensions': dimensions,
         'methodology': 'Human scorer rated each reply on 5 dimensions (1-5 scale)'
     }
+
+    # Compute Cohen's Kappa against LLM judge
+    judge_lookup = {r['tweet_id']: r for r in judge_data['results']}
+    kappa_per_dim = {}
+    for dim in dimensions:
+        h_vals, l_vals = [], []
+        for s in human_data['scores']:
+            if s['tweet_id'] in judge_lookup:
+                h_vals.append(s['scores'][dim])
+                l_vals.append(judge_lookup[s['tweet_id']]['scores'][dim])
+        if h_vals:
+            kappa_per_dim[dim] = round(_cohens_kappa(h_vals, l_vals), 3)
+
+    all_h, all_l = [], []
+    for s in human_data['scores']:
+        if s['tweet_id'] in judge_lookup:
+            for dim in dimensions:
+                all_h.append(s['scores'][dim])
+                all_l.append(judge_lookup[s['tweet_id']]['scores'][dim])
+    overall_kappa = round(_cohens_kappa(all_h, all_l), 3) if all_h else 0
+
+    human_data['metadata']['cohens_kappa_per_dimension'] = kappa_per_dim
+    human_data['metadata']['cohens_kappa_overall'] = overall_kappa
     save_human_scores(human_data)
 
     print(f"\n{'=' * 70}")
     print(f"REVIEW COMPLETE")
     print(f"{'=' * 70}")
     print(f"Total examples scored: {len(human_data['scores'])}")
+    print(f"Cohen's Kappa (overall): {overall_kappa}")
+    for dim, k in kappa_per_dim.items():
+        print(f"  {dim}: {k}")
     print(f"Scores saved to: evaluation/human_scores.json")
 
     return human_data
+
+
+def _cohens_kappa(rater1, rater2):
+    """Compute Cohen's Kappa between two lists of integer scores."""
+    from collections import Counter
+    cats = sorted(set(rater1) | set(rater2))
+    n = len(rater1)
+    mat = Counter(zip(rater1, rater2))
+    po = sum(mat[(c, c)] for c in cats) / n
+    pe = 0
+    for c in cats:
+        pe += (sum(1 for x in rater1 if x == c) / n) * (sum(1 for x in rater2 if x == c) / n)
+    return 1.0 if pe == 1 else (po - pe) / (1 - pe)
 
 
 if __name__ == "__main__":
