@@ -196,10 +196,10 @@ def evaluate_agent_replies(golden_set_path='evaluation/golden_set.json'):
     # Import agent
     import sys
     sys.path.insert(0, 'src')
-    from agent import CustomerSupportAgent
+    from pipeline import CustomerSupportPipeline
     
     # Initialize agent
-    agent = CustomerSupportAgent()
+    agent = CustomerSupportPipeline()
     
     # Initialize judge
     judge = ReplyQualityJudge()

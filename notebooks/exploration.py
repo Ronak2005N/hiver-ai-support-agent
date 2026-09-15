@@ -14,7 +14,7 @@ import os
 
 def main():
     # Load dataset
-    data_path = "data/twcs.csv"
+    data_path = "data/twcs/twcs.csv"
 
     if not os.path.exists(data_path):
         print("Dataset not found!")

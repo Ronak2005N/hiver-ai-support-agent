@@ -18,7 +18,7 @@ from hybrid_classifier import HybridClassifier
 
 def load_golden_set(path='evaluation/golden_set.json'):
     """Load the Golden Set."""
-    with open(path, 'r') as f:
+    with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 
@@ -130,7 +130,7 @@ def evaluate_intent(golden_set_path='evaluation/golden_set.json'):
     }
     
     output_path = 'evaluation/intent_results.json'
-    with open(output_path, 'w') as f:
+    with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2)
     
     print(f"\nResults saved to {output_path}")

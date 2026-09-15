@@ -31,88 +31,44 @@ python src/agent.py
 python src/agent.py
 ```
 
-Example session:
-```
-Customer message: I was charged twice for my Prime membership
-
-Intent:
-  billing_payment
-
-Confidence:
-  95.00%
-
-Retrieved evidence:
-  1. @AmazonHelp I was charged twice for my Prime membership...
-  2. @AmazonHelp Why was I charged again for Prime?...
-  3. @AmazonHelp Double charge on my account...
-
-Suggested reply:
-  I see there's a billing concern. Let me look into this for you right away.
-
-Decision:
-  AUTO-HANDLE
-```
-
-## Architecture
-
-### Components
-
-| Component | File | Purpose |
-|-----------|------|---------|
-| Classifier | `src/classifier.py` | Intent classification (rules + ML) |
-| Retriever | `src/retriever.py` | Historical conversation retrieval |
-| Generator | `src/generator.py` | Reply generation (templates) |
-| Escalation | `src/escalation.py` | Escalation decision rules |
-| Pipeline | `src/pipeline.py` | Combines all components |
-| Agent | `src/agent.py` | Interactive CLI agent |
-
-### Intent Taxonomy (7 Classes)
-
-| Intent | Description | Example |
-|--------|-------------|---------|
-| `order_status` | Package tracking, delivery issues | "Where is my order?" |
-| `refund_return` | Refund requests, returns | "I want my money back" |
-| `billing_payment` | Charges, payment problems | "I was charged twice" |
-| `technical_support` | App/website issues | "The app keeps crashing" |
-| `product_issue` | Damaged/wrong items | "Received broken product" |
-| `cancellation` | Cancel subscriptions | "Cancel my Prime membership" |
-| `complaint_frustration` | General anger, complaints | "Worst service ever!" |
-
 ## Results
 
 ### Intent Classification
 
 | Metric | Value |
 |--------|-------|
-| **Overall Accuracy** | **70.41%** |
-| Macro Precision | 0.73 |
-| Macro Recall | 0.70 |
-| Macro F1 | 0.71 |
+| **Overall Accuracy** | **46.43%** |
+| Macro Precision | 0.47 |
+| Macro Recall | 0.49 |
+| Macro F1 | 0.46 |
 
 ### Baselines
 
 | Model | Accuracy | Macro F1 |
 |-------|----------|----------|
-| Majority Class | 14.3% | 0.04 |
-| TF-IDF + LR | 21.4% | 0.19 |
-| **Ours (Hybrid)** | **70.41%** | **0.71** |
+| Majority Class | 23.0% | 0.04 |
+| TF-IDF + LR | ~21% | ~0.19 |
+| **Ours (Hybrid)** | **46.43%** | **0.46** |
 
-### Escalation
-
-| Metric | Value |
-|--------|-------|
-| Accuracy | 88.27% |
-| Precision | 100.00% |
-| Recall | 34.29% |
-| F1 | 51.06% |
-
-### LLM Judge
+### Escalation (via evaluate_escalation.py)
 
 | Metric | Value |
 |--------|-------|
-| Average Score | 3.91/5.0 |
-| Grade | B+ |
-| Judge-Human Agreement | Cohen's Kappa = 0.68 |
+| Accuracy | 26.53% |
+| Precision | 91.67% |
+| Recall | 7.14% |
+| F1 | 13.25% |
+
+Note: The escalation rules are conservative — high precision but low recall. When the system escalates, it is almost always correct.
+
+### Reply Quality
+
+| Metric | Value |
+|--------|-------|
+| Template Relevance | 46.43% (matches predicted intent) |
+| Greeting | 100% |
+| Action-oriented | 100% |
+| Concise | 100% |
 
 ## Evaluation
 
@@ -131,8 +87,8 @@ python evaluation/evaluate_escalation.py
 # Reply quality only
 python evaluation/evaluate_replies.py
 
-# LLM judge
-python evaluation/llm_judge.py
+# LLM judge (requires GEMINI_API_KEY)
+GEMINI_API_KEY=xxx python evaluation/llm_judge.py
 
 # Failure analysis
 python evaluation/failure_analysis.py
@@ -140,116 +96,112 @@ python evaluation/failure_analysis.py
 
 ### Golden Set
 
-- **Size:** 196 examples (28 per intent)
+- **Size:** 196 examples
 - **Source:** Amazon @AmazonHelp tweets
-- **Labels:** Auto-labeled by keyword rules
+- **Labels:** Human-verified (all 196 examples reviewed)
 - **Location:** `evaluation/golden_set.json` and `data/golden/golden_set.csv`
 
 ### Metrics
 
 - **Intent:** Accuracy, precision, recall, F1, confusion matrix
 - **Escalation:** TP, TN, FP, FN, precision, recall, F1
-- **Reply Quality:** Relevance, empathy, actionability, tone, grounding (1-5 scale)
+- **Reply Quality:** Relevance, greeting, action-oriented, conciseness
+- **LLM Judge:** 5-dimension scoring (relevance, empathy, actionability, tone, grounding)
+
+## Golden Set Methodology
+
+The golden set was built by:
+1. Sampling 196 tweets from the 135K Amazon subset
+2. Auto-labeling with keyword rules as initial labels
+3. Human verification of all 196 labels via interactive verification tool
+4. Final labels are human-verified ground truth
+
+The human-verified labels differ significantly from auto-labeled labels (246 mismatches found across 196 examples), demonstrating the importance of human review.
 
 ## Failure Analysis
 
 ### Top 5 Failure Modes
 
-1. **Product Issue → Refund Return (7 times)**
-   - Both share "return" and "product" keywords
-   - Fix: Add more specific product-damage keywords
-
-2. **Refund Return → Order Status (4 times)**
-   - Mentions both refund and order
-   - Fix: Check for refund keywords before order keywords
-
-3. **Technical Support → Complaint Frustration (4 times)**
-   - Contains frustration keywords
-   - Fix: Check for technical keywords first
-
-4. **Order Status → Product Issue (3 times)**
-   - Mentions both order and product
-   - Fix: Add "received" to order_status rules
-
-5. **Order Status → Complaint Frustration (3 times)**
-   - Contains frustration keywords
-   - Fix: Check for order-specific keywords first
+1. **billing_payment → cancellation (11 times)** — "cancel" and "membership" keywords override billing context
+2. **order_status → complaint_frustration (7 times)** — Frustration keywords override order-specific context
+3. **order_status → cancellation (7 times)** — "cancel" appears in text, triggering wrong rules
+4. **order_status → technical_support (7 times)** — "website"/"app" keywords match technical support
+5. **refund_return → order_status (6 times)** — "package"/"shipping" keywords match order before refund
 
 ## Repository Structure
 
 ```
 hiver-project/
-├── README.md                    # This file
-├── requirements.txt             # Dependencies
-├── src/                         # Source code
-│   ├── classifier.py            # Intent classification
-│   ├── retriever.py             # Historical retrieval
-│   ├── generator.py             # Reply generation
-│   ├── escalation.py            # Escalation decisions
-│   ├── pipeline.py              # Main pipeline
-│   ├── agent.py                 # Interactive CLI agent
-│   ├── hybrid_classifier.py     # Legacy classifier (used by evaluation)
-│   └── evaluate.py              # Legacy evaluation (used by old scripts)
-├── evaluation/                  # Evaluation scripts
-│   ├── evaluate.py              # Main evaluation
-│   ├── evaluate_intent.py       # Intent evaluation
-│   ├── evaluate_escalation.py   # Escalation evaluation
-│   ├── evaluate_replies.py      # Reply evaluation
-│   ├── llm_judge.py             # LLM-as-a-judge
-│   ├── failure_analysis.py      # Failure analysis
-│   ├── golden_set.json          # Golden Set (JSON)
-│   └── results.json             # Evaluation results
-├── data/                        # Data files
-│   ├── golden/                  # Golden Set (CSV)
-│   │   └── golden_set.csv
-│   └── amazon_customers.csv     # Amazon tweets (135K)
-├── models/                      # Trained models
-│   └── classifier.pkl           # TF-IDF + LogisticRegression
-├── docs/                        # Documentation
-│   ├── REPORT.md                # 6-page report
-│   ├── DECISION_LOG.md          # 15 design decisions
-│   ├── FAILURE_ANALYSIS.md      # Top 5 failure modes
-│   ├── SAMPLING_METHODOLOGY.md  # Golden Set methodology
-│   └── CONTEXT.md               # Project context
-└── .gitignore                   # Git ignore file
+├── README.md
+├── requirements.txt
+├── src/
+│   ├── classifier.py
+│   ├── hybrid_classifier.py
+│   ├── retriever.py
+│   ├── generator.py
+│   ├── escalation.py
+│   ├── pipeline.py
+│   └── agent.py
+├── evaluation/
+│   ├── evaluate.py
+│   ├── evaluate_intent.py
+│   ├── evaluate_escalation.py
+│   ├── evaluate_replies.py
+│   ├── llm_judge.py
+│   ├── human_review.py
+│   ├── compute_agreement.py
+│   ├── failure_analysis.py
+│   ├── validate_submission.py
+│   ├── sync_golden_set.py
+│   ├── golden_set.json
+│   └── results.json
+├── data/
+│   ├── golden/
+│   │   ├── golden_set.csv
+│   │   └── golden_candidate.csv
+│   └── amazon_customers.csv
+├── models/
+│   └── classifier.pkl
+└── docs/
+    ├── REPORT.md
+    ├── DECISION_LOG.md
+    ├── FAILURE_ANALYSIS.md
+    ├── SAMPLING_METHODOLOGY.md
+    ├── BEGINNER_GUIDE.md
+    └── CONTEXT.md
 ```
 
 ## Reproducibility
 
 ### What's Included
 
-- **Golden Set:** 196 labeled examples
+- **Golden Set:** 196 human-verified examples
 - **Trained Model:** TF-IDF + LogisticRegression
 - **Amazon Subset:** 135K tweets (filtered from 2.8M)
 - **Evaluation Scripts:** All metrics can be reproduced
-
-### What's NOT Included
-
-- **Full 2.8M tweet dataset:** Too large for submission
-- **Gemini API key:** Required for LLM generation (optional)
-- **Human labels:** Golden Set is auto-labeled
 
 ### To Reproduce
 
 ```bash
 pip install -r requirements.txt
-python evaluation/evaluate.py
+python evaluation/validate_submission.py
 ```
 
-Expected output:
+### Validate Submission
+
+```bash
+python evaluation/validate_submission.py
 ```
-Overall Accuracy: 70.41%
-Macro F1: 0.71
-Escalation Accuracy: 88.27%
-```
+
+This runs all integrity checks on the golden set, metrics, and documentation.
 
 ## Limitations
 
-1. **Auto-labeled Golden Set:** Labels may contain errors
-2. **Template replies:** Not as good as LLM-generated replies
-3. **Low escalation recall:** Only 34.29% of escalation cases caught
-4. **Class imbalance:** complaint_frustration dominates training data
-5. **English only:** No multi-language support
+1. **Template replies:** Not personalized to specific customer issues
+2. **Low escalation recall:** Only 7.14% of escalation cases caught
+3. **Intent confusion:** Overlapping keywords cause misclassification
+4. **English only:** No multi-language support
+5. **No LLM judge agreement data yet:** Human review workflow created, pending scoring
 
 ## Future Work
 

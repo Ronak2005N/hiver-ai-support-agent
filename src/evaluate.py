@@ -228,10 +228,10 @@ def main():
         'num_examples': len(golden_set)
     }
 
-    with open('evaluation/results.json', 'w') as f:
+    with open('evaluation/src_results.json', 'w') as f:
         json.dump(results, f, indent=2)
 
-    print("\nResults saved to evaluation/results.json")
+    print("\nResults saved to evaluation/src_results.json")
 
 
 if __name__ == "__main__":

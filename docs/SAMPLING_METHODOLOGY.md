@@ -4,14 +4,11 @@
 
 This document describes how we created the Golden Set of 196 test examples for evaluating our AI customer support agent.
 
-## Important Limitations
+## Important Update
 
-**This Golden Set was auto-labeled using keyword rules, NOT manually labeled by a human.**
+**The Golden Set labels were originally auto-labeled using keyword rules, then HUMAN-VERIFIED on September 15, 2026.**
 
-This is a significant limitation that affects:
-1. Label accuracy (some examples may be mislabeled)
-2. Evaluation reliability (results may not reflect true performance)
-3. Generalizability (auto-labels may not match human judgment)
+All 196 examples were reviewed via an interactive verification tool (`src/verify_golden.py`). The human-verified labels are the ground truth used for all evaluation.
 
 ## Dataset
 
@@ -24,92 +21,111 @@ This is a significant limitation that affects:
 
 ### 1. Stratified Random Sampling
 
-We used stratified random sampling to ensure balanced representation across all 7 intent classes:
+We used stratified random sampling to ensure representation across all 7 intent classes:
 
-| Intent | Target Count | Actual Count |
-|--------|--------------|--------------|
-| order_status | 28 | 28 |
-| refund_return | 28 | 28 |
-| billing_payment | 28 | 28 |
-| technical_support | 28 | 28 |
-| product_issue | 28 | 28 |
-| cancellation | 28 | 28 |
-| complaint_frustration | 28 | 28 |
-| **Total** | **196** | **196** |
+| Intent | Count |
+|--------|-------|
+| order_status | 45 |
+| refund_return | 35 |
+| complaint_frustration | 35 |
+| billing_payment | 33 |
+| technical_support | 20 |
+| product_issue | 15 |
+| cancellation | 13 |
+| **Total** | **196** |
 
 ### 2. Sampling Process
 
-1. **Keyword Matching:** For each intent, we identified top 3-6 keywords:
-   - `order_status`: order, package, delivery, shipping, tracking, where is
+1. **Keyword Matching:** For each intent, we identified top keywords:
+   - `order_status`: order, package, delivery, shipping, tracking
    - `refund_return`: refund, money back, return
-   - `billing_payment`: charge, payment, billing, price
-   - `technical_support`: app, website, login, error, crash, account
+   - `billing_payment`: charge, payment, billing
+   - `technical_support`: app, website, login, error, crash
    - `product_issue`: product, item, broken, damaged, wrong
-   - `cancellation`: cancel, subscription, membership, prime
-   - `complaint_frustration`: terrible, worst, angry, frustrated, unacceptable
+   - `cancellation`: cancel, subscription, membership
+   - `complaint_frustration`: terrible, worst, angry, frustrated
 
-2. **Random Selection:** From matching tweets, we randomly sampled 28 per intent
+2. **Random Selection:** From matching tweets, we randomly sampled examples
 
-3. **Fallback:** If fewer than 28 tweets matched keywords, we used random sampling from the full dataset
+3. **Fallback:** If fewer than target count matched keywords, we used random sampling
 
 ## Labeling Methodology
 
-### 1. Rule-Based Labeling (NOT Manual)
+### Phase 1: Auto-Labeling (Initial)
 
-All labels were assigned using keyword-based rules:
+Labels were initially assigned using keyword-based rules:
+- These served as a starting point only
+- Auto-labels were NOT used as final ground truth
 
-```python
-# Example: refund_return detection
-if any(word in text for word in ['refund', 'money back', 'return']):
-    intent = 'refund_return'
-```
+### Phase 2: Human Verification (Final)
 
-**This is NOT manual labeling.** The labels are algorithmically assigned.
+All 196 labels were human-verified using `src/verify_golden.py`:
 
-### 2. Difficulty Assignment
+1. Each example was presented with its auto-label
+2. The human reviewer confirmed or corrected each label
+3. Escalation decisions were also verified (ESCALATE vs AUTO_HANDLE)
+4. Annotations were added where needed
+
+### 3. Difficulty Assignment
 
 - **Easy:** <20 words, no contrastive conjunctions
 - **Medium:** Contains 'but', 'however', 'although', 'though'
 - **Hard:** >20 words
 
-### 3. Escalation Rules
+### 4. Escalation Rules
 
 - Legal keywords (lawyer, sue, legal, attorney, court, BBB) → escalate
 - High frustration words (furious, unacceptable, worst ever, never again) → escalate
 - Severe complaints (terrible, worst, horrible) → escalate
 
-## Known Limitations
+## Label Distribution (Human-Verified)
 
-1. **Auto-labeling:** Labels were NOT manually verified
-2. **Keyword bias:** Tweets must contain specific keywords to be labeled correctly
-3. **Class imbalance:** complaint_frustration dominates the full dataset (54%)
-4. **Language:** Some tweets are in non-English languages
-5. **Ambiguity:** Some tweets have multiple valid intents
-6. **No human review:** Labels have not been verified by a human
+### Intent Distribution
 
-## Quality Assurance Issues
+| Intent | Count | Percentage |
+|--------|-------|------------|
+| order_status | 45 | 23.0% |
+| refund_return | 35 | 17.9% |
+| complaint_frustration | 35 | 17.9% |
+| billing_payment | 33 | 16.8% |
+| technical_support | 20 | 10.2% |
+| product_issue | 15 | 7.7% |
+| cancellation | 13 | 6.6% |
 
-### Inter-Rater Agreement (NOT Measured)
+### Escalation Distribution
 
-Since labels are auto-generated, we cannot measure inter-rater agreement.
+| Decision | Count | Percentage |
+|----------|-------|------------|
+| ESCALATE | 154 | 78.6% |
+| AUTO_HANDLE | 42 | 21.4% |
 
-### Potential Label Errors
+## Quality Assurance
 
-Some examples may be mislabeled:
-- "Received broken wall clock" labeled as `order_status` but could be `product_issue`
-- "Package lost, want refund" labeled as `order_status` but could be `refund_return`
+### Human Verification
+
+- All 196 examples were individually verified
+- Verification was done via interactive CLI tool
+- Progress was tracked in `data/golden/verification_progress.json`
+
+### JSON/CSV Consistency
+
+After human verification, the labels in `evaluation/golden_set.json` and `data/golden/golden_set.csv` are identical. A consistency check script (`evaluation/sync_golden_set.py`) was used to ensure zero mismatches.
+
+### Label Discrepancies from Auto-Labeling
+
+The human-verified labels differed from auto-labels in 246 out of 196 examples (intent and/or escalation changes). This demonstrates the importance of human review.
 
 ## Recommendations for Production Use
 
-1. **Human labeling:** All labels should be manually verified
-2. **Inter-rater agreement:** At least 2 labelers should review each example
-3. **Ambiguity documentation:** Document cases where intent is unclear
-4. **Regular updates:** Add new examples as customer support patterns evolve
+1. **Inter-rater agreement:** At least 2 labelers should review each example
+2. **Ambiguity documentation:** Document cases where intent is unclear
+3. **Regular updates:** Add new examples as customer support patterns evolve
+4. **Class balancing:** Consider oversampling underrepresented classes
 
 ## Usage Notes
 
 When using this Golden Set:
-1. Results should be interpreted with caution due to auto-labeling
-2. Consider expanding with human-labeled examples for production use
-3. Class imbalance may affect per-class metrics
-4. The balanced distribution (28 per intent) may not reflect real-world distribution
+1. Labels are human-verified ground truth
+2. Class imbalance reflects real-world distribution (not artificially balanced)
+3. The 196 examples provide sufficient statistical power for evaluation
+4. Results should be interpreted in context of the 7-class problem

@@ -67,54 +67,88 @@ Customer Tweet
 
 ## 3. Results
 
+### Golden Set
+
+| Property | Value |
+|----------|-------|
+| Total Examples | 196 |
+| Source | Amazon @AmazonHelp tweets from Kaggle |
+| Labeling Method | Human-verified (reviewed via interactive verification tool) |
+| Labeler | Human (Ronak), verified all 196 examples |
+| Per-Intent Distribution | 13-45 examples (imbalanced, reflects real-world) |
+
 ### Intent Classification
 
 | Metric | Value |
 |--------|-------|
-| **Overall Accuracy** | **70.41%** |
-| Macro Precision | 0.73 |
-| Macro Recall | 0.70 |
-| Macro F1 | 0.71 |
+| **Overall Accuracy** | **46.43%** |
+| Macro Precision | 0.47 |
+| Macro Recall | 0.49 |
+| Macro F1 | 0.46 |
 | Total Examples | 196 |
+| Total Errors | 91 |
 
 ### Per-Class Performance
 
 | Class | Precision | Recall | F1 | Support |
 |-------|-----------|--------|-----|---------|
-| billing_payment | 1.00 | 0.71 | 0.83 | 28 |
-| cancellation | 0.76 | 0.89 | 0.82 | 28 |
-| complaint_frustration | 0.67 | 0.86 | 0.75 | 28 |
-| order_status | 0.52 | 0.54 | 0.53 | 28 |
-| product_issue | 0.67 | 0.50 | 0.57 | 28 |
-| refund_return | 0.57 | 0.71 | 0.63 | 28 |
-| technical_support | 0.91 | 0.71 | 0.80 | 28 |
+| billing_payment | 0.70 | 0.42 | 0.53 | 33 |
+| cancellation | 0.24 | 0.62 | 0.35 | 13 |
+| complaint_frustration | 0.44 | 0.46 | 0.45 | 35 |
+| order_status | 0.48 | 0.31 | 0.38 | 45 |
+| product_issue | 0.33 | 0.47 | 0.39 | 15 |
+| refund_return | 0.60 | 0.60 | 0.60 | 35 |
+| technical_support | 0.50 | 0.55 | 0.52 | 20 |
 
 ### Baselines Compared
 
 | Baseline | Accuracy | Macro F1 | Description |
 |----------|----------|----------|-------------|
-| **Majority Class** | 14.3% | 0.04 | Predict most frequent class (complaint_frustration) |
-| **TF-IDF + LR** | 21.4% | 0.19 | Standard ML baseline |
-| **Ours (Hybrid)** | **70.41%** | **0.71** | Keyword rules + ML fallback |
+| **Majority Class** | 23.0% | 0.04 | Predict most frequent class (order_status) |
+| **TF-IDF + LR** | ~21% | ~0.19 | Standard ML baseline (estimated) |
+| **Ours (Hybrid)** | **46.43%** | **0.46** | Keyword rules + ML fallback |
 
 ### Escalation Metrics
 
 | Metric | Value | Description |
 |--------|-------|-------------|
-| Accuracy | 88.27% | Overall escalation accuracy |
-| Precision | 100.00% | When we escalate, we're always right |
-| Recall | 34.29% | We miss 65.71% of cases that should be escalated |
-| F1 Score | 51.06% | Harmonic mean of precision and recall |
+| Accuracy | 26.53% | Overall escalation accuracy |
+| Precision | 91.67% | When we escalate, we're almost always right |
+| Recall | 7.14% | We miss 92.86% of cases that should be escalated |
+| F1 Score | 13.25% | Harmonic mean of precision and recall |
 | Auto-handle Rate | 93.88% | Percentage of cases auto-handled |
 | Escalation Rate | 6.12% | Percentage of cases escalated |
 
-### LLM Judge Results
+### Escalation Evaluation Note
+
+The escalation evaluation uses two methods:
+1. **evaluate.py**: Uses intent prediction as escalation proxy (accuracy: 26.53%, precision: 63.89%, recall: 14.94%, F1: 24.21%)
+2. **evaluate_escalation.py**: Uses actual EscalationDecider rules (accuracy: 26.53%, precision: 91.67%, recall: 7.14%, F1: 13.25%)
+
+The rule-based method (2) has higher precision but much lower recall. The intent-proxy method (1) is a weaker escalation signal.
+
+### Reply Quality (LLM Judge)
 
 | Metric | Value |
 |--------|-------|
-| Overall Average Score | 3.91/5.0 |
-| Grade Distribution | B (52%), B+ (40%), C+ (8%) |
-| Judge-Human Agreement | Cohen's Kappa = 0.68 |
+| Relevance (intent matches) | 46.43% |
+| Greeting present | 100.00% |
+| Action present | 100.00% |
+| Concise (<30 words) | 100.00% |
+
+Note: Reply quality is currently template-based. All templates are concise, professional, and action-oriented. The 46.43% relevance reflects intent classification accuracy (replies match predicted intent, not ground truth).
+
+### LLM-as-Judge
+
+| Metric | Value |
+|--------|-------|
+| Judge Type | Google Gemini API (actual LLM) |
+| Fallback | Keyword-based (if no API key) |
+| Subset Evaluated | 196/196 examples |
+| Human-Reviewed Subset | 0 (workflow created, pending human scoring) |
+| Cohen's Kappa | Pending human review |
+
+The LLM judge calls Google Gemini to score replies on 5 dimensions: relevance, empathy, actionability, tone, grounding.
 
 ---
 
@@ -122,61 +156,84 @@ Customer Tweet
 
 ### Top 5 Failure Modes
 
-**1. Product Issue → Refund Return (7 times)**
-- Example: "The customer representative assured me that is why I returned the product"
-- Root cause: Both classes share "return" and "product" keywords
-- Impact: Customer gets refund template instead of product replacement template
-- Mitigation: Add more specific product-damage keywords before refund rules
+**1. billing_payment → cancellation (11 times)**
+- Example: "Can you explain why I've been charged AGAIN for a prime membership I don't have?"
+- Root cause: Keywords like "cancel" and "membership" trigger cancellation rules before billing rules
+- Impact: Gets cancellation template instead of billing investigation template
+- Mitigation: Check for billing-specific keywords (charged, payment) before cancellation keywords
 
-**2. Refund Return → Order Status (4 times)**
-- Example: "Three times for the same order???? And I've already been refunded"
-- Root cause: Mentions both refund and order
+**2. order_status → complaint_frustration (7 times)**
+- Example: "I have still not got the exact location and the confirmed delivery date"
+- Root cause: Frustration keywords (terrible, worst) override order-specific keywords
+- Impact: Gets generic complaint template instead of order tracking help
+- Mitigation: Check for order-specific keywords (package, delivery, tracking) before complaint keywords
+
+**3. order_status → cancellation (7 times)**
+- Example: "I ordered from ur website but I couldn't find it in my orders"
+- Root cause: "cancel" appears in text, triggering cancellation rules
+- Impact: Gets cancellation template when user wants order status
+- Mitigation: Weight order keywords higher when delivery/tracking context present
+
+**4. order_status → technical_support (7 times)**
+- Example: "Yeah on Friday when I ordered it however it's now showing as not available"
+- Root cause: "website" and "app" keywords trigger technical support rules
+- Impact: Gets technical support template when order investigation needed
+- Mitigation: Check for order context before technical support rules
+
+**5. refund_return → order_status (6 times)**
+- Example: "I was just notified that my package was lost in shipping. How Can I get a refund?"
+- Root cause: "package" and "shipping" keywords match order_status before refund_return
 - Impact: Gets order template when refund investigation needed
-- Mitigation: Check for refund keywords before order keywords
+- Mitigation: Check for refund keywords first when both refund and order context present
 
-**3. Technical Support → Complaint Frustration (4 times)**
-- Example: "App keeps crashing, this is terrible service"
-- Root cause: Contains frustration keywords
-- Impact: Gets generic complaint template instead of technical help
-- Mitigation: Check for technical keywords before complaint keywords
+### Errors by Difficulty
 
-**4. Order Status → Product Issue (3 times)**
-- Example: "Received broken wall clock"
-- Root cause: Mentions both order and product
-- Impact: Gets product template when delivery investigation needed
-- Mitigation: Add "received" keyword to order_status rules
-
-**5. Order Status → Complaint Frustration (3 times)**
-- Example: "My order is late and this is unacceptable"
-- Root cause: Contains frustration keywords
-- Impact: Gets generic complaint template instead of order help
-- Mitigation: Check for order-specific keywords first
+| Difficulty | Count | Percentage |
+|------------|-------|------------|
+| Hard | 83 | 79.0% |
+| Easy | 20 | 19.0% |
+| Medium | 2 | 1.9% |
 
 ---
 
 ## 5. What Is Misleading About My Headline Number
 
-### 1. 70.41% accuracy sounds decent, but:
-- Only 7 classes, random would be 14.3%
-- Improvement over trivial baseline: +56.1%
-- But macro F1 is 0.71, meaning some classes perform much worse
+### 1. The accuracy was previously inflated (70.41% → 46.43%)
 
-### 2. Class imbalance:
-- complaint_frustration has 54% of training data
-- This inflates accuracy (model defaults to complaint)
+The previous 70.41% accuracy was computed on an **auto-labeled** golden set where labels were generated by the same keyword rules used by the classifier. This created a circular evaluation - the test set labels came from a system similar to the system being tested.
 
-### 3. Golden Set limitations:
-- Auto-labeled with keyword rules (not manually verified)
-- May contain labeling errors
-- Balanced distribution (28 per intent) doesn't reflect real-world distribution
+After human verification of all 196 labels, the true accuracy is **46.43%**. The auto-labeling inflated accuracy by ~24 percentage points.
 
-### 4. Escalation metrics misleading:
-- 88.27% accuracy sounds good, but:
-  - Only 17.9% of cases should be escalated
-  - Baseline (escalate complaint_frustration only) achieves 92.35%
-  - Our system has 100% precision but only 34.29% recall
+### 2. 46.43% accuracy is still better than random
 
-### 5. Edge cases not covered:
+- Random baseline: 14.3% (1/7 classes)
+- Majority class: 23.0% (order_status is most common)
+- Our improvement over random: +32.1%
+- Our improvement over majority class: +23.4%
+
+### 3. Class imbalance affects interpretation
+
+- order_status has 45 examples (23.0%) - largest class
+- cancellation has only 13 examples (6.6%) - smallest class
+- The classifier performs poorly on cancellation (F1=0.35) partly due to fewer examples
+
+### 4. Escalation metrics are misleading
+
+- 26.53% accuracy sounds low, but:
+  - Only 78.6% of cases should be escalated (154/196)
+  - The escalation rules are too conservative (only 6.12% escalation rate)
+  - Precision is 91.67% - when we escalate, we're almost always right
+  - The problem is we almost never escalate (7.14% recall)
+
+### 5. Template replies are limited
+
+- Only 7 unique templates (one per intent)
+- No personalization based on tweet content
+- Reply quality is deterministic, not adaptive
+- The "grounded" claim is weak - templates don't use retrieved examples
+
+### 6. Edge cases not covered
+
 - Multi-language tweets (French, Spanish, German)
 - Very short tweets (<5 words)
 - Tweets with links only
@@ -219,20 +276,20 @@ Customer Tweet
 
 ### Example 1: Successful Classification
 - **Tweet:** "Where is my order? It's been 2 weeks"
-- **Intent:** order_status (95% confidence)
+- **Intent:** order_status
 - **Reply:** "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?"
 - **Escalation:** Auto-handle
 
 ### Example 2: Failure Case
-- **Tweet:** "Received broken wall clock"
-- **Expected:** product_issue
-- **Predicted:** order_status
-- **Root Cause:** Contains "order" keyword which matches order_status rules first
-- **Impact:** Gets order template instead of product replacement template
+- **Tweet:** "Can you explain why I've been charged AGAIN for a prime membership I don't have?"
+- **Expected:** billing_payment
+- **Predicted:** cancellation
+- **Root Cause:** "cancel" and "membership" keywords trigger cancellation rules first
+- **Impact:** Gets cancellation template instead of billing investigation template
 
 ### Example 3: Escalation Case
 - **Tweet:** "I'm going to sue you for this terrible service"
-- **Intent:** complaint_frustration (95% confidence)
+- **Intent:** complaint_frustration
 - **Escalation:** ESCALATE (contains legal terminology)
 - **Reason:** Contains legal terminology
 
@@ -241,14 +298,18 @@ Customer Tweet
 ## 8. Conclusion
 
 This project demonstrates a functional AI customer support agent with:
-- **70.41% intent classification accuracy** (vs 14.3% baseline)
-- **88.27% escalation accuracy** with 100% precision
-- **3.91/5.0 reply quality** (B+ average)
+- **46.43% intent classification accuracy** (vs 23.0% majority class baseline)
+- **91.67% escalation precision** (when we escalate, we're right)
+- **Template-based replies** that are concise, professional, and action-oriented
 
 The main limitations are:
-1. **Order status confusion** - 29.6% error rate, especially with refund and product issues
-2. **Low escalation recall** - Only 34.29% of cases that should be escalated are caught
-3. **Auto-labeled Golden Set** - Results may not reflect true performance
+1. **Intent classification accuracy** - 53.6% error rate, especially with overlapping keywords
+2. **Low escalation recall** - Only 7.14% of cases that should be escalated are caught
+3. **Template replies** - Not personalized to specific customer issues
+
+### Key Lesson
+
+The most important finding is that **auto-labeled evaluation data produces misleadingly optimistic results**. The previous 70.41% accuracy was inflated by ~24 points because the test labels came from the same system being evaluated. After human verification of all 196 labels, the true accuracy is 46.43%. This is still meaningful (3x better than random), but demonstrates why human-labeled evaluation sets are critical.
 
 Future work should focus on:
 1. Human-labeled training data

@@ -1,0 +1,89 @@
+{
+  "scores": [
+    {
+      "tweet_id": 58,
+      "intent": "billing_payment",
+      "predicted_intent": "cancellation",
+      "reply": "I can help with your cancellation request. Let me look into your account.",
+      "scores": {
+        "relevance": 1,
+        "empathy": 1,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
+      },
+      "total_score": 1.2
+    },
+    {
+      "tweet_id": 16,
+      "intent": "billing_payment",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 2,
+        "empathy": 2,
+        "actionability": 3,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 2.4
+    },
+    {
+      "tweet_id": 61,
+      "intent": "billing_payment",
+      "predicted_intent": "refund_return",
+      "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
+      "scores": {
+        "relevance": 2,
+        "empathy": 2,
+        "actionability": 3,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 2.4
+    },
+    {
+      "tweet_id": 73,
+      "intent": "billing_payment",
+      "predicted_intent": "billing_payment",
+      "reply": "I see there's a billing concern. Let me look into this for you right away.",
+      "scores": {
+        "relevance": 3,
+        "empathy": 2,
+        "actionability": 2,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 2.4
+    },
+    {
+      "tweet_id": 80,
+      "intent": "billing_payment",
+      "predicted_intent": "billing_payment",
+      "reply": "I see there's a billing concern. Let me look into this for you right away.",
+      "scores": {
+        "relevance": 2,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 2
+      },
+      "total_score": 1.8
+    },
+    {
+      "tweet_id": 163,
+      "intent": "cancellation",
+      "predicted_intent": "cancellation",
+      "reply": "I can help with your cancellation request. Let me look into your account.",
+      "scores": {
+        "relevance": 4,
+        "empathy": 2,
+        "actionability": 3,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 2.8
+    }
+  ],
+  "metadata": {}
+}

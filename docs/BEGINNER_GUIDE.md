@@ -42,8 +42,8 @@ Retriever finds 3 similar old tweets:
 
 ---
 
-### Step 3: REPLIER (`src/replier.py`)
-**What it does:** WRITES the actual reply using AI (OpenAI's GPT).
+### Step 3: GENERATOR (`src/generator.py`)
+**What it does:** WRITES the actual reply using templates.
 
 **Example:**
 ```

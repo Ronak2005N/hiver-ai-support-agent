@@ -1,84 +1,1284 @@
 {
-  "accuracy": 0.8826530612244898,
-  "precision": 1.0,
-  "recall": 0.34285714285714286,
-  "f1": 0.5106382978723404,
-  "tp": 12,
-  "tn": 161,
-  "fp": 0,
+  "accuracy": 0.2653061224489796,
+  "precision": 0.9166666666666666,
+  "recall": 0.07142857142857142,
+  "f1": 0.1325301204819277,
+  "tp": 11,
+  "tn": 41,
+  "fp": 1,
   "fn": {
-    "id": 178,
-    "text": "@AmazonHelp have provided terrible service",
+    "id": 14,
+    "text": "@AmazonHelp So then your customer support lied when they promised delivery by tomorrow? Could I just",
     "true_intent": "complaint_frustration",
-    "pred_intent": "complaint_frustration",
+    "pred_intent": "order_status",
     "true_escalate": true,
     "pred_escalate": false,
     "escalation_reason": "Auto-handleable",
-    "confidence": 0.95
+    "confidence": 0.7
   },
   "auto_handle_rate": 0.9387755102040817,
   "escalation_rate": 0.061224489795918366,
   "baseline": {
-    "accuracy": 0.923469387755102,
-    "precision": 0.8571428571428571,
-    "recall": 0.6857142857142857,
-    "f1": 0.7619047619047619
+    "accuracy": 0.27040816326530615,
+    "precision": 0.6571428571428571,
+    "recall": 0.14935064935064934,
+    "f1": 0.2433862433862434
   },
   "false_negatives": [
     {
-      "id": 169,
-      "text": "@169215 @AmazonHelp @115850 Even I agree there customer care is worst then Paytm..",
+      "id": 1,
+      "text": "@AmazonHelp Your cc says we can't do anything as d packages are delivered.U delivered it to wrong pe",
+      "true_intent": "product_issue",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 2,
+      "text": "@AmazonHelp Order No 408-7356679-2151563 dt-6/10/17 Received broken wall clock.",
+      "true_intent": "product_issue",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 3,
+      "text": "@AmazonHelp I was just notified that my package was lost in shipping. How Can I get a refund for my ",
+      "true_intent": "refund_return",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 5,
+      "text": "@AmazonHelp Just that there was a problem and our order was cancelled. As we thought we had tickets ",
+      "true_intent": "cancellation",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 7,
+      "text": "@AmazonHelp I have still not got the exact location and the confirmed delivery date of my package!!!",
+      "true_intent": "order_status",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 9,
+      "text": "@AmazonHelp Earlier today my package said it would be arriving today by 8pm. I checked later and it ",
+      "true_intent": "order_status",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 10,
+      "text": "@AmazonHelp I have 2 orders that have been on the brink of delivery (out for delivery)  for 3 days a",
+      "true_intent": "order_status",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 12,
+      "text": "@AmazonHelp packages a month.  I went to the cops and there is nothing to file.  A crime has to happ",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 13,
+      "text": "@AmazonHelp Not that you are interested, but after chasing again I've been told my order isnt coming",
+      "true_intent": "order_status",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 14,
+      "text": "@AmazonHelp So then your customer support lied when they promised delivery by tomorrow? Could I just",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 15,
+      "text": "Ordered 2kg...received oni 1kg..Amazon#diwalisale#cheated#worst diwali gift ever from amazon.disappo",
+      "true_intent": "product_issue",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 16,
+      "text": "@AmazonHelp when u  pre-order a game and it says it won\u2019t arrive until a week after the release date",
+      "true_intent": "billing_payment",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 17,
+      "text": "@AmazonHelp Yeah received an email for three items to be refunded all processed on the same day. One",
+      "true_intent": "refund_return",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 18,
+      "text": "@AmazonHelp we have no any call receive from your end for my order\nPlease do the action for order or",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 19,
+      "text": "@AmazonHelp The thing is i had recieved the refund but the order has not been picked up what to do w",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 20,
+      "text": "@AmazonHelp Placed order 2/11 prime for delivery 3/11 says it went to wrong courier centre &amp; now",
+      "true_intent": "order_status",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 22,
+      "text": "@AmazonHelp The order should have arrived on the 18th.  Package has been sitting in Seattle for two ",
+      "true_intent": "order_status",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 23,
+      "text": "@AmazonHelp  I wanted to order phone with another address , but I forgot to mentioned that address a",
+      "true_intent": "cancellation",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 24,
+      "text": "@AmazonHelp I paid for express delivery and my item not only has not arrived, but DPD driver said re",
+      "true_intent": "order_status",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 25,
+      "text": "@AmazonHelp Still waiting on my orders 026-1188582-3067513\n\n205-5647747-5889146",
+      "true_intent": "order_status",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 26,
+      "text": "@AmazonHelp @AmazonHelp and what  about this one \ud83d\udc49order id #4__credit_card__",
+      "true_intent": "billing_payment",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 27,
+      "text": "@AmazonHelp I sent an email to cust service. It's beyond the 30 day return window, another item I or",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 28,
+      "text": "@AmazonHelp Look at above screen shot how many times does a customer will contact for a single order",
       "true_intent": "complaint_frustration",
       "pred_intent": "complaint_frustration",
       "true_escalate": true,
       "pred_escalate": false,
       "escalation_reason": "Auto-handleable",
       "confidence": 0.95
+    },
+    {
+      "id": 29,
+      "text": "@AmazonHelp Three times for the same order???? And I\u2019ve already been refunded for the original charg",
+      "true_intent": "billing_payment",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 32,
+      "text": "@AmazonHelp So juicer was due 4 del Mon 27th then Sat 25th, then Mon again, then tues, then Wed &amp",
+      "true_intent": "order_status",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 33,
+      "text": "@AmazonHelp @115850 @115821 So Amazon india has cheated me and now not providing me the refund. Bloo",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 34,
+      "text": "@AmazonHelp My order was picked up, then the refund was put on halt as youll said, you have empty bo",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 35,
+      "text": "@AmazonHelp I've called 7 times since Sunday. Your ppl just offer apologies, no explanations, and of",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 36,
+      "text": "@AmazonHelp One already shows refund processing; the other USPS...but I think all were the same.",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 37,
+      "text": "@115830 @AmazonHelp Live Chat has to be the worst customer service I have ever received! Item hasn\u2019t",
+      "true_intent": "refund_return",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 38,
+      "text": "@AmazonHelp Basically , y\u2019all haven\u2019t refunded my money yet and im pissed so that\u2019s that .",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 39,
+      "text": "@AmazonHelp my order has been picked since 24th and the product has still not reached your warehouse",
+      "true_intent": "refund_return",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 40,
+      "text": "@AmazonHelp Okeydokie. Will do. *fingers crossed* Tomorrow makes 9 days since I returned the items..",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 42,
+      "text": "@AmazonHelp I need missing part tomorrow - can't afford to wait until you've received this one to se",
+      "true_intent": "product_issue",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 43,
+      "text": "@AmazonHelp I paid extra postage to guarantee delivery of my order yesterday but only half arrived o",
+      "true_intent": "refund_return",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 44,
+      "text": "@AmazonHelp I had a delivery scheduled today that the driver said they couldn\u2019t complete. I called l",
+      "true_intent": "order_status",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 45,
+      "text": "@AmazonHelp If I had received a refund on my account as you have stated, I wouldn't be writing to co",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 47,
+      "text": "@AmazonHelp I will, but I was literally chatting with your customer support minutes before my second",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 48,
+      "text": "@AmazonHelp I am not asking for refund, how do I pay and get my order without any hassle. Also, re-t",
+      "true_intent": "billing_payment",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 50,
+      "text": "@AmazonHelp I have emailed them twice and haven\u2019t heard anything back. What can I do, would like ite",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 51,
+      "text": "@AmazonHelp I paid for express shipping &amp; my package didn\u2019t arrive on time (which really fucks m",
+      "true_intent": "refund_return",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 52,
+      "text": "Didn't rcv the refund in Citi bank on Amazon shopping @AmazonHelp @117157",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 53,
+      "text": "@AmazonHelp Completed the process to get my refund. That seemed to be my only option. Not very happy",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 54,
+      "text": "@AmazonHelp The address was correct on the order and I don\u2019t understand why an order would be marked",
+      "true_intent": "refund_return",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 55,
+      "text": "@AmazonHelp All I expect is what I ordered &amp; paid for. Don't charge me for 100% of the items I o",
+      "true_intent": "product_issue",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 56,
+      "text": "@AmazonHelp Your emails only say you will check with seller - for what?? I do not need the item now ",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 57,
+      "text": "@AmazonHelp It was charged with the other items I got in that same order, it showed a reversal for h",
+      "true_intent": "billing_payment",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 58,
+      "text": "@AmazonHelp Can you explain why I've been charged AGAIN for a prime membership I don't have? This is",
+      "true_intent": "billing_payment",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 59,
+      "text": "@AmazonHelp Nothing has changed. It still says dispatching soon and arriving today. My card was char",
+      "true_intent": "order_status",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 60,
+      "text": "@AmazonHelp Hi I ordered something earlier and it\u2019s charged me another \u00a32 on top? I thought the prim",
+      "true_intent": "billing_payment",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 61,
+      "text": "@AmazonHelp I did reply to them, but their resolution was incorrect/u helpful. There\u2019s actually no w",
+      "true_intent": "billing_payment",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 62,
+      "text": "@AmazonHelp I worked yesterday and after the amount of the requested amount, I received a message fr",
+      "true_intent": "order_status",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 63,
+      "text": "@AmazonHelp None of these options allow me to cancel the order due to delivery failure by @115817.  ",
+      "true_intent": "cancellation",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 65,
+      "text": "@AmazonHelp @133929 Hi you piece of bull craps, gave you another chance. And this is what happens. H",
+      "true_intent": "billing_payment",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 66,
+      "text": "@AmazonHelp 1 order came yesterday (fire tablet) no charger or adapter! Was only offered full replac",
+      "true_intent": "product_issue",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 67,
+      "text": "@AmazonHelp I was using the 30 day free trial and I canceled right after being charged. I'm unsure i",
+      "true_intent": "billing_payment",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 68,
+      "text": "@AmazonHelp  I have two charges for digitial services that I didn't order. How can I rectify this?",
+      "true_intent": "billing_payment",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 70,
+      "text": "FFS @115830 @AmazonHelp are saying I've placed an order &amp; it's been dispatched when I haven't &a",
+      "true_intent": "billing_payment",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 71,
+      "text": "@AmazonHelp Now I have suffer in self returning product and also not sure that courier charges will ",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 73,
+      "text": "@AmazonHelp Hi. I'd set auto-renewal off deliberately, recently, yet I've still been charged for ano",
+      "true_intent": "billing_payment",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 76,
+      "text": "@AmazonHelp I tried to change payment method; your advisor cancelled a pre-order priced \u00a334.99 and t",
+      "true_intent": "cancellation",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 79,
+      "text": "@AmazonHelp Hi AmazonHelp, I keep getting charged \u20ac2.99 per month for Prime Video despite my account",
+      "true_intent": "billing_payment",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 81,
+      "text": "@AmazonHelp I have been double charged and left penniless. The person I spoke to was worse than usel",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 82,
+      "text": "@AmazonHelp I have not received my refund for the Amazon pay balance. When i placed the order it sai",
+      "true_intent": "refund_return",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 83,
+      "text": "@AmazonHelp \n@115821 \nTAKING CHARGE AND POSTING\n#WARNING ON\n#FAKE EMAILS\n@156163 \nDOES NOT DO OR SAY",
+      "true_intent": "billing_payment",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 84,
+      "text": "@AmazonHelp hello, after charing my card, Amazon says credit card is declined, even though the amoun",
+      "true_intent": "billing_payment",
+      "pred_intent": "billing_payment",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 85,
+      "text": "@AmazonHelp Je l'ai fait il y a plus d'une semaine. J'ai donc appel\u00e9 samedi matin On m'a dit r\u00e9ponse",
+      "true_intent": "technical_support",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 87,
+      "text": "@AmazonHelp We called as soon as it happened.  The packages have been picked up and are out for deli",
+      "true_intent": "order_status",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 88,
+      "text": "@AmazonHelp @115850 @119625 No solution yet. Disappointed!\ud83d\ude14\ud83d\ude23 https://t.co/2EaOYwTQMj",
+      "true_intent": "technical_support",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 91,
+      "text": "@AmazonHelp Man, the subtitles are not coming again now. I have updated the app, played some other T",
+      "true_intent": "technical_support",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 92,
+      "text": "@AmazonHelp Yeah on Friday when I ordered it however it's now showing as not available on your websi",
+      "true_intent": "order_status",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 93,
+      "text": "so you wait for a week to get a product just to return it because it ain\u2019t working. Nice experience ",
+      "true_intent": "product_issue",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 94,
+      "text": "@AmazonHelp I have arranged for the collection on two separate days but no one turned up on either. ",
+      "true_intent": "refund_return",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 95,
+      "text": "@AmazonHelp D\u00e9j\u00e0 fait hier par t\u00e9l\u00e9phone, ils peuvent rien faire pour moi apparemment",
+      "true_intent": "technical_support",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 96,
+      "text": "@AmazonHelp Puisque le service client se borne \u00e0 me r\u00e9pondre toujours le m\u00eame paragraphe sans rappor",
+      "true_intent": "order_status",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 98,
+      "text": "@AmazonHelp @4030 @118702 @115937 @4110 @4168 @119356 @115821 @131283 @144775 @2517 Dear Amazon,\nPeo",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 99,
+      "text": "@AmazonHelp But they won't. The last time this happened they said they would but it happened again.\n",
+      "true_intent": "technical_support",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 101,
+      "text": "@AmazonHelp Non mais c'est surtout le fait de dire que je n'\u00e9tais pas pr\u00e9sent, alors qu'il n'a pas \"",
+      "true_intent": "order_status",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 105,
+      "text": "@AmazonHelp AMZL US. \n\nAlso it appears the delivery was attempted in the wrong city. So that's a pro",
+      "true_intent": "order_status",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 109,
+      "text": "@AmazonHelp I know how it happened, someone used the wrong email for their account &amp; because Ama",
+      "true_intent": "technical_support",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 110,
+      "text": "@AmazonHelp I contacted the seller weeks ago! Apparently, the book was shipped to Michigan. A place ",
+      "true_intent": "order_status",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 111,
+      "text": "@AmazonHelp I ordered two speakers at the same time. One was delivered today and apparently the seco",
+      "true_intent": "order_status",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 112,
+      "text": "@AmazonHelp Je viens d\u2019appeler ! On doit faire le point demain. Une r\u00e9clamation a \u00e9t\u00e9 formul\u00e9e aupr\u00e8",
+      "true_intent": "order_status",
+      "pred_intent": "technical_support",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 115,
+      "text": "@AmazonHelp 1. Placed order on 2 items \n2. Nothing arrived when Amazon app+email said so (deliverer ",
+      "true_intent": "order_status",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 116,
+      "text": "@AmazonHelp And what will that do for me? Nothing. Go speak to Adriana C. I will be contacting the s",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 117,
+      "text": "@AmazonHelp I spoke to op &amp; supervisor \u2018Kimberly\u2019 today and they basically said it\u2019s refund and ",
+      "true_intent": "product_issue",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 118,
+      "text": "@AmazonHelp The customer representative assured me that is why I returned the product otherwise I wo",
+      "true_intent": "refund_return",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 119,
+      "text": "@AmazonHelp I have still not received these items",
+      "true_intent": "order_status",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 120,
+      "text": "@AmazonHelp Your team promised me I will get my product by 9pm today but I didn't got yet. Why you p",
+      "true_intent": "order_status",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 121,
+      "text": "@AmazonHelp I've already spoken to a customer service rep. You need to fix #AmazonFresh because it i",
+      "true_intent": "technical_support",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 122,
+      "text": "@AmazonHelp Originally, the estimated delivery date was for Wed 11/15 with two other items, which di",
+      "true_intent": "order_status",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 123,
+      "text": "@AmazonHelp \u2018Some deliveries may take slightly longer\u2019 not one item I\u2019ve found that can be delivered",
+      "true_intent": "order_status",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 124,
+      "text": "@115851 @119356 @amazonhelp shall i donate the product to charity on ur behalf coz u obviously seem ",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 125,
+      "text": "@AmazonHelp The product which was supposed to deliver yesterday is still not delivered.. your custom",
+      "true_intent": "order_status",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 126,
+      "text": "@AmazonHelp @199094 I'm having several delays/no product and refusal of refund. Not ordering anythin",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 133,
+      "text": "@AmazonHelp Everything in the box was destroyed by a broken bottle of laundry detergent. I cannot re",
+      "true_intent": "product_issue",
+      "pred_intent": "refund_return",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 134,
+      "text": "@AmazonHelp I've got the order, a box of screws! It should have been left in my \"safe place\" the ide",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 135,
+      "text": "@115821 @AmazonHelp  I think u ppl r so rude..that ur escalation team asked me that u can buy produc",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 137,
+      "text": "@AmazonHelp I don't have that option, I am only allowed to cancel, however, I still need the item ht",
+      "true_intent": "order_status",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 138,
+      "text": "@195586 @115850 @AmazonHelp We didn't even received d order n u update d status as delivered !!! Whe",
+      "true_intent": "order_status",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 140,
+      "text": "@AmazonHelp ITS A CLEAR CASE OF THEFT BY THE DELIVERY GUY. HE WENT CLOSE TO OUR PLACE FOR GPS RECORD",
+      "true_intent": "order_status",
+      "pred_intent": "product_issue",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 142,
+      "text": "@AmazonHelp I don't have membership or an account.",
+      "true_intent": "billing_payment",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 143,
+      "text": "@AmazonHelp I don't want to 'reach out' I want to cancel my order and my payment reimbursed asap! I'",
+      "true_intent": "cancellation",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 145,
+      "text": "@115850 @AmazonHelp order cancelled as it was not delivered to my address. But money is not refunded",
+      "true_intent": "refund_return",
+      "pred_intent": "order_status",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 146,
+      "text": "@AmazonHelp Called in because order was SUPPOSED to be delivered today and I rearranged my schedule ",
+      "true_intent": "order_status",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 147,
+      "text": "@AmazonHelp Just been told its out of stock!!!!! Set. Delivery date 2 December! I've cancelled order",
+      "true_intent": "cancellation",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 148,
+      "text": "@AmazonHelp order an item from you and cancelled it. One of your seller started spamming everyday. h",
+      "true_intent": "cancellation",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 149,
+      "text": "@AmazonHelp Hi there, I cancelled my WaPo subscription (through Amazon Pay) last month but was still",
+      "true_intent": "billing_payment",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 150,
+      "text": "@AmazonHelp Hi I'll contact my bank, but they've already been taken out they aren't pending anymore.",
+      "true_intent": "billing_payment",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 151,
+      "text": "@AmazonHelp Acc name kerem cakir.i was registering for seller acc and 39.99$ monthly fee was taken f",
+      "true_intent": "billing_payment",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 152,
+      "text": "@AmazonHelp @115850 \nI have requested an order to return...\nBut delivery boy didn't picked it up and",
+      "true_intent": "refund_return",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 153,
+      "text": "@AmazonHelp Hab\u00eda hecho la compra de un par de  Samsung S8 hace como 1 mes o mas, y hoy me llego un ",
+      "true_intent": "cancellation",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 154,
+      "text": "@AmazonHelp I have share details already. What should I do ? Can I cancel the order ? If I cancel , ",
+      "true_intent": "cancellation",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 155,
+      "text": "@115821 @115850 \n@119625  @AmazonHelp \nI ordered my product before 6hrs &amp; I've my prime membersh",
+      "true_intent": "order_status",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 156,
+      "text": "@AmazonHelp you\u2019ve taken Money out of my bank account for a membership I don\u2019t even have?!!!!",
+      "true_intent": "billing_payment",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 157,
+      "text": "@AmazonHelp Order was due 10-25, still no package. It has my sons halloween costume now it says canc",
+      "true_intent": "cancellation",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 158,
+      "text": "@AmazonHelp It was a kindle. i was refused refund until item is back at your warehouse even though y",
+      "true_intent": "refund_return",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 159,
+      "text": "@AmazonHelp I dont have time to fill this out. Can I DM you the order number for you to sort? Becaus",
+      "true_intent": "order_status",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 160,
+      "text": "@AmazonHelp If the item is delayed, whats the use of my prime membership then?? Amazon doesn\u2019t respe",
+      "true_intent": "order_status",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 161,
+      "text": "@AmazonHelp Why don't u take initiative to report this on behalf of me, it will look better rght ? W",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 162,
+      "text": "@AmazonHelp Today an 8.37 pm received mail that account got blocked \ud83d\ude1e why is this happening to me an",
+      "true_intent": "technical_support",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 164,
+      "text": "@AmazonHelp \nAmazon US has charged me for my Prime membership on Nov 13. I subscribed on Amazon Cana",
+      "true_intent": "billing_payment",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 165,
+      "text": "@AmazonHelp Amazon prime 1 year plan, which i cancelled over a year ago because of fraud on my accou",
+      "true_intent": "billing_payment",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 166,
+      "text": "@115851 i know you probably will never read this but in the last month or so ur Prime membership has",
+      "true_intent": "complaint_frustration",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
+    },
+    {
+      "id": 168,
+      "text": "@AmazonHelp Nope everything I've ordered I've received already and their payments are also on my sta",
+      "true_intent": "billing_payment",
+      "pred_intent": "cancellation",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.7
     },
     {
       "id": 170,
       "text": "Hi @AmazonHelp @116618 HDR/4K content looks incredibly washed/out dull on my new TCL/Roku TV. Is tha",
-      "true_intent": "complaint_frustration",
-      "pred_intent": "complaint_frustration",
-      "true_escalate": true,
-      "pred_escalate": false,
-      "escalation_reason": "Auto-handleable",
-      "confidence": 0.95
-    },
-    {
-      "id": 171,
-      "text": "@AmazonHelp Worst coustmer  serivce got form ur end.",
-      "true_intent": "complaint_frustration",
-      "pred_intent": "complaint_frustration",
-      "true_escalate": true,
-      "pred_escalate": false,
-      "escalation_reason": "Auto-handleable",
-      "confidence": 0.95
-    },
-    {
-      "id": 172,
-      "text": "@AmazonHelp , the worst service u have really, https://t.co/XIvZQf9E7a",
-      "true_intent": "complaint_frustration",
-      "pred_intent": "complaint_frustration",
-      "true_escalate": true,
-      "pred_escalate": false,
-      "escalation_reason": "Auto-handleable",
-      "confidence": 0.95
-    },
-    {
-      "id": 173,
-      "text": "@178205 @AmazonHelp I agree! Intelcom is THE WORST! Pkgs show up late in evening, terrible website t",
-      "true_intent": "complaint_frustration",
-      "pred_intent": "complaint_frustration",
-      "true_escalate": true,
-      "pred_escalate": false,
-      "escalation_reason": "Auto-handleable",
-      "confidence": 0.95
-    },
-    {
-      "id": 174,
-      "text": "AMZL_US or Amazon Logistics is the worst delivery service ever devised.  and @AmazonHelp could care ",
-      "true_intent": "complaint_frustration",
+      "true_intent": "technical_support",
       "pred_intent": "complaint_frustration",
       "true_escalate": true,
       "pred_escalate": false,
@@ -88,7 +1288,7 @@
     {
       "id": 175,
       "text": "@115850 if you wish to not to deliver my products, no worries. Pls give my money back\ud83d\ude4f\ud83c\udffd\n@AmazonHelp ",
-      "true_intent": "complaint_frustration",
+      "true_intent": "refund_return",
       "pred_intent": "refund_return",
       "true_escalate": true,
       "pred_escalate": false,
@@ -98,7 +1298,7 @@
     {
       "id": 176,
       "text": "@AmazonHelp it's not even out for delivery so tell me how exactly its going to get here today. Last ",
-      "true_intent": "complaint_frustration",
+      "true_intent": "order_status",
       "pred_intent": "complaint_frustration",
       "true_escalate": true,
       "pred_escalate": false,
@@ -108,7 +1308,7 @@
     {
       "id": 177,
       "text": "@115850 @AmazonHelp @13938 worst support i hv gt frm Amazon &amp; it's Seller for defective item.",
-      "true_intent": "complaint_frustration",
+      "true_intent": "product_issue",
       "pred_intent": "product_issue",
       "true_escalate": true,
       "pred_escalate": false,
@@ -116,9 +1316,9 @@
       "confidence": 0.95
     },
     {
-      "id": 178,
-      "text": "@AmazonHelp have provided terrible service",
-      "true_intent": "complaint_frustration",
+      "id": 179,
+      "text": "@AmazonHelp  I am not angry but very disappointed by you guys.\nI paid what you ask but didn't get\nPr",
+      "true_intent": "product_issue",
       "pred_intent": "complaint_frustration",
       "true_escalate": true,
       "pred_escalate": false,
@@ -138,7 +1338,7 @@
     {
       "id": 181,
       "text": "@AmazonHelp Ordered a phone twice, never got it saying it was damaged in transit What a joke? Worst ",
-      "true_intent": "complaint_frustration",
+      "true_intent": "product_issue",
       "pred_intent": "product_issue",
       "true_escalate": true,
       "pred_escalate": false,
@@ -148,7 +1348,7 @@
     {
       "id": 182,
       "text": "@AmazonHelp @AmazonHelp @115850 \nNow after 13 days and approx 25 + follow-up executive saying my pac",
-      "true_intent": "complaint_frustration",
+      "true_intent": "order_status",
       "pred_intent": "complaint_frustration",
       "true_escalate": true,
       "pred_escalate": false,
@@ -168,7 +1368,17 @@
     {
       "id": 184,
       "text": "@AmazonHelp Undelivered product and worst customer care.what u think a company outside of India come",
-      "true_intent": "complaint_frustration",
+      "true_intent": "order_status",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 185,
+      "text": "@AmazonHelp I have contacted seller support every single day and they don\u2019t reply. I\u2019m so angry and ",
+      "true_intent": "billing_payment",
       "pred_intent": "complaint_frustration",
       "true_escalate": true,
       "pred_escalate": false,
@@ -178,7 +1388,7 @@
     {
       "id": 186,
       "text": "@AmazonHelp Worst return service by @115850 ...Agreed?",
-      "true_intent": "complaint_frustration",
+      "true_intent": "refund_return",
       "pred_intent": "complaint_frustration",
       "true_escalate": true,
       "pred_escalate": false,
@@ -188,27 +1398,7 @@
     {
       "id": 189,
       "text": "@AmazonHelp I wasn't refunded my promo credit, now I've been on the chat for 2 hours and your staff ",
-      "true_intent": "complaint_frustration",
-      "pred_intent": "complaint_frustration",
-      "true_escalate": true,
-      "pred_escalate": false,
-      "escalation_reason": "Auto-handleable",
-      "confidence": 0.95
-    },
-    {
-      "id": 190,
-      "text": "@AmazonHelp I think this is the worst customer support of @115821",
-      "true_intent": "complaint_frustration",
-      "pred_intent": "complaint_frustration",
-      "true_escalate": true,
-      "pred_escalate": false,
-      "escalation_reason": "Auto-handleable",
-      "confidence": 0.95
-    },
-    {
-      "id": 191,
-      "text": "@AmazonHelp Terrible experience ever. Would have routed through other o line service rather the  ama",
-      "true_intent": "complaint_frustration",
+      "true_intent": "refund_return",
       "pred_intent": "complaint_frustration",
       "true_escalate": true,
       "pred_escalate": false,
@@ -218,7 +1408,7 @@
     {
       "id": 192,
       "text": "@AmazonHelp Another promise not delivered properly @AmazonHelp  the time frame is increasing day by ",
-      "true_intent": "complaint_frustration",
+      "true_intent": "order_status",
       "pred_intent": "order_status",
       "true_escalate": true,
       "pred_escalate": false,
@@ -228,6 +1418,16 @@
     {
       "id": 193,
       "text": "@AmazonHelp @115850 and @AmazonHelp weekend is here even d details r provided.. still no response  #",
+      "true_intent": "technical_support",
+      "pred_intent": "complaint_frustration",
+      "true_escalate": true,
+      "pred_escalate": false,
+      "escalation_reason": "Auto-handleable",
+      "confidence": 0.95
+    },
+    {
+      "id": 194,
+      "text": "@AmazonHelp I am more angry about the appalling service than I am the package being late! Right now ",
       "true_intent": "complaint_frustration",
       "pred_intent": "complaint_frustration",
       "true_escalate": true,
@@ -248,7 +1448,7 @@
     {
       "id": 196,
       "text": "@AmazonHelp R u befooling customer or what, you have taken money,dlvr product to someone else. I sho",
-      "true_intent": "complaint_frustration",
+      "true_intent": "order_status",
       "pred_intent": "complaint_frustration",
       "true_escalate": true,
       "pred_escalate": false,
