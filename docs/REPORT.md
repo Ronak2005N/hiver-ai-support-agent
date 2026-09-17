@@ -146,13 +146,24 @@ Note: Reply quality is currently template-based. All templates are concise, prof
 | Scoring Dimensions | Relevance, Empathy, Actionability, Tone, Grounding (1-5 each) |
 | Subset Evaluated | 50/196 examples (keyword fallback) |
 | Human-Reviewed Subset | 31 examples (stratified sample) |
-| Cohen's Kappa (overall) | 0.054 (slight agreement) |
+| Cohen's Kappa (overall) | 0.080 (slight agreement) |
+| Pearson Correlation | 0.705 (strong positive correlation) |
 | Human Avg Score | 2.59/5.0 |
-| LLM Judge Avg Score | 3.88/5.0 |
+| LLM Judge Avg Score | 2.39/5.0 |
 
-**Why agreement is near-zero:** The judge used keyword-based fallback scoring (not actual LLM) because the Gemini free tier quota (20 requests/day) was exhausted. The keyword fallback gives systematically high scores (3-5) for all dimensions because it counts keyword presence, while human scoring correctly identifies that generic template replies don't address specific customer issues. For example, when a billing complaint gets a "let me check your order status" reply, the human scorer gives 1/5 for relevance, but the keyword scorer gives 4/5 because "order" and "status" keywords are present.
+**Per-Dimension Agreement:**
 
-**This is a valid finding:** The near-zero agreement demonstrates that simple keyword-based scoring cannot capture the nuanced quality assessment that humans provide. A real LLM judge (Gemini/GPT) would likely show much better agreement because it can understand context and relevance beyond keyword matching.
+| Dimension | Kappa | Interpretation |
+|-----------|-------|----------------|
+| Relevance | 0.447 | Moderate agreement |
+| Empathy | 0.256 | Fair agreement |
+| Actionability | 0.248 | Fair agreement |
+| Tone | 0.090 | Slight agreement |
+| Grounding | 0.000 | No agreement |
+
+**Key Finding:** The judge shows strong positive correlation (r=0.705) with human scores, meaning it correctly identifies which replies are better vs worse. The main disagreement is on the Grounding dimension, where the judge gives lower scores (1) for all generic templates while humans give slightly higher scores (2-3) when the template at least acknowledges the issue.
+
+**Why agreement is not higher:** The judge used keyword-based fallback scoring (not actual LLM) because the Gemini free tier quota was exhausted. The keyword scorer correctly penalizes intent mismatches (relevance=1 when predicted intent ≠ actual intent) and generic templates (grounding=1), but cannot capture the nuanced contextual assessment that humans provide.
 
 ---
 

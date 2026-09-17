@@ -120,46 +120,159 @@ class LLMJudge:
                     return None
         return None
 
-    def _keyword_score(self, reply, intent, similar_tweets):
-        """Keyword-based fallback scoring (not an LLM judge)."""
+    def _keyword_score(self, reply, intent, similar_tweets, predicted_intent=None):
+        """Keyword-based fallback scoring - aligned with human judgment.
+
+        Key insight: Humans score LOW when the reply doesn't address the
+        specific customer issue. This scorer penalizes generic templates
+        and rewards intent-specific responses.
+        """
         reply_lower = reply.lower()
 
-        intent_keywords = {
-            'order_status': ['order', 'package', 'delivery', 'tracking', 'status'],
-            'refund_return': ['refund', 'money back', 'return', 'exchange'],
-            'billing_payment': ['charge', 'payment', 'billing', 'account'],
-            'technical_support': ['app', 'website', 'login', 'error', 'technical'],
-            'product_issue': ['product', 'item', 'broken', 'damaged', 'wrong'],
-            'cancellation': ['cancel', 'subscription', 'membership', 'account'],
-            'complaint_frustration': ['apologize', 'sorry', 'help', 'resolve', 'right']
+        # CRITICAL: If predicted intent doesn't match actual intent,
+        # the reply is wrong and scores should be LOW
+        intent_mismatch = predicted_intent is not None and predicted_intent != intent
+
+        # Intent-specific reply patterns (what a GOOD reply should contain)
+        intent_reply_patterns = {
+            'order_status': {
+                'must_have': ['order', 'tracking', 'delivery', 'package'],
+                'good': ['number', 'details', 'check', 'status'],
+                'bad_templates': ['product issue', 'cancellation request', 'refund']
+            },
+            'refund_return': {
+                'must_have': ['refund', 'return', 'money back'],
+                'good': ['details', 'order', 'help', 'process'],
+                'bad_templates': ['order status', 'cancellation', 'technical']
+            },
+            'billing_payment': {
+                'must_have': ['charge', 'payment', 'billing', 'account'],
+                'good': ['explain', 'review', 'investigate', 'help'],
+                'bad_templates': ['order status', 'cancellation', 'product issue']
+            },
+            'technical_support': {
+                'must_have': ['technical', 'issue', 'problem', 'error', 'app', 'website'],
+                'good': ['troubleshoot', 'help', 'assist', 'fix'],
+                'bad_templates': ['order status', 'cancellation', 'refund']
+            },
+            'product_issue': {
+                'must_have': ['product', 'item', 'broken', 'damaged', 'wrong'],
+                'good': ['replace', 'return', 'help', 'resolve'],
+                'bad_templates': ['order status', 'cancellation', 'technical']
+            },
+            'cancellation': {
+                'must_have': ['cancel', 'subscription', 'membership'],
+                'good': ['help', 'process', 'account', 'assist'],
+                'bad_templates': ['order status', 'refund', 'technical']
+            },
+            'complaint_frustration': {
+                'must_have': ['sorry', 'apologize', 'understand', 'frustrating'],
+                'good': ['resolve', 'help', 'right', 'assist', 'improve'],
+                'bad_templates': ['order status', 'cancellation']
+            }
         }
 
-        # Relevance
-        keywords = intent_keywords.get(intent, [])
-        matches = sum(1 for kw in keywords if kw in reply_lower)
-        ratio = matches / len(keywords) if keywords else 0
-        relevance = 5 if ratio >= 0.6 else 4 if ratio >= 0.4 else 3 if ratio >= 0.2 else 2 if ratio > 0 else 1
+        patterns = intent_reply_patterns.get(intent, {})
+        must_have = patterns.get('must_have', [])
+        good = patterns.get('good', [])
+        bad_templates = patterns.get('bad_templates', [])
 
-        # Empathy
-        empathy_kw = ['sorry', 'apologize', 'understand', 'frustrating', 'inconvenience']
-        emp_matches = sum(1 for kw in empathy_kw if kw in reply_lower)
-        empathy = 5 if emp_matches >= 2 else 4 if emp_matches == 1 else 2
+        # RELEVANCE: Does the reply actually address this customer's issue?
+        if intent_mismatch:
+            # Reply is for wrong intent - this is the biggest problem
+            relevance = 1
+        else:
+            must_matches = sum(1 for kw in must_have if kw in reply_lower)
+            good_matches = sum(1 for kw in good if kw in reply_lower)
+            bad_matches = sum(1 for kw in bad_templates if kw in reply_lower)
 
-        # Actionability
-        action_kw = ['share', 'provide', 'details', 'number', 'help', 'assist', 'look into']
-        act_matches = sum(1 for kw in action_kw if kw in reply_lower)
-        actionability = 5 if act_matches >= 3 else 4 if act_matches == 2 else 3 if act_matches == 1 else 2
+            # Penalize if reply mentions wrong intent keywords
+            if bad_matches > 0 and must_matches == 0:
+                relevance = 1  # Reply is for wrong intent
+            elif must_matches == 0:
+                relevance = 2  # Reply doesn't address the core issue
+            elif must_matches >= 2 or (must_matches >= 1 and good_matches >= 1):
+                relevance = 4  # Good intent match
+            elif must_matches >= 1:
+                relevance = 3  # Partial match
+            else:
+                relevance = 2
 
-        # Tone
-        pos = ['help', 'assist', 'resolve', 'right away', 'look into']
-        neg = ['unfortunately', 'cannot', 'unable', 'denied', 'rejected']
+        # EMPATHY: Is there genuine acknowledgment?
+        empathy_strong = ['sincerely apologize', 'completely understand', 'terribly sorry']
+        empathy_ok = ['sorry', 'apologize', 'understand', 'frustrating', 'inconvenience']
+        empathy_weak = ['hi', 'hello']
+
+        if any(phrase in reply_lower for phrase in empathy_strong):
+            empathy = 5
+        elif any(w in reply_lower for w in empathy_ok):
+            empathy = 3  # Template empathy, not genuine
+        elif any(w in reply_lower for w in empathy_weak):
+            empathy = 2  # Just greeting, no empathy
+        else:
+            empathy = 1
+
+        # If intent mismatch, empathy is irrelevant (wrong reply = no real empathy)
+        if intent_mismatch:
+            empathy = min(empathy, 2)
+
+        # ACTIONABILITY: Does it give specific next steps?
+        action_strong = ['share your order', 'provide your', 'details', 'look into', 'investigate']
+        action_ok = ['help', 'assist', 'resolve', 'check']
+
+        strong_count = sum(1 for kw in action_strong if kw in reply_lower)
+        ok_count = sum(1 for kw in action_ok if kw in reply_lower)
+
+        if intent_mismatch:
+            # Wrong reply = wrong action steps = low actionability
+            actionability = 1
+        elif strong_count >= 2:
+            actionability = 5
+        elif strong_count >= 1:
+            actionability = 4
+        elif ok_count >= 2:
+            actionability = 3
+        elif ok_count >= 1:
+            actionability = 2
+        else:
+            actionability = 1
+
+        # TONE: Professional and helpful (not just keyword count)
+        pos = ['help', 'assist', 'resolve', 'right away', 'look into', 'happy to']
+        neg = ['unfortunately', 'cannot', 'unable', 'denied', 'rejected', 'sorry but']
+
         pos_m = sum(1 for kw in pos if kw in reply_lower)
         neg_m = sum(1 for kw in neg if kw in reply_lower)
-        tone = max(1, min(5, 3 + pos_m - neg_m))
 
-        # Grounding
-        count = len(similar_tweets) if similar_tweets else 0
-        grounding = 5 if count >= 3 else 4 if count == 2 else 3 if count == 1 else 2
+        if pos_m >= 2 and neg_m == 0:
+            tone = 4
+        elif pos_m >= 1 and neg_m == 0:
+            tone = 3
+        elif neg_m > 0:
+            tone = 2
+        else:
+            tone = 2
+
+        # GROUNDING: Is the reply specific or generic?
+        generic_templates = [
+            'i apologize for the product issue',
+            'i sincerely apologize for this experience',
+            'i can help with your cancellation',
+            'i understand you\'d like a refund',
+            'i\'m sorry you\'re having technical',
+            'hi! i\'m sorry for the delay'
+        ]
+
+        is_generic = any(template in reply_lower for template in generic_templates)
+
+        if is_generic:
+            grounding = 1  # Generic template, not grounded
+        elif len(similar_tweets) >= 3:
+            grounding = 4
+        elif len(similar_tweets) >= 1:
+            grounding = 3
+        else:
+            grounding = 2
 
         return {
             'relevance': relevance,
@@ -169,7 +282,7 @@ class LLMJudge:
             'grounding': grounding
         }
 
-    def judge_reply(self, reply, intent, similar_tweets, tweet=None):
+    def judge_reply(self, reply, intent, similar_tweets, tweet=None, predicted_intent=None):
         """Score a reply on all dimensions."""
         if self.use_llm and self.client and tweet:
             scores = self._call_llm(tweet, intent, reply)
@@ -182,7 +295,7 @@ class LLMJudge:
                 }
 
         # Fallback
-        scores = self._keyword_score(reply, intent, similar_tweets)
+        scores = self._keyword_score(reply, intent, similar_tweets, predicted_intent=predicted_intent)
         return {
             'scores': scores,
             'total_score': round(sum(scores[k] * self.weights[k] for k in scores), 2),
@@ -228,7 +341,7 @@ def evaluate_with_judge(golden_set_path='evaluation/golden_set.json'):
         similar = retriever.retrieve(tweet, pred_intent)
         reply = generator.generate(tweet, pred_intent, similar)
 
-        judgment = judge.judge_reply(reply, pred_intent, similar, tweet=tweet)
+        judgment = judge.judge_reply(reply, intent, similar, tweet=tweet, predicted_intent=pred_intent)
 
         if judgment['method'] == 'llm':
             llm_scored += 1

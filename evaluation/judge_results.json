@@ -1,11 +1,15 @@
 {
   "summary": {
     "total_examples": 50,
-    "avg_score": 3.913999999999999,
+    "llm_scored": 0,
+    "keyword_scored": 50,
+    "scoring_method": "keyword_improved",
+    "avg_score": 2.59,
     "grade_distribution": {
-      "B": 26,
-      "B+": 20,
-      "C+": 4
+      "B": 15,
+      "D": 21,
+      "C": 1,
+      "C+": 13
     }
   },
   "results": [
@@ -15,14 +19,16 @@
       "predicted_intent": "product_issue",
       "reply": "I apologize for the product issue. Let me help resolve this for you.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 3,
-        "tone": 5,
-        "grounding": 5
+        "tone": 4,
+        "grounding": 1
       },
-      "total_score": 3.65,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "product_issue"
     },
     {
       "tweet_id": 2,
@@ -30,14 +36,16 @@
       "predicted_intent": "product_issue",
       "reply": "I apologize for the product issue. Let me help resolve this for you.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 3,
-        "tone": 5,
-        "grounding": 5
+        "tone": 4,
+        "grounding": 1
       },
-      "total_score": 3.65,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "product_issue"
     },
     {
       "tweet_id": 3,
@@ -45,14 +53,16 @@
       "predicted_intent": "order_status",
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
-        "relevance": 4,
-        "empathy": 4,
-        "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 1.3,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 4,
@@ -60,14 +70,16 @@
       "predicted_intent": "order_status",
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
-        "relevance": 4,
-        "empathy": 4,
-        "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 1.3,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "product_issue"
     },
     {
       "tweet_id": 5,
@@ -76,13 +88,15 @@
       "reply": "I can help with your cancellation request. Let me look into your account.",
       "scores": {
         "relevance": 4,
-        "empathy": 2,
+        "empathy": 1,
         "actionability": 4,
-        "tone": 5,
-        "grounding": 5
+        "tone": 4,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "cancellation"
     },
     {
       "tweet_id": 6,
@@ -91,13 +105,15 @@
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
         "relevance": 4,
-        "empathy": 4,
+        "empathy": 3,
         "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 7,
@@ -105,14 +121,16 @@
       "predicted_intent": "complaint_frustration",
       "reply": "I sincerely apologize for this experience. This is not up to our standards. Let me make this right.",
       "scores": {
-        "relevance": 4,
-        "empathy": 4,
-        "actionability": 2,
-        "tone": 3,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.35,
-      "grade": "C+"
+      "total_score": 1.3,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 8,
@@ -121,13 +139,15 @@
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
         "relevance": 4,
-        "empathy": 4,
+        "empathy": 3,
         "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 9,
@@ -136,13 +156,15 @@
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
         "relevance": 4,
-        "empathy": 4,
+        "empathy": 3,
         "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 10,
@@ -151,13 +173,15 @@
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
         "relevance": 4,
-        "empathy": 4,
+        "empathy": 3,
         "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 11,
@@ -165,14 +189,16 @@
       "predicted_intent": "technical_support",
       "reply": "I'm sorry you're having technical issues. Let me help troubleshoot this.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
-        "actionability": 3,
-        "tone": 4,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 3.5,
-      "grade": "B"
+      "total_score": 1.45,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "complaint_frustration"
     },
     {
       "tweet_id": 12,
@@ -180,14 +206,16 @@
       "predicted_intent": "technical_support",
       "reply": "I'm sorry you're having technical issues. Let me help troubleshoot this.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
-        "actionability": 3,
-        "tone": 4,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 3.5,
-      "grade": "B"
+      "total_score": 1.45,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "complaint_frustration"
     },
     {
       "tweet_id": 13,
@@ -196,13 +224,15 @@
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
         "relevance": 4,
-        "empathy": 4,
+        "empathy": 3,
         "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 14,
@@ -210,14 +240,16 @@
       "predicted_intent": "order_status",
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
-        "relevance": 4,
-        "empathy": 4,
-        "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 1.3,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "complaint_frustration"
     },
     {
       "tweet_id": 15,
@@ -225,14 +257,16 @@
       "predicted_intent": "complaint_frustration",
       "reply": "I sincerely apologize for this experience. This is not up to our standards. Let me make this right.",
       "scores": {
-        "relevance": 4,
-        "empathy": 4,
-        "actionability": 2,
-        "tone": 3,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.35,
-      "grade": "C+"
+      "total_score": 1.3,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "product_issue"
     },
     {
       "tweet_id": 16,
@@ -240,14 +274,16 @@
       "predicted_intent": "order_status",
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
-        "relevance": 4,
-        "empathy": 4,
-        "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 1.3,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "billing_payment"
     },
     {
       "tweet_id": 17,
@@ -255,14 +291,16 @@
       "predicted_intent": "cancellation",
       "reply": "I can help with your cancellation request. Let me look into your account.",
       "scores": {
-        "relevance": 4,
-        "empathy": 2,
-        "actionability": 4,
-        "tone": 5,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 1,
+        "actionability": 1,
+        "tone": 4,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 1.45,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 18,
@@ -270,14 +308,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 19,
@@ -285,14 +325,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 20,
@@ -300,14 +342,16 @@
       "predicted_intent": "product_issue",
       "reply": "I apologize for the product issue. Let me help resolve this for you.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
-        "actionability": 3,
-        "tone": 5,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 4,
+        "grounding": 1
       },
-      "total_score": 3.65,
-      "grade": "B"
+      "total_score": 1.6,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 21,
@@ -316,13 +360,15 @@
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
         "relevance": 4,
-        "empathy": 4,
+        "empathy": 3,
         "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 22,
@@ -331,13 +377,15 @@
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
         "relevance": 4,
-        "empathy": 4,
+        "empathy": 3,
         "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 23,
@@ -345,14 +393,16 @@
       "predicted_intent": "order_status",
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
-        "relevance": 4,
-        "empathy": 4,
-        "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 1.3,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "cancellation"
     },
     {
       "tweet_id": 24,
@@ -361,13 +411,15 @@
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
         "relevance": 4,
-        "empathy": 4,
+        "empathy": 3,
         "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 25,
@@ -376,13 +428,15 @@
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
         "relevance": 4,
-        "empathy": 4,
+        "empathy": 3,
         "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 26,
@@ -390,14 +444,16 @@
       "predicted_intent": "order_status",
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
-        "relevance": 4,
-        "empathy": 4,
-        "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 1.3,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "billing_payment"
     },
     {
       "tweet_id": 27,
@@ -405,14 +461,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 28,
@@ -421,13 +479,15 @@
       "reply": "I sincerely apologize for this experience. This is not up to our standards. Let me make this right.",
       "scores": {
         "relevance": 4,
-        "empathy": 4,
-        "actionability": 2,
-        "tone": 3,
-        "grounding": 5
+        "empathy": 5,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.35,
-      "grade": "C+"
+      "total_score": 2.65,
+      "grade": "C",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "complaint_frustration"
     },
     {
       "tweet_id": 29,
@@ -435,14 +495,16 @@
       "predicted_intent": "order_status",
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
-        "relevance": 4,
-        "empathy": 4,
-        "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 1.3,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "billing_payment"
     },
     {
       "tweet_id": 30,
@@ -450,14 +512,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 31,
@@ -465,14 +529,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 32,
@@ -480,14 +546,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
-        "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 1.45,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 33,
@@ -495,14 +563,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 34,
@@ -510,14 +580,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 35,
@@ -525,14 +597,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
-        "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 1.45,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "complaint_frustration"
     },
     {
       "tweet_id": 36,
@@ -540,14 +614,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 37,
@@ -555,14 +631,16 @@
       "predicted_intent": "product_issue",
       "reply": "I apologize for the product issue. Let me help resolve this for you.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
-        "actionability": 3,
-        "tone": 5,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 4,
+        "grounding": 1
       },
-      "total_score": 3.65,
-      "grade": "B"
+      "total_score": 1.6,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 38,
@@ -570,14 +648,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 39,
@@ -585,14 +665,16 @@
       "predicted_intent": "complaint_frustration",
       "reply": "I sincerely apologize for this experience. This is not up to our standards. Let me make this right.",
       "scores": {
-        "relevance": 4,
-        "empathy": 4,
-        "actionability": 2,
-        "tone": 3,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.35,
-      "grade": "C+"
+      "total_score": 1.3,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 40,
@@ -600,14 +682,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 41,
@@ -615,14 +699,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 42,
@@ -630,14 +716,16 @@
       "predicted_intent": "product_issue",
       "reply": "I apologize for the product issue. Let me help resolve this for you.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 3,
-        "tone": 5,
-        "grounding": 5
+        "tone": 4,
+        "grounding": 1
       },
-      "total_score": 3.65,
-      "grade": "B"
+      "total_score": 3.25,
+      "grade": "C+",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "product_issue"
     },
     {
       "tweet_id": 43,
@@ -645,14 +733,16 @@
       "predicted_intent": "order_status",
       "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
       "scores": {
-        "relevance": 4,
-        "empathy": 4,
-        "actionability": 4,
-        "tone": 3,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 2,
+        "grounding": 1
       },
-      "total_score": 3.95,
-      "grade": "B"
+      "total_score": 1.3,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 44,
@@ -660,14 +750,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
-        "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 1.45,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "order_status"
     },
     {
       "tweet_id": 45,
@@ -675,14 +767,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 46,
@@ -690,14 +784,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 47,
@@ -705,14 +801,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
-        "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 1.45,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "complaint_frustration"
     },
     {
       "tweet_id": 48,
@@ -720,14 +818,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
-        "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 1.45,
+      "grade": "D",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "billing_payment"
     },
     {
       "tweet_id": 49,
@@ -735,14 +835,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     },
     {
       "tweet_id": 50,
@@ -750,14 +852,16 @@
       "predicted_intent": "refund_return",
       "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
       "scores": {
-        "relevance": 3,
-        "empathy": 4,
+        "relevance": 4,
+        "empathy": 3,
         "actionability": 5,
-        "tone": 4,
-        "grounding": 5
+        "tone": 3,
+        "grounding": 1
       },
-      "total_score": 4.1,
-      "grade": "B+"
+      "total_score": 3.7,
+      "grade": "B",
+      "scoring_method": "keyword_improved",
+      "golden_intent": "refund_return"
     }
   ]
 }
