@@ -201,7 +201,7 @@ This runs all integrity checks on the golden set, metrics, and documentation.
 2. **Low escalation recall:** Only 7.14% of escalation cases caught
 3. **Intent confusion:** Overlapping keywords cause misclassification
 4. **English only:** No multi-language support
-5. **No LLM judge agreement data yet:** Human review workflow created, pending scoring
+5. **LLM judge agreement is low (Kappa=0.054):** The judge used keyword-based scoring (not actual LLM) due to API quota limits. Human scores show the keyword fallback gives systematically higher scores than human judgment, reflecting the fundamental limitation of rule-based scoring for nuanced quality assessment.
 
 ## Future Work
 
