@@ -1,4 +1,457 @@
 {
-  "scores": [],
-  "metadata": {}
+  "scores": [
+    {
+      "tweet_id": 29,
+      "intent": "billing_payment",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 1,
+        "empathy": 2,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 1.8
+    },
+    {
+      "tweet_id": 26,
+      "intent": "billing_payment",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 1,
+        "empathy": 1,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 1.6
+    },
+    {
+      "tweet_id": 48,
+      "intent": "billing_payment",
+      "predicted_intent": "refund_return",
+      "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
+      "scores": {
+        "relevance": 1,
+        "empathy": 1,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 1.6
+    },
+    {
+      "tweet_id": 16,
+      "intent": "billing_payment",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 2,
+        "empathy": 2,
+        "actionability": 3,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 2.4
+    },
+    {
+      "tweet_id": 5,
+      "intent": "cancellation",
+      "predicted_intent": "cancellation",
+      "reply": "I can help with your cancellation request. Let me look into your account.",
+      "scores": {
+        "relevance": 4,
+        "empathy": 3,
+        "actionability": 3,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 3.0
+    },
+    {
+      "tweet_id": 23,
+      "intent": "cancellation",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 3,
+        "empathy": 2,
+        "actionability": 2,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 2.4
+    },
+    {
+      "tweet_id": 12,
+      "intent": "complaint_frustration",
+      "predicted_intent": "technical_support",
+      "reply": "I'm sorry you're having technical issues. Let me help troubleshoot this.",
+      "scores": {
+        "relevance": 1,
+        "empathy": 1,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 1.6
+    },
+    {
+      "tweet_id": 11,
+      "intent": "complaint_frustration",
+      "predicted_intent": "technical_support",
+      "reply": "I'm sorry you're having technical issues. Let me help troubleshoot this.",
+      "scores": {
+        "relevance": 1,
+        "empathy": 1,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 1.6
+    },
+    {
+      "tweet_id": 28,
+      "intent": "complaint_frustration",
+      "predicted_intent": "complaint_frustration",
+      "reply": "I sincerely apologize for this experience. This is not up to our standards. Let me make this right.",
+      "scores": {
+        "relevance": 4,
+        "empathy": 4,
+        "actionability": 2,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 3.2
+    },
+    {
+      "tweet_id": 14,
+      "intent": "complaint_frustration",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 4,
+        "empathy": 3,
+        "actionability": 3,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 3.0
+    },
+    {
+      "tweet_id": 35,
+      "intent": "complaint_frustration",
+      "predicted_intent": "refund_return",
+      "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
+      "scores": {
+        "relevance": 1,
+        "empathy": 1,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 1.6
+    },
+    {
+      "tweet_id": 8,
+      "intent": "order_status",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 4,
+        "empathy": 3,
+        "actionability": 3,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 3.0
+    },
+    {
+      "tweet_id": 10,
+      "intent": "order_status",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 4,
+        "empathy": 3,
+        "actionability": 4,
+        "tone": 4,
+        "grounding": 3
+      },
+      "total_score": 3.6
+    },
+    {
+      "tweet_id": 9,
+      "intent": "order_status",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 4,
+        "empathy": 3,
+        "actionability": 4,
+        "tone": 4,
+        "grounding": 3
+      },
+      "total_score": 3.6
+    },
+    {
+      "tweet_id": 24,
+      "intent": "order_status",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 4,
+        "empathy": 3,
+        "actionability": 4,
+        "tone": 4,
+        "grounding": 3
+      },
+      "total_score": 3.6
+    },
+    {
+      "tweet_id": 47,
+      "intent": "complaint_frustration",
+      "predicted_intent": "refund_return",
+      "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
+      "scores": {
+        "relevance": 1,
+        "empathy": 1,
+        "actionability": 1,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 1.6
+    },
+    {
+      "tweet_id": 25,
+      "intent": "order_status",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 5,
+        "empathy": 3,
+        "actionability": 4,
+        "tone": 4,
+        "grounding": 3
+      },
+      "total_score": 3.8
+    },
+    {
+      "tweet_id": 13,
+      "intent": "order_status",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 5,
+        "empathy": 3,
+        "actionability": 3,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 3.2
+    },
+    {
+      "tweet_id": 44,
+      "intent": "order_status",
+      "predicted_intent": "refund_return",
+      "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
+      "scores": {
+        "relevance": 2,
+        "empathy": 2,
+        "actionability": 2,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 2.2
+    },
+    {
+      "tweet_id": 20,
+      "intent": "order_status",
+      "predicted_intent": "product_issue",
+      "reply": "I apologize for the product issue. Let me help resolve this for you.",
+      "scores": {
+        "relevance": 2,
+        "empathy": 2,
+        "actionability": 2,
+        "tone": 3,
+        "grounding": 2
+      },
+      "total_score": 2.2
+    },
+    {
+      "tweet_id": 21,
+      "intent": "order_status",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 4,
+        "empathy": 3,
+        "actionability": 3,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 3.2
+    },
+    {
+      "tweet_id": 1,
+      "intent": "product_issue",
+      "predicted_intent": "product_issue",
+      "reply": "I apologize for the product issue. Let me help resolve this for you.",
+      "scores": {
+        "relevance": 2,
+        "empathy": 2,
+        "actionability": 2,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 2.4
+    },
+    {
+      "tweet_id": 15,
+      "intent": "product_issue",
+      "predicted_intent": "complaint_frustration",
+      "reply": "I sincerely apologize for this experience. This is not up to our standards. Let me make this right.",
+      "scores": {
+        "relevance": 4,
+        "empathy": 3,
+        "actionability": 2,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 3.0
+    },
+    {
+      "tweet_id": 4,
+      "intent": "product_issue",
+      "predicted_intent": "order_status",
+      "reply": "Hi! I'm sorry for the delay. Let me check your order status. Can you share your order number?",
+      "scores": {
+        "relevance": 2,
+        "empathy": 2,
+        "actionability": 2,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 2.4
+    },
+    {
+      "tweet_id": 42,
+      "intent": "product_issue",
+      "predicted_intent": "product_issue",
+      "reply": "I apologize for the product issue. Let me help resolve this for you.",
+      "scores": {
+        "relevance": 4,
+        "empathy": 3,
+        "actionability": 2,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 3.0
+    },
+    {
+      "tweet_id": 2,
+      "intent": "product_issue",
+      "predicted_intent": "product_issue",
+      "reply": "I apologize for the product issue. Let me help resolve this for you.",
+      "scores": {
+        "relevance": 4,
+        "empathy": 3,
+        "actionability": 2,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 3.0
+    },
+    {
+      "tweet_id": 17,
+      "intent": "refund_return",
+      "predicted_intent": "cancellation",
+      "reply": "I can help with your cancellation request. Let me look into your account.",
+      "scores": {
+        "relevance": 1,
+        "empathy": 1,
+        "actionability": 1,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 1.8
+    },
+    {
+      "tweet_id": 19,
+      "intent": "refund_return",
+      "predicted_intent": "refund_return",
+      "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
+      "scores": {
+        "relevance": 3,
+        "empathy": 2,
+        "actionability": 2,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 2.6
+    },
+    {
+      "tweet_id": 36,
+      "intent": "refund_return",
+      "predicted_intent": "refund_return",
+      "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
+      "scores": {
+        "relevance": 4,
+        "empathy": 2,
+        "actionability": 2,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 2.8
+    },
+    {
+      "tweet_id": 46,
+      "intent": "refund_return",
+      "predicted_intent": "refund_return",
+      "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
+      "scores": {
+        "relevance": 4,
+        "empathy": 2,
+        "actionability": 2,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 2.8
+    },
+    {
+      "tweet_id": 18,
+      "intent": "refund_return",
+      "predicted_intent": "refund_return",
+      "reply": "I understand you'd like a refund. Let me help you with that. Please share your order details.",
+      "scores": {
+        "relevance": 4,
+        "empathy": 2,
+        "actionability": 2,
+        "tone": 4,
+        "grounding": 2
+      },
+      "total_score": 2.8
+    }
+  ],
+  "metadata": {
+    "total_scored": 31,
+    "dimensions": [
+      "relevance",
+      "empathy",
+      "actionability",
+      "tone",
+      "grounding"
+    ],
+    "methodology": "Human scorer rated each reply on 5 dimensions (1-5 scale)",
+    "cohens_kappa_per_dimension": {
+      "relevance": 0.063,
+      "empathy": -0.022,
+      "actionability": 0.076,
+      "tone": -0.076,
+      "grounding": 0.0
+    },
+    "cohens_kappa_overall": 0.009
+  }
 }
